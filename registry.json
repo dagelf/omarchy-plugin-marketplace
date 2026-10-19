@@ -355274,6 +355274,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/duaneoca/agent-voice",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T00:43:47.576Z",
+      "listingValidatedCommit": "db662373fe58d76d96f8b103b32de5e46b930a45",
+      "listingValidatedAt": "2026-10-19T00:43:47.576Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "duaneoca/agent-voice",
+        "pluginIds": [
+          "duaneoca.agentvoice"
+        ],
+        "commit": "db662373fe58d76d96f8b103b32de5e46b930a45",
+        "checkedAt": "2026-10-19T00:43:47.481Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "duaneoca/agent-voice",
+        "pluginIds": [
+          "duaneoca.agentvoice"
+        ],
+        "commit": "db662373fe58d76d96f8b103b32de5e46b930a45",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T00:43:47.481Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T20:19:16.601Z",
+        "requestEventId": 33600712009,
+        "requestedAt": "2026-10-19T00:43:21Z",
+        "reviewedAt": "2026-10-19T00:43:47.481Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "duaneoca.agentvoice": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
