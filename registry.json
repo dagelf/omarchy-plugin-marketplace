@@ -355467,6 +355467,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mario4810/omarchy-plugin-drawer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:13:09.063Z",
+      "listingValidatedCommit": "727cffa47307a7762785badd9a4e0634e824749f",
+      "listingValidatedAt": "2026-10-19T01:13:09.063Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mario4810/omarchy-plugin-drawer",
+        "pluginIds": [
+          "io.github.mario4810.plugin-drawer"
+        ],
+        "commit": "727cffa47307a7762785badd9a4e0634e824749f",
+        "checkedAt": "2026-10-19T01:13:08.921Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mario4810/omarchy-plugin-drawer",
+        "pluginIds": [
+          "io.github.mario4810.plugin-drawer"
+        ],
+        "commit": "727cffa47307a7762785badd9a4e0634e824749f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T01:13:08.921Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T16:00:50.356Z",
+        "requestEventId": 33601703277,
+        "requestedAt": "2026-10-19T01:07:55Z",
+        "reviewedAt": "2026-10-19T01:13:08.921Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mario4810.plugin-drawer": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
