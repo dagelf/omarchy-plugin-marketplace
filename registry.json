@@ -357383,6 +357383,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lszl84/omagtk",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T23:08:41.073Z",
+      "listingValidatedCommit": "7b4a4d6d211055c78b5b7d87c6daad85104c96ff",
+      "listingValidatedAt": "2026-10-19T23:08:41.073Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lszl84/omagtk",
+        "pluginIds": [
+          "com.devmindscape.omagtk"
+        ],
+        "commit": "7b4a4d6d211055c78b5b7d87c6daad85104c96ff",
+        "checkedAt": "2026-10-19T23:08:40.906Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lszl84/omagtk",
+        "pluginIds": [
+          "com.devmindscape.omagtk"
+        ],
+        "commit": "7b4a4d6d211055c78b5b7d87c6daad85104c96ff",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T23:08:40.906Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T14:54:41.797Z",
+        "requestEventId": 33692866557,
+        "requestedAt": "2026-10-19T22:58:58Z",
+        "reviewedAt": "2026-10-19T23:08:40.906Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "com.devmindscape.omagtk": {
+          "category": "Appearance",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
