@@ -352859,8 +352859,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T23:18:09.562Z",
-      "listingValidatedCommit": "1f8a6c353e6be3e4d6e09ac8f3d202863347a8e7",
-      "listingValidatedAt": "2026-10-17T23:18:09.562Z",
+      "listingValidatedCommit": "57bd8ec32dc85985857d2c2f49ef8d4803a157ad",
+      "listingValidatedAt": "2026-10-19T22:01:45.617Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -352869,8 +352869,8 @@
         "pluginIds": [
           "io.github.ivozzz.devnull"
         ],
-        "commit": "1f8a6c353e6be3e4d6e09ac8f3d202863347a8e7",
-        "checkedAt": "2026-10-17T23:18:09.470Z",
+        "commit": "57bd8ec32dc85985857d2c2f49ef8d4803a157ad",
+        "checkedAt": "2026-10-19T22:01:45.617Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -352885,7 +352885,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1f8a6c353e6be3e4d6e09ac8f3d202863347a8e7",
+          "validatedAt": "2026-10-17T23:18:09.562Z",
+          "branch": "main",
+          "supersededAt": "2026-10-19T22:01:45.617Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ivozzz/omarchy-devnull",
+            "pluginIds": [
+              "io.github.ivozzz.devnull"
+            ],
+            "commit": "1f8a6c353e6be3e4d6e09ac8f3d202863347a8e7",
+            "checkedAt": "2026-10-17T23:18:09.470Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Rajesh-bandi/music-flow-lyrics",
