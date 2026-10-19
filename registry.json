@@ -356543,6 +356543,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/xvvhang/omarchy-konoview-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T10:54:13.789Z",
+      "listingValidatedCommit": "cce8a785e949f124709036f2ff2afb57f4a0d349",
+      "listingValidatedAt": "2026-10-19T10:54:13.789Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xvvhang/omarchy-konoview-plugin",
+        "pluginIds": [
+          "konochi.konoview"
+        ],
+        "commit": "cce8a785e949f124709036f2ff2afb57f4a0d349",
+        "checkedAt": "2026-10-19T10:54:13.618Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "konochi.konoview": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "launcher",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
