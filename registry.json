@@ -355881,6 +355881,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JohnRenatoDev/omarchy-tabela-brasileirao-serie-a",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:56:35.081Z",
+      "listingValidatedCommit": "c4affb09f5f9f40b8ca4820e0438d0736c1891eb",
+      "listingValidatedAt": "2026-10-19T01:56:35.081Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "johnrenatodev/omarchy-tabela-brasileirao-serie-a",
+        "pluginIds": [
+          "russio.football"
+        ],
+        "commit": "c4affb09f5f9f40b8ca4820e0438d0736c1891eb",
+        "checkedAt": "2026-10-19T01:56:34.933Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "russio.football": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
