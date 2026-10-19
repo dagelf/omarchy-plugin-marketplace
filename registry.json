@@ -355716,6 +355716,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/marcusbandit/banditshell-island",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:31:47.906Z",
+      "listingValidatedCommit": "d7a823208e3ff97202cd3452442136cfb8d8304d",
+      "listingValidatedAt": "2026-10-19T01:31:47.906Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "marcusbandit/banditshell-island",
+        "pluginIds": [
+          "banditshell.island"
+        ],
+        "commit": "d7a823208e3ff97202cd3452442136cfb8d8304d",
+        "checkedAt": "2026-10-19T01:31:47.761Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "banditshell.island": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell",
+            "media",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
