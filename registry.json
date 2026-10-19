@@ -72017,7 +72017,11 @@
             "system",
             "bar"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "Tormarchy needs a one-time root setup after installing, and again after each update: it installs tor, its helper, a polkit rule and firewall rules. Follow the upstream installation instructions."
+          }
         }
       },
       "listingValidationHistory": [
@@ -113801,7 +113805,11 @@
             "quickshell",
             "system"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "Omaga Sync needs the MEGAcmd engine (mega-cmd-server, an AUR package) and its own monitor command plus two systemd user units, so the standard `omarchy plugin add` command cannot produce a functioning plugin on its own. Run ./install.sh from the repository before enabling the widget; the README documents the full setup."
+          }
         }
       },
       "listingValidationHistory": [
@@ -180085,7 +180093,11 @@
             "quickshell",
             "system"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "OMAConnect requires the separately installed kcd-bin backend. Follow the upstream installation instructions before enabling the plugin."
+          }
         }
       },
       "listingValidationHistory": [
@@ -193716,7 +193728,11 @@
             "media",
             "quickshell"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "Manual setup required: install the documented build dependencies, build the native renderer, and have an administrator install a matching independently reviewed marchybar-system package. Then run Device → Set up Touch Bar before enabling the Touch Bar. Follow the upstream README."
+          }
         }
       },
       "listingValidationHistory": [
@@ -235180,7 +235196,11 @@
             "hyprland",
             "workspaces"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "OmaCards needs the Hyprflip Hyprland plugin, built from source for Hyprland 0.56.2. After installing OmaCards, open Cards in the bar and choose Install Hyprflip; the panel fetches the pinned release, offers to install missing build tools (CMake, Ninja) through Omarchy's package installer, then builds and installs it. Manual steps are in the README."
+          }
         }
       },
       "listingValidationHistory": [
@@ -236836,7 +236856,11 @@
             "hyprland",
             "system"
           ],
-          "manifestPath": "manifest.json"
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires the documented ./install.sh step (Hyprland configuration, CLI link and Foot user unit) after installation. Follow the upstream installation instructions."
+          }
         }
       },
       "listingValidationHistory": [
