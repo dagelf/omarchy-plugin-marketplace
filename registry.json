@@ -355523,6 +355523,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/phil71x/omarchy-nymvpn",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:17:03.888Z",
+      "listingValidatedCommit": "724b382d0c2cd15905b036c780ce1946fd5ae527",
+      "listingValidatedAt": "2026-10-19T01:17:03.888Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "phil71x/omarchy-nymvpn",
+        "pluginIds": [
+          "io.github.phil71x.nymvpn"
+        ],
+        "commit": "724b382d0c2cd15905b036c780ce1946fd5ae527",
+        "checkedAt": "2026-10-19T01:17:03.743Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "phil71x/omarchy-nymvpn",
+        "pluginIds": [
+          "io.github.phil71x.nymvpn"
+        ],
+        "commit": "724b382d0c2cd15905b036c780ce1946fd5ae527",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T01:17:03.743Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T17:06:09.783Z",
+        "requestEventId": 33601968516,
+        "requestedAt": "2026-10-19T01:14:03Z",
+        "reviewedAt": "2026-10-19T01:17:03.743Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.phil71x.nymvpn": {
+          "category": "System",
+          "tags": [
+            "vpn",
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
