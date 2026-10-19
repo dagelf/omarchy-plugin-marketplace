@@ -356577,6 +356577,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nichovski/omarchy-eye-breaks",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T10:57:58.856Z",
+      "listingValidatedCommit": "6c9728808df83721a252128975a9ca654ecf65b3",
+      "listingValidatedAt": "2026-10-19T10:57:58.856Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nichovski/omarchy-eye-breaks",
+        "pluginIds": [
+          "nichovski.eye-breaks"
+        ],
+        "commit": "6c9728808df83721a252128975a9ca654ecf65b3",
+        "checkedAt": "2026-10-19T10:57:58.711Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nichovski.eye-breaks": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
