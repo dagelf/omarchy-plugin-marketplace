@@ -357349,6 +357349,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/homelabsealinsideout/omarchy-fiio-k17",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T23:05:16.842Z",
+      "listingValidatedCommit": "d1f056ed0f560dfaaaa38f84551c7d81a59a7983",
+      "listingValidatedAt": "2026-10-19T23:05:16.842Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "homelabsealinsideout/omarchy-fiio-k17",
+        "pluginIds": [
+          "io.github.homelabsealinsideout.fiio-k17"
+        ],
+        "commit": "d1f056ed0f560dfaaaa38f84551c7d81a59a7983",
+        "checkedAt": "2026-10-19T23:05:16.733Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.homelabsealinsideout.fiio-k17": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
