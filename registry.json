@@ -355586,6 +355586,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kevinrst/omatrace",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:20:49.180Z",
+      "listingValidatedCommit": "677688eabcb153ef2adc5c72ede445a8dc44b9d8",
+      "listingValidatedAt": "2026-10-19T01:20:49.180Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kevinrst/omatrace",
+        "pluginIds": [
+          "kevin.omatrace"
+        ],
+        "commit": "677688eabcb153ef2adc5c72ede445a8dc44b9d8",
+        "checkedAt": "2026-10-19T01:20:49.023Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kevinrst/omatrace",
+        "pluginIds": [
+          "kevin.omatrace"
+        ],
+        "commit": "677688eabcb153ef2adc5c72ede445a8dc44b9d8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T01:20:49.023Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-18T17:07:41.816Z",
+        "requestEventId": 33602228004,
+        "requestedAt": "2026-10-19T01:19:55Z",
+        "reviewedAt": "2026-10-19T01:20:49.023Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kevin.omatrace": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
