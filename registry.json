@@ -357796,6 +357796,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/OnurByte/OmaLecoo",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T23:48:56.121Z",
+      "listingValidatedCommit": "dac7f29df60170286b10531f6dcd078a75cc72ab",
+      "listingValidatedAt": "2026-10-19T23:48:56.121Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "onurbyte/omalecoo",
+        "pluginIds": [
+          "borat.lecoo-rgb"
+        ],
+        "commit": "dac7f29df60170286b10531f6dcd078a75cc72ab",
+        "checkedAt": "2026-10-19T23:48:55.993Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "onurbyte/omalecoo",
+        "pluginIds": [
+          "borat.lecoo-rgb"
+        ],
+        "commit": "dac7f29df60170286b10531f6dcd078a75cc72ab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T23:48:55.993Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T23:44:09.865Z",
+        "requestEventId": 33695505693,
+        "requestedAt": "2026-10-19T23:46:38Z",
+        "reviewedAt": "2026-10-19T23:48:55.993Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "borat.lecoo-rgb": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
