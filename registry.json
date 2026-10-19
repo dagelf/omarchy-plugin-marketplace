@@ -355156,6 +355156,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/for1337/bleguard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T00:33:22.662Z",
+      "listingValidatedCommit": "53b01438d9b0502023f3ecdd5187eaeac0b2601c",
+      "listingValidatedAt": "2026-10-19T00:33:22.662Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "for1337/bleguard",
+        "pluginIds": [
+          "bleguard"
+        ],
+        "commit": "53b01438d9b0502023f3ecdd5187eaeac0b2601c",
+        "checkedAt": "2026-10-19T00:33:22.510Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "for1337/bleguard",
+        "pluginIds": [
+          "bleguard"
+        ],
+        "commit": "53b01438d9b0502023f3ecdd5187eaeac0b2601c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T00:33:22.510Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T00:30:24.081Z",
+        "requestEventId": 33600292265,
+        "requestedAt": "2026-10-19T00:32:53Z",
+        "reviewedAt": "2026-10-19T00:33:22.510Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "bleguard": {
+          "category": "System",
+          "tags": [
+            "security",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
