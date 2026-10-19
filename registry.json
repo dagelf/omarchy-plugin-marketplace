@@ -355847,6 +355847,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ioiohori/omarchy-magnify-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:52:44.479Z",
+      "listingValidatedCommit": "babce1b5d51edb0c6dd32b40e82bc7aef0f66a7a",
+      "listingValidatedAt": "2026-10-19T01:52:44.479Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ioiohori/omarchy-magnify-dock",
+        "pluginIds": [
+          "ioiohori.magnify-dock"
+        ],
+        "commit": "babce1b5d51edb0c6dd32b40e82bc7aef0f66a7a",
+        "checkedAt": "2026-10-19T01:52:44.340Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ioiohori.magnify-dock": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
