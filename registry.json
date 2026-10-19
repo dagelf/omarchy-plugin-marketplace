@@ -356254,8 +356254,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-19",
       "listedAt": "2026-10-19T02:27:38.139Z",
-      "listingValidatedCommit": "92da59e2d534396d85b532fe3c8c0beeace09236",
-      "listingValidatedAt": "2026-10-19T02:27:38.139Z",
+      "listingValidatedCommit": "007d412ab99c6763d66c2bef767cbaf2fdc6a1ed",
+      "listingValidatedAt": "2026-10-19T22:49:27.942Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -356264,8 +356264,8 @@
         "pluginIds": [
           "crome.workspaces"
         ],
-        "commit": "92da59e2d534396d85b532fe3c8c0beeace09236",
-        "checkedAt": "2026-10-19T02:27:37.985Z",
+        "commit": "007d412ab99c6763d66c2bef767cbaf2fdc6a1ed",
+        "checkedAt": "2026-10-19T22:49:27.942Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -356281,7 +356281,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "92da59e2d534396d85b532fe3c8c0beeace09236",
+          "validatedAt": "2026-10-19T02:27:38.139Z",
+          "branch": "main",
+          "supersededAt": "2026-10-19T22:49:27.942Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "crome1394/omarchy-glyphspaces",
+            "pluginIds": [
+              "crome.workspaces"
+            ],
+            "commit": "92da59e2d534396d85b532fe3c8c0beeace09236",
+            "checkedAt": "2026-10-19T02:27:37.985Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/SimpleX-T/fingerprint-studio",
