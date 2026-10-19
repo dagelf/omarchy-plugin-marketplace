@@ -356317,6 +356317,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alertxsto/omarchy-overview",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T10:26:14.276Z",
+      "listingValidatedCommit": "7c89173220073dfbd62b54638544b030c4a4896e",
+      "listingValidatedAt": "2026-10-19T10:26:14.276Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alertxsto/omarchy-overview",
+        "pluginIds": [
+          "alertxsto.overview"
+        ],
+        "commit": "7c89173220073dfbd62b54638544b030c4a4896e",
+        "checkedAt": "2026-10-19T10:26:14.119Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "alertxsto.overview": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
