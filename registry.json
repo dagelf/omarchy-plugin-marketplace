@@ -355915,6 +355915,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gdeyoung/omarchy-timepiece",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T02:02:58.421Z",
+      "listingValidatedCommit": "7e20cc9086d7ad66a0716386d3a963c35e3229a1",
+      "listingValidatedAt": "2026-10-19T02:02:58.421Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gdeyoung/omarchy-timepiece",
+        "pluginIds": [
+          "gdeyoung.timepiece"
+        ],
+        "commit": "7e20cc9086d7ad66a0716386d3a963c35e3229a1",
+        "checkedAt": "2026-10-19T02:02:58.335Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gdeyoung.timepiece": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
