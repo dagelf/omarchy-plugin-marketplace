@@ -356136,6 +356136,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaJournal",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T05:17:15.064Z",
+      "listingValidatedCommit": "83402d876a0cfb687363cce68e461344553c37ec",
+      "listingValidatedAt": "2026-10-19T05:17:15.064Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omajournal",
+        "pluginIds": [
+          "io.github.dankestrick.omajournal"
+        ],
+        "commit": "83402d876a0cfb687363cce68e461344553c37ec",
+        "checkedAt": "2026-10-19T05:17:14.919Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omajournal",
+        "pluginIds": [
+          "io.github.dankestrick.omajournal"
+        ],
+        "commit": "83402d876a0cfb687363cce68e461344553c37ec",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T05:17:14.919Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T04:52:54.823Z",
+        "requestEventId": 33612525725,
+        "requestedAt": "2026-10-19T05:12:55Z",
+        "reviewedAt": "2026-10-19T05:17:14.919Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dankestrick.omajournal": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
