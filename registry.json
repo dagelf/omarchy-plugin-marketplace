@@ -355435,6 +355435,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Linus342010/firefox-keep-awake",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:09:16.912Z",
+      "listingValidatedCommit": "540d22c3af73080ec039a12c013dd50ce51e0aea",
+      "listingValidatedAt": "2026-10-19T01:09:16.912Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "linus342010/firefox-keep-awake",
+        "pluginIds": [
+          "io.github.linus342010.firefox-keep-awake"
+        ],
+        "commit": "540d22c3af73080ec039a12c013dd50ce51e0aea",
+        "checkedAt": "2026-10-19T01:09:16.770Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.linus342010.firefox-keep-awake": {
+          "category": "System",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
