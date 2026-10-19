@@ -355683,6 +355683,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/medden/omarchy-prices",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T01:27:45.995Z",
+      "listingValidatedCommit": "d980b146d16c9f06a83faa6d09c0844cca323d5f",
+      "listingValidatedAt": "2026-10-19T01:27:45.995Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "medden/omarchy-prices",
+        "pluginIds": [
+          "io.github.medden.prices"
+        ],
+        "commit": "d980b146d16c9f06a83faa6d09c0844cca323d5f",
+        "checkedAt": "2026-10-19T01:27:45.861Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.medden.prices": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
