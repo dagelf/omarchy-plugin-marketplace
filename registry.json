@@ -258309,8 +258309,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T00:25:18.999Z",
-      "listingValidatedCommit": "0407993f0f3c4d80ba0eae84d97bdd7325669a37",
-      "listingValidatedAt": "2026-10-03T12:12:44.887Z",
+      "listingValidatedCommit": "a9856efb23373a2bbdbdf19412e8d8d7be3605b4",
+      "listingValidatedAt": "2026-10-19T22:34:49.930Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -258319,12 +258319,14 @@
         "pluginIds": [
           "diky.reading-highlighter"
         ],
-        "commit": "0407993f0f3c4d80ba0eae84d97bdd7325669a37",
-        "checkedAt": "2026-10-03T12:12:44.887Z",
-        "outcome": "passed",
+        "commit": "a9856efb23373a2bbdbdf19412e8d8d7be3605b4",
+        "checkedAt": "2026-10-19T22:34:49.930Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "package-manager"
+        ]
       },
       "plugins": {
         "diky.reading-highlighter": {
@@ -258357,8 +258359,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "0407993f0f3c4d80ba0eae84d97bdd7325669a37",
+          "validatedAt": "2026-10-03T12:12:44.887Z",
+          "branch": "main",
+          "supersededAt": "2026-10-19T22:34:49.930Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "techguy-top/omarchy-reading-highlighter",
+            "pluginIds": [
+              "diky.reading-highlighter"
+            ],
+            "commit": "0407993f0f3c4d80ba0eae84d97bdd7325669a37",
+            "checkedAt": "2026-10-03T12:12:44.887Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "techguy-top/omarchy-reading-highlighter",
+        "pluginIds": [
+          "diky.reading-highlighter"
+        ],
+        "commit": "a9856efb23373a2bbdbdf19412e8d8d7be3605b4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T22:34:49.930Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T06:19:56.313Z",
+        "requestEventId": 33690268794,
+        "requestedAt": "2026-10-19T22:13:59Z",
+        "reviewedAt": "2026-10-19T22:34:49.930Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Madmasx/russian-phrases-omarchy",
