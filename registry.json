@@ -357033,6 +357033,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/OldJobobo/theme-report",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T22:38:42.571Z",
+      "listingValidatedCommit": "33fccd49d421a69218f1dd86641bb20c412aa524",
+      "listingValidatedAt": "2026-10-19T22:38:42.571Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "oldjobobo/theme-report",
+        "pluginIds": [
+          "oldjobobo.theme-report"
+        ],
+        "commit": "33fccd49d421a69218f1dd86641bb20c412aa524",
+        "checkedAt": "2026-10-19T22:38:42.440Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "oldjobobo/theme-report",
+        "pluginIds": [
+          "oldjobobo.theme-report"
+        ],
+        "commit": "33fccd49d421a69218f1dd86641bb20c412aa524",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T22:38:42.440Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T13:03:41.427Z",
+        "requestEventId": 33690389859,
+        "requestedAt": "2026-10-19T22:15:52Z",
+        "reviewedAt": "2026-10-19T22:38:42.440Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "oldjobobo.theme-report": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
