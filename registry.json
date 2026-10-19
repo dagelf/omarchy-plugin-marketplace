@@ -356192,6 +356192,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/stewartjarod/omarchy-phone-sessions",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T05:21:45.563Z",
+      "listingValidatedCommit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
+      "listingValidatedAt": "2026-10-19T05:21:45.563Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "stewartjarod/omarchy-phone-sessions",
+        "pluginIds": [
+          "stewartjarod.phone-sessions"
+        ],
+        "commit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
+        "checkedAt": "2026-10-19T05:21:45.412Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "stewartjarod.phone-sessions": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
