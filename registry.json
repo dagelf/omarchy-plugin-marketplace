@@ -357702,6 +357702,66 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kcotugno/omarchy-qmk-rgb",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T23:40:28.849Z",
+      "listingValidatedCommit": "b2e09b64b5f2206ab1fed93585e8c8f1d9c233b0",
+      "listingValidatedAt": "2026-10-19T23:40:28.849Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kcotugno/omarchy-qmk-rgb",
+        "pluginIds": [
+          "kcotugno.qmk-rgb"
+        ],
+        "commit": "b2e09b64b5f2206ab1fed93585e8c8f1d9c233b0",
+        "checkedAt": "2026-10-19T23:40:28.703Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kcotugno/omarchy-qmk-rgb",
+        "pluginIds": [
+          "kcotugno.qmk-rgb"
+        ],
+        "commit": "b2e09b64b5f2206ab1fed93585e8c8f1d9c233b0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T23:40:28.703Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T16:50:20.479Z",
+        "requestEventId": 33694970742,
+        "requestedAt": "2026-10-19T23:36:10Z",
+        "reviewedAt": "2026-10-19T23:40:28.703Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kcotugno.qmk-rgb": {
+          "category": "Hardware",
+          "tags": [
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
