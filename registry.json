@@ -356385,6 +356385,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/xvvhang/omarchy-konobreak-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T10:39:01.778Z",
+      "listingValidatedCommit": "f9212e68e78b1f2410a29779e20009870191e754",
+      "listingValidatedAt": "2026-10-19T10:39:01.778Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xvvhang/omarchy-konobreak-plugin",
+        "pluginIds": [
+          "konochi.konobreak"
+        ],
+        "commit": "f9212e68e78b1f2410a29779e20009870191e754",
+        "checkedAt": "2026-10-19T10:39:01.625Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "konochi.konobreak": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
