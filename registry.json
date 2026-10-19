@@ -352706,8 +352706,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T22:14:52.309Z",
-      "listingValidatedCommit": "05397e67fbca3997d6d5cdf3a3592e83514fba9f",
-      "listingValidatedAt": "2026-10-17T22:14:52.309Z",
+      "listingValidatedCommit": "cfecb3034367e16473e6123fa4c57d668590e475",
+      "listingValidatedAt": "2026-10-19T23:55:56.036Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -352716,8 +352716,8 @@
         "pluginIds": [
           "io.github.houtvongsak.power-byxax"
         ],
-        "commit": "05397e67fbca3997d6d5cdf3a3592e83514fba9f",
-        "checkedAt": "2026-10-17T22:14:52.163Z",
+        "commit": "cfecb3034367e16473e6123fa4c57d668590e475",
+        "checkedAt": "2026-10-19T23:55:56.036Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -352733,7 +352733,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "05397e67fbca3997d6d5cdf3a3592e83514fba9f",
+          "validatedAt": "2026-10-17T22:14:52.309Z",
+          "branch": "main",
+          "supersededAt": "2026-10-19T23:55:56.036Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "houtvongsak/power-byxax",
+            "pluginIds": [
+              "io.github.houtvongsak.power-byxax"
+            ],
+            "commit": "05397e67fbca3997d6d5cdf3a3592e83514fba9f",
+            "checkedAt": "2026-10-17T22:14:52.163Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/emrgim/shader-desk",
