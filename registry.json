@@ -354637,8 +354637,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-18",
       "listedAt": "2026-10-18T11:55:56.134Z",
-      "listingValidatedCommit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
-      "listingValidatedAt": "2026-10-18T11:55:56.134Z",
+      "listingValidatedCommit": "9b0837d89495a7e7c4765a88a8e2aafd5f05aeb1",
+      "listingValidatedAt": "2026-10-19T21:58:28.854Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -354647,35 +354647,14 @@
         "pluginIds": [
           "io.github.lugio.fingerprint"
         ],
-        "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
-        "checkedAt": "2026-10-18T11:55:55.994Z",
+        "commit": "9b0837d89495a7e7c4765a88a8e2aafd5f05aeb1",
+        "checkedAt": "2026-10-19T21:58:28.854Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lugio/omarchy-fingerprint",
-        "pluginIds": [
-          "io.github.lugio.fingerprint"
-        ],
-        "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-18T11:55:55.994Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-18T11:51:41.246Z",
-        "requestEventId": 33569779197,
-        "requestedAt": "2026-10-18T11:55:27Z",
-        "reviewedAt": "2026-10-18T11:55:55.994Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.lugio.fingerprint": {
@@ -354690,7 +354669,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lugio/omarchy-fingerprint",
+        "pluginIds": [
+          "io.github.lugio.fingerprint"
+        ],
+        "commit": "9b0837d89495a7e7c4765a88a8e2aafd5f05aeb1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T21:58:28.854Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T21:27:06.329Z",
+        "requestEventId": 33688783271,
+        "requestedAt": "2026-10-19T21:50:26Z",
+        "reviewedAt": "2026-10-19T21:58:28.854Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+          "validatedAt": "2026-10-18T11:55:56.134Z",
+          "branch": "main",
+          "supersededAt": "2026-10-19T21:58:28.854Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lugio/omarchy-fingerprint",
+            "pluginIds": [
+              "io.github.lugio.fingerprint"
+            ],
+            "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+            "checkedAt": "2026-10-18T11:55:55.994Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lugio/omarchy-fingerprint",
+            "pluginIds": [
+              "io.github.lugio.fingerprint"
+            ],
+            "commit": "05d4e4e6ed1cd39f02c4a7ccac927647eeecac15",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-18T11:55:55.994Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-18T11:51:41.246Z",
+            "requestEventId": 33569779197,
+            "requestedAt": "2026-10-18T11:55:27Z",
+            "reviewedAt": "2026-10-18T11:55:55.994Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/spalencsar/bearwave_omarchy",
