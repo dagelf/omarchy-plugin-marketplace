@@ -356610,6 +356610,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tomFelder/omarchy-whoop",
+      "type": "plugin-source",
+      "addedAt": "2026-10-19",
+      "listedAt": "2026-10-19T11:02:12.554Z",
+      "listingValidatedCommit": "67918a66a27f74bb35adab96dd51eed4cf80e0d5",
+      "listingValidatedAt": "2026-10-19T11:02:12.554Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tomfelder/omarchy-whoop",
+        "pluginIds": [
+          "community.whoop"
+        ],
+        "commit": "67918a66a27f74bb35adab96dd51eed4cf80e0d5",
+        "checkedAt": "2026-10-19T11:02:12.411Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tomfelder/omarchy-whoop",
+        "pluginIds": [
+          "community.whoop"
+        ],
+        "commit": "67918a66a27f74bb35adab96dd51eed4cf80e0d5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-19T11:02:12.411Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T10:01:25.936Z",
+        "requestEventId": 33635923572,
+        "requestedAt": "2026-10-19T10:54:13Z",
+        "reviewedAt": "2026-10-19T11:02:12.411Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "community.whoop": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
