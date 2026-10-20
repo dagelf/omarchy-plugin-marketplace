@@ -257437,8 +257437,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T16:04:58.264Z",
-      "listingValidatedCommit": "e7fa993601014dd6e39a027f14b54aeebe59bdfd",
-      "listingValidatedAt": "2026-09-26T16:04:58.264Z",
+      "listingValidatedCommit": "8e54c42eda00ceee50a37261a0353b78ce9aac8a",
+      "listingValidatedAt": "2026-10-20T00:30:27.543Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -257447,8 +257447,8 @@
         "pluginIds": [
           "nzkritik.pause-ai"
         ],
-        "commit": "e7fa993601014dd6e39a027f14b54aeebe59bdfd",
-        "checkedAt": "2026-09-26T16:04:58.158Z",
+        "commit": "8e54c42eda00ceee50a37261a0353b78ce9aac8a",
+        "checkedAt": "2026-10-20T00:30:27.543Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -257464,7 +257464,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e7fa993601014dd6e39a027f14b54aeebe59bdfd",
+          "validatedAt": "2026-09-26T16:04:58.264Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T00:30:27.543Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nzkritik/omarchy-pause-ai",
+            "pluginIds": [
+              "nzkritik.pause-ai"
+            ],
+            "commit": "e7fa993601014dd6e39a027f14b54aeebe59bdfd",
+            "checkedAt": "2026-09-26T16:04:58.158Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/andreiyurik/omarchy-tablet-mode",
