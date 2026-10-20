@@ -358723,6 +358723,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mateuspim/omareach",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T01:24:50.545Z",
+      "listingValidatedCommit": "59858ffed68ddeb65c38959bb13d63a7e0627bd8",
+      "listingValidatedAt": "2026-10-20T01:24:50.545Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mateuspim/omareach",
+        "pluginIds": [
+          "pym.omareach"
+        ],
+        "commit": "59858ffed68ddeb65c38959bb13d63a7e0627bd8",
+        "checkedAt": "2026-10-20T01:24:50.406Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mateuspim/omareach",
+        "pluginIds": [
+          "pym.omareach"
+        ],
+        "commit": "59858ffed68ddeb65c38959bb13d63a7e0627bd8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T01:24:50.406Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T01:19:51.191Z",
+        "requestEventId": 33700337765,
+        "requestedAt": "2026-10-20T01:21:26Z",
+        "reviewedAt": "2026-10-20T01:24:50.406Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pym.omareach": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
