@@ -81291,8 +81291,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T20:06:26.156Z",
-      "listingValidatedCommit": "e66a0e89e1c544a62829203a0607389988433444",
-      "listingValidatedAt": "2026-10-16T01:28:06.489Z",
+      "listingValidatedCommit": "6b4af28caef1842ee6669bd52d56b085f57ea6b6",
+      "listingValidatedAt": "2026-10-20T18:11:02.403Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -81301,8 +81301,8 @@
         "pluginIds": [
           "mryll.logibar"
         ],
-        "commit": "e66a0e89e1c544a62829203a0607389988433444",
-        "checkedAt": "2026-10-16T01:28:06.489Z",
+        "commit": "6b4af28caef1842ee6669bd52d56b085f57ea6b6",
+        "checkedAt": "2026-10-20T18:11:02.402Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -81671,6 +81671,55 @@
             "reviewedAt": "2026-10-13T23:02:13.696Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "e66a0e89e1c544a62829203a0607389988433444",
+          "validatedAt": "2026-10-16T01:28:06.489Z",
+          "branch": "master",
+          "supersededAt": "2026-10-20T18:11:02.403Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mryll/logibar",
+            "pluginIds": [
+              "mryll.logibar"
+            ],
+            "commit": "e66a0e89e1c544a62829203a0607389988433444",
+            "checkedAt": "2026-10-16T01:28:06.489Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "privilege",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mryll/logibar",
+            "pluginIds": [
+              "mryll.logibar"
+            ],
+            "commit": "e66a0e89e1c544a62829203a0607389988433444",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T01:28:06.489Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "privilege",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T18:10:26.662Z",
+            "requestEventId": 33396277047,
+            "requestedAt": "2026-10-16T01:27:29Z",
+            "reviewedAt": "2026-10-16T01:28:06.489Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -81679,10 +81728,10 @@
         "pluginIds": [
           "mryll.logibar"
         ],
-        "commit": "e66a0e89e1c544a62829203a0607389988433444",
+        "commit": "6b4af28caef1842ee6669bd52d56b085f57ea6b6",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T01:28:06.489Z",
+        "baselineCheckedAt": "2026-10-20T18:11:02.402Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -81691,10 +81740,10 @@
           "privilege",
           "remote-build"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-15T18:10:26.662Z",
-        "requestEventId": 33396277047,
-        "requestedAt": "2026-10-16T01:27:29Z",
-        "reviewedAt": "2026-10-16T01:28:06.489Z",
+        "reviewedBaselineCheckedAt": "2026-10-20T17:05:43.159Z",
+        "requestEventId": 33768711251,
+        "requestedAt": "2026-10-20T17:43:25Z",
+        "reviewedAt": "2026-10-20T18:11:02.403Z",
         "reviewer": "HANCORE-linux"
       }
     },
