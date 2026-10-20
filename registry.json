@@ -361195,6 +361195,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ainfarhanah/omarchy-clevo-rgb",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T22:53:56.175Z",
+      "listingValidatedCommit": "f3fbdc6d35d24780c32d63c2cf2de03eff264bec",
+      "listingValidatedAt": "2026-10-20T22:53:56.175Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ainfarhanah/omarchy-clevo-rgb",
+        "pluginIds": [
+          "clevo.rgb"
+        ],
+        "commit": "f3fbdc6d35d24780c32d63c2cf2de03eff264bec",
+        "checkedAt": "2026-10-20T22:53:56.005Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ainfarhanah/omarchy-clevo-rgb",
+        "pluginIds": [
+          "clevo.rgb"
+        ],
+        "commit": "f3fbdc6d35d24780c32d63c2cf2de03eff264bec",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T22:53:56.005Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T16:17:17.106Z",
+        "requestEventId": 33792484123,
+        "requestedAt": "2026-10-20T22:48:10Z",
+        "reviewedAt": "2026-10-20T22:53:56.005Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "clevo.rgb": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
