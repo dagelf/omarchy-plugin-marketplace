@@ -327112,8 +327112,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T10:30:51.132Z",
-      "listingValidatedCommit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
-      "listingValidatedAt": "2026-10-14T01:51:51.857Z",
+      "listingValidatedCommit": "1253ee415d08aa5492a6ca0782d62e7d07f4bcef",
+      "listingValidatedAt": "2026-10-20T18:49:56.089Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -327122,8 +327122,8 @@
         "pluginIds": [
           "org.omarchy.keycontroller"
         ],
-        "commit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
-        "checkedAt": "2026-10-14T01:51:51.857Z",
+        "commit": "1253ee415d08aa5492a6ca0782d62e7d07f4bcef",
+        "checkedAt": "2026-10-20T18:49:56.089Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -327242,6 +327242,53 @@
             "reviewedAt": "2026-10-11T14:35:29.828Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
+          "validatedAt": "2026-10-14T01:51:51.857Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T18:49:56.089Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "wolfengo/keycontroller",
+            "pluginIds": [
+              "org.omarchy.keycontroller"
+            ],
+            "commit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
+            "checkedAt": "2026-10-14T01:51:51.857Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "wolfengo/keycontroller",
+            "pluginIds": [
+              "org.omarchy.keycontroller"
+            ],
+            "commit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T01:51:51.857Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T08:11:56.269Z",
+            "requestEventId": 33187047361,
+            "requestedAt": "2026-10-14T01:51:18Z",
+            "reviewedAt": "2026-10-14T01:51:51.857Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -327250,10 +327297,10 @@
         "pluginIds": [
           "org.omarchy.keycontroller"
         ],
-        "commit": "0e10ebbe870ca8b4b45a720fbdb28b8d5e0b1bb7",
+        "commit": "1253ee415d08aa5492a6ca0782d62e7d07f4bcef",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T01:51:51.857Z",
+        "baselineCheckedAt": "2026-10-20T18:49:56.089Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -327261,10 +327308,10 @@
           "privilege",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-13T08:11:56.269Z",
-        "requestEventId": 33187047361,
-        "requestedAt": "2026-10-14T01:51:18Z",
-        "reviewedAt": "2026-10-14T01:51:51.857Z",
+        "reviewedBaselineCheckedAt": "2026-10-17T09:03:48.014Z",
+        "requestEventId": 33774073328,
+        "requestedAt": "2026-10-20T18:49:08Z",
+        "reviewedAt": "2026-10-20T18:49:56.089Z",
         "reviewer": "HANCORE-linux"
       }
     },
