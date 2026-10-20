@@ -360974,6 +360974,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zihaomu/omarchy-amd-gpu",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T22:34:46.521Z",
+      "listingValidatedCommit": "8ca32d819d483aae27813175cac1e0b9016a9ef9",
+      "listingValidatedAt": "2026-10-20T22:34:46.521Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zihaomu/omarchy-amd-gpu",
+        "pluginIds": [
+          "max.amd-gpu"
+        ],
+        "commit": "8ca32d819d483aae27813175cac1e0b9016a9ef9",
+        "checkedAt": "2026-10-20T22:34:46.340Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zihaomu/omarchy-amd-gpu",
+        "pluginIds": [
+          "max.amd-gpu"
+        ],
+        "commit": "8ca32d819d483aae27813175cac1e0b9016a9ef9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T22:34:46.340Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T11:04:14.823Z",
+        "requestEventId": 33791533321,
+        "requestedAt": "2026-10-20T22:32:27Z",
+        "reviewedAt": "2026-10-20T22:34:46.340Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "max.amd-gpu": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
