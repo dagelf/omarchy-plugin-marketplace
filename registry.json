@@ -359675,6 +359675,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/L0adn9/omaface-widget",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T16:45:50.339Z",
+      "listingValidatedCommit": "b016fe5907ddad1075afb88dd4101775283e7248",
+      "listingValidatedAt": "2026-10-20T16:45:50.339Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "l0adn9/omaface-widget",
+        "pluginIds": [
+          "io.github.l0adn9.omaface-bar"
+        ],
+        "commit": "b016fe5907ddad1075afb88dd4101775283e7248",
+        "checkedAt": "2026-10-20T16:45:50.185Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "l0adn9/omaface-widget",
+        "pluginIds": [
+          "io.github.l0adn9.omaface-bar"
+        ],
+        "commit": "b016fe5907ddad1075afb88dd4101775283e7248",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T16:45:50.185Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T05:40:44.033Z",
+        "requestEventId": 33763813841,
+        "requestedAt": "2026-10-20T16:45:18Z",
+        "reviewedAt": "2026-10-20T16:45:50.185Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.l0adn9.omaface-bar": {
+          "category": "Widgets",
+          "tags": [
+            "security",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
