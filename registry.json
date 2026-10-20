@@ -358085,6 +358085,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gothe92/omatap",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T00:14:42.318Z",
+      "listingValidatedCommit": "49759f04cc8e9a659741c1c729a9332a8a4f364e",
+      "listingValidatedAt": "2026-10-20T00:14:42.318Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gothe92/omatap",
+        "pluginIds": [
+          "gothe92.omatap"
+        ],
+        "commit": "49759f04cc8e9a659741c1c729a9332a8a4f364e",
+        "checkedAt": "2026-10-20T00:14:42.157Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gothe92.omatap": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
