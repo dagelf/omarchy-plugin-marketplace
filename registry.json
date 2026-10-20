@@ -223747,8 +223747,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T04:29:38.353Z",
-      "listingValidatedCommit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
-      "listingValidatedAt": "2026-10-02T13:20:23.541Z",
+      "listingValidatedCommit": "fc53ee7a6ca9b9f3e6be990e79780e6f56f99355",
+      "listingValidatedAt": "2026-10-20T18:27:59.442Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -223757,8 +223757,8 @@
         "pluginIds": [
           "sarr.windowpeek"
         ],
-        "commit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
-        "checkedAt": "2026-10-02T13:20:23.541Z",
+        "commit": "fc53ee7a6ca9b9f3e6be990e79780e6f56f99355",
+        "checkedAt": "2026-10-20T18:27:59.442Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -223817,6 +223817,26 @@
             "requestedAt": "2026-09-21T04:26:05Z",
             "reviewedAt": "2026-09-21T04:29:38.261Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
+          "validatedAt": "2026-10-02T13:20:23.541Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T18:27:59.442Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sarr77/windowpeek",
+            "pluginIds": [
+              "sarr.windowpeek"
+            ],
+            "commit": "c261d1df6cdf2ca0310b73e5fdc3d66931dfd102",
+            "checkedAt": "2026-10-02T13:20:23.541Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
