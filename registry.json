@@ -138690,8 +138690,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-04",
       "listedAt": "2026-09-04T16:07:11.401Z",
-      "listingValidatedCommit": "07833eb28aed77a58928dcd6164824d38d271bad",
-      "listingValidatedAt": "2026-09-04T16:07:11.401Z",
+      "listingValidatedCommit": "f811f07132f9f3729334be7823e67c4839d0f958",
+      "listingValidatedAt": "2026-10-20T18:20:00.172Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -138700,35 +138700,14 @@
         "pluginIds": [
           "smartalb.opencode"
         ],
-        "commit": "07833eb28aed77a58928dcd6164824d38d271bad",
-        "checkedAt": "2026-09-04T16:07:11.335Z",
+        "commit": "f811f07132f9f3729334be7823e67c4839d0f958",
+        "checkedAt": "2026-10-20T18:20:00.172Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "smartalb/omarchy-opencode-launcher",
-        "pluginIds": [
-          "smartalb.opencode"
-        ],
-        "commit": "07833eb28aed77a58928dcd6164824d38d271bad",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-04T16:07:11.335Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-04T06:12:17.246Z",
-        "requestEventId": 30565776373,
-        "requestedAt": "2026-09-04T15:57:45Z",
-        "reviewedAt": "2026-09-04T16:07:11.336Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "smartalb.opencode": {
@@ -138744,7 +138723,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "smartalb/omarchy-opencode-launcher",
+        "pluginIds": [
+          "smartalb.opencode"
+        ],
+        "commit": "f811f07132f9f3729334be7823e67c4839d0f958",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T18:20:00.172Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T10:35:13.670Z",
+        "requestEventId": 33769554622,
+        "requestedAt": "2026-10-20T17:53:40Z",
+        "reviewedAt": "2026-10-20T18:20:00.172Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "07833eb28aed77a58928dcd6164824d38d271bad",
+          "validatedAt": "2026-09-04T16:07:11.401Z",
+          "branch": "master",
+          "supersededAt": "2026-10-20T18:20:00.172Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "smartalb/omarchy-opencode-launcher",
+            "pluginIds": [
+              "smartalb.opencode"
+            ],
+            "commit": "07833eb28aed77a58928dcd6164824d38d271bad",
+            "checkedAt": "2026-09-04T16:07:11.335Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "smartalb/omarchy-opencode-launcher",
+            "pluginIds": [
+              "smartalb.opencode"
+            ],
+            "commit": "07833eb28aed77a58928dcd6164824d38d271bad",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-04T16:07:11.335Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-04T06:12:17.246Z",
+            "requestEventId": 30565776373,
+            "requestedAt": "2026-09-04T15:57:45Z",
+            "reviewedAt": "2026-09-04T16:07:11.336Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/mikebenner/omarchy-netbird",
