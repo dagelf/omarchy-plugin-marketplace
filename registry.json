@@ -359983,6 +359983,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/H4ad/omarchy-truenas",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T17:26:43.799Z",
+      "listingValidatedCommit": "b0a2a5e15a3aebb5a4c7b962709bcf9f674d133f",
+      "listingValidatedAt": "2026-10-20T17:26:43.799Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "h4ad/omarchy-truenas",
+        "pluginIds": [
+          "io.github.h4ad.truenas"
+        ],
+        "commit": "b0a2a5e15a3aebb5a4c7b962709bcf9f674d133f",
+        "checkedAt": "2026-10-20T17:26:43.652Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.h4ad.truenas": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
