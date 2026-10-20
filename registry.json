@@ -360103,6 +360103,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yuskesuzki/cinecom-scheduler-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T17:38:13.254Z",
+      "listingValidatedCommit": "a3497f613d1fb31c8067c133aa84a37bcc23201e",
+      "listingValidatedAt": "2026-10-20T17:38:13.254Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yuskesuzki/cinecom-scheduler-plugin",
+        "pluginIds": [
+          "com.yusuke.cinecom-scheduler"
+        ],
+        "commit": "a3497f613d1fb31c8067c133aa84a37bcc23201e",
+        "checkedAt": "2026-10-20T17:38:13.118Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.yusuke.cinecom-scheduler": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
