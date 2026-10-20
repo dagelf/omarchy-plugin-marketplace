@@ -358780,6 +358780,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/danitrrga/omarchy-quick-task",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T01:29:49.603Z",
+      "listingValidatedCommit": "c910565ae33358bcd9193790d12cf543ae058667",
+      "listingValidatedAt": "2026-10-20T01:29:49.603Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "danitrrga/omarchy-quick-task",
+        "pluginIds": [
+          "io.github.danitrrga.quick-task"
+        ],
+        "commit": "c910565ae33358bcd9193790d12cf543ae058667",
+        "checkedAt": "2026-10-20T01:29:49.508Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "danitrrga/omarchy-quick-task",
+        "pluginIds": [
+          "io.github.danitrrga.quick-task"
+        ],
+        "commit": "c910565ae33358bcd9193790d12cf543ae058667",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T01:29:49.508Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T08:22:54.298Z",
+        "requestEventId": 33700733841,
+        "requestedAt": "2026-10-20T01:29:23Z",
+        "reviewedAt": "2026-10-20T01:29:49.508Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.danitrrga.quick-task": {
+          "category": "Productivity",
+          "tags": [
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
