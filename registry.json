@@ -358598,6 +358598,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/daniel-marr/omarchy-plugin-omafilee",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T01:17:21.004Z",
+      "listingValidatedCommit": "470ebfe74853b8ad65ab47c0d1fa44a62fec722c",
+      "listingValidatedAt": "2026-10-20T01:17:21.004Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "daniel-marr/omarchy-plugin-omafilee",
+        "pluginIds": [
+          "daniel-marr.omafilee"
+        ],
+        "commit": "470ebfe74853b8ad65ab47c0d1fa44a62fec722c",
+        "checkedAt": "2026-10-20T01:17:20.832Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "daniel-marr/omarchy-plugin-omafilee",
+        "pluginIds": [
+          "daniel-marr.omafilee"
+        ],
+        "commit": "470ebfe74853b8ad65ab47c0d1fa44a62fec722c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T01:17:20.832Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T00:47:59.156Z",
+        "requestEventId": 33699827380,
+        "requestedAt": "2026-10-20T01:11:06Z",
+        "reviewedAt": "2026-10-20T01:17:20.832Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "daniel-marr.omafilee": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
