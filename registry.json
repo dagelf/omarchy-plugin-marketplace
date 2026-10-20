@@ -359180,6 +359180,72 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mechanicsunlocked/winplug",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T15:29:57.274Z",
+      "listingValidatedCommit": "a53c540858a582d55fff478b217ec812f0891393",
+      "listingValidatedAt": "2026-10-20T15:29:57.274Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mechanicsunlocked/winplug",
+        "pluginIds": [
+          "io.github.mechanicsunlocked.winplug"
+        ],
+        "commit": "a53c540858a582d55fff478b217ec812f0891393",
+        "checkedAt": "2026-10-20T15:29:57.150Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mechanicsunlocked/winplug",
+        "pluginIds": [
+          "io.github.mechanicsunlocked.winplug"
+        ],
+        "commit": "a53c540858a582d55fff478b217ec812f0891393",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T15:29:57.150Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T09:32:45.471Z",
+        "requestEventId": 33756128121,
+        "requestedAt": "2026-10-20T15:20:04Z",
+        "reviewedAt": "2026-10-20T15:29:57.150Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mechanicsunlocked.winplug": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
