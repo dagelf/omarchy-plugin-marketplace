@@ -361384,6 +361384,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ludoplex/omamarket-mcp",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T23:11:29.997Z",
+      "listingValidatedCommit": "43d24de4d88ab412c3d0f7c18f86aad8f4013d7c",
+      "listingValidatedAt": "2026-10-20T23:11:29.997Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ludoplex/omamarket-mcp",
+        "pluginIds": [
+          "io.github.ludoplex.omamarket-mcp"
+        ],
+        "commit": "43d24de4d88ab412c3d0f7c18f86aad8f4013d7c",
+        "checkedAt": "2026-10-20T23:11:29.812Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ludoplex/omamarket-mcp",
+        "pluginIds": [
+          "io.github.ludoplex.omamarket-mcp"
+        ],
+        "commit": "43d24de4d88ab412c3d0f7c18f86aad8f4013d7c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T23:11:29.812Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T16:05:48.986Z",
+        "requestEventId": 33793531186,
+        "requestedAt": "2026-10-20T23:04:08Z",
+        "reviewedAt": "2026-10-20T23:11:29.812Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.ludoplex.omamarket-mcp": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
