@@ -358495,6 +358495,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/sabb4th/omarchy-cloudkit",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T01:08:17.557Z",
+      "listingValidatedCommit": "284084991455a70319a4fe2e348d841821415905",
+      "listingValidatedAt": "2026-10-20T01:08:17.557Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sabb4th/omarchy-cloudkit",
+        "pluginIds": [
+          "sabb4th.cloudkit"
+        ],
+        "commit": "284084991455a70319a4fe2e348d841821415905",
+        "checkedAt": "2026-10-20T01:08:17.385Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sabb4th/omarchy-cloudkit",
+        "pluginIds": [
+          "sabb4th.cloudkit"
+        ],
+        "commit": "284084991455a70319a4fe2e348d841821415905",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T01:08:17.385Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T00:26:43.868Z",
+        "requestEventId": 33699013241,
+        "requestedAt": "2026-10-20T00:54:36Z",
+        "reviewedAt": "2026-10-20T01:08:17.385Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sabb4th.cloudkit": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
