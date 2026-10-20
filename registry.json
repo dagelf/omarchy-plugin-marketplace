@@ -361352,6 +361352,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/tbye/omadown",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T23:07:43.848Z",
+      "listingValidatedCommit": "e81d695b5a32f6d7e94868fe84481c0d03c95fa0",
+      "listingValidatedAt": "2026-10-20T23:07:43.848Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tbye/omadown",
+        "pluginIds": [
+          "com.tbye.omadown"
+        ],
+        "commit": "e81d695b5a32f6d7e94868fe84481c0d03c95fa0",
+        "checkedAt": "2026-10-20T23:07:43.723Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.tbye.omadown": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
