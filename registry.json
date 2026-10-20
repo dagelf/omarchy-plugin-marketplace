@@ -358009,6 +358009,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/miguelcorderocollar/omatinta",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T00:07:41.092Z",
+      "listingValidatedCommit": "7ad7d877715cceb5e3c1a490d088618a2b8a7263",
+      "listingValidatedAt": "2026-10-20T00:07:41.092Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "miguelcorderocollar/omatinta",
+        "pluginIds": [
+          "mikelon797.omatinta"
+        ],
+        "commit": "7ad7d877715cceb5e3c1a490d088618a2b8a7263",
+        "checkedAt": "2026-10-20T00:07:40.987Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "miguelcorderocollar/omatinta",
+        "pluginIds": [
+          "mikelon797.omatinta"
+        ],
+        "commit": "7ad7d877715cceb5e3c1a490d088618a2b8a7263",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T00:07:40.987Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T23:56:53.472Z",
+        "requestEventId": 33696142561,
+        "requestedAt": "2026-10-19T23:58:42Z",
+        "reviewedAt": "2026-10-20T00:07:40.987Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "mikelon797.omatinta": {
+          "category": "Appearance",
+          "tags": [
+            "ai",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
