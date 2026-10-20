@@ -358437,6 +358437,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/michaelsucks/SteamHide",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T01:00:52.771Z",
+      "listingValidatedCommit": "8ba03d8941d4a741c353792947eb4a99660039a3",
+      "listingValidatedAt": "2026-10-20T01:00:52.771Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "michaelsucks/steamhide",
+        "pluginIds": [
+          "io.github.michaelsucks.steam-hide"
+        ],
+        "commit": "8ba03d8941d4a741c353792947eb4a99660039a3",
+        "checkedAt": "2026-10-20T01:00:52.605Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.michaelsucks.steam-hide": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
