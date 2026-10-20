@@ -359491,8 +359491,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-20",
       "listedAt": "2026-10-20T01:29:49.603Z",
-      "listingValidatedCommit": "c910565ae33358bcd9193790d12cf543ae058667",
-      "listingValidatedAt": "2026-10-20T01:29:49.603Z",
+      "listingValidatedCommit": "d03f122eb054da64594948d624474a9df4aa9f9d",
+      "listingValidatedAt": "2026-10-20T17:46:12.072Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -359501,35 +359501,14 @@
         "pluginIds": [
           "io.github.danitrrga.quick-task"
         ],
-        "commit": "c910565ae33358bcd9193790d12cf543ae058667",
-        "checkedAt": "2026-10-20T01:29:49.508Z",
+        "commit": "d03f122eb054da64594948d624474a9df4aa9f9d",
+        "checkedAt": "2026-10-20T17:46:12.072Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "danitrrga/omarchy-quick-task",
-        "pluginIds": [
-          "io.github.danitrrga.quick-task"
-        ],
-        "commit": "c910565ae33358bcd9193790d12cf543ae058667",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-20T01:29:49.508Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-19T08:22:54.298Z",
-        "requestEventId": 33700733841,
-        "requestedAt": "2026-10-20T01:29:23Z",
-        "reviewedAt": "2026-10-20T01:29:49.508Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.danitrrga.quick-task": {
@@ -359540,7 +359519,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "danitrrga/omarchy-quick-task",
+        "pluginIds": [
+          "io.github.danitrrga.quick-task"
+        ],
+        "commit": "d03f122eb054da64594948d624474a9df4aa9f9d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T17:46:12.072Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T17:10:59.839Z",
+        "requestEventId": 33767334087,
+        "requestedAt": "2026-10-20T17:27:01Z",
+        "reviewedAt": "2026-10-20T17:46:12.072Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c910565ae33358bcd9193790d12cf543ae058667",
+          "validatedAt": "2026-10-20T01:29:49.603Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T17:46:12.072Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danitrrga/omarchy-quick-task",
+            "pluginIds": [
+              "io.github.danitrrga.quick-task"
+            ],
+            "commit": "c910565ae33358bcd9193790d12cf543ae058667",
+            "checkedAt": "2026-10-20T01:29:49.508Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "danitrrga/omarchy-quick-task",
+            "pluginIds": [
+              "io.github.danitrrga.quick-task"
+            ],
+            "commit": "c910565ae33358bcd9193790d12cf543ae058667",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-20T01:29:49.508Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-19T08:22:54.298Z",
+            "requestEventId": 33700733841,
+            "requestedAt": "2026-10-20T01:29:23Z",
+            "reviewedAt": "2026-10-20T01:29:49.508Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/statick88/omarchy-radio-plugin",
