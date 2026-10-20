@@ -354100,8 +354100,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T23:54:28.407Z",
-      "listingValidatedCommit": "90fd2ca73ef71cbadd4065e083d013003212a649",
-      "listingValidatedAt": "2026-10-17T23:54:28.407Z",
+      "listingValidatedCommit": "eeaddc36b79aa9ff0c0c0e957f6e55b3139af868",
+      "listingValidatedAt": "2026-10-20T15:07:14.786Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -354110,35 +354110,14 @@
         "pluginIds": [
           "yaqyn.counter"
         ],
-        "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
-        "checkedAt": "2026-10-17T23:54:28.316Z",
+        "commit": "eeaddc36b79aa9ff0c0c0e957f6e55b3139af868",
+        "checkedAt": "2026-10-20T15:07:14.786Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "yaqyn/omarchy-counter",
-        "pluginIds": [
-          "yaqyn.counter"
-        ],
-        "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-17T23:54:28.316Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-17T18:48:26.323Z",
-        "requestEventId": 33546396448,
-        "requestedAt": "2026-10-17T23:40:07Z",
-        "reviewedAt": "2026-10-17T23:54:28.316Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "yaqyn.counter": {
@@ -354150,7 +354129,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yaqyn/omarchy-counter",
+        "pluginIds": [
+          "yaqyn.counter"
+        ],
+        "commit": "eeaddc36b79aa9ff0c0c0e957f6e55b3139af868",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T15:07:14.786Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T09:32:38.510Z",
+        "requestEventId": 33754863847,
+        "requestedAt": "2026-10-20T15:06:26Z",
+        "reviewedAt": "2026-10-20T15:07:14.786Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+          "validatedAt": "2026-10-17T23:54:28.407Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T15:07:14.786Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yaqyn/omarchy-counter",
+            "pluginIds": [
+              "yaqyn.counter"
+            ],
+            "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+            "checkedAt": "2026-10-17T23:54:28.316Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yaqyn/omarchy-counter",
+            "pluginIds": [
+              "yaqyn.counter"
+            ],
+            "commit": "90fd2ca73ef71cbadd4065e083d013003212a649",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-17T23:54:28.316Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-17T18:48:26.323Z",
+            "requestEventId": 33546396448,
+            "requestedAt": "2026-10-17T23:40:07Z",
+            "reviewedAt": "2026-10-17T23:54:28.316Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/qempexe/omarchy-baroque",
