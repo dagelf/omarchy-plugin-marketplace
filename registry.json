@@ -212037,8 +212037,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T02:08:46.681Z",
-      "listingValidatedCommit": "8d64787d3046b12923d505ef30ebad11e158b4db",
-      "listingValidatedAt": "2026-10-01T21:30:50.620Z",
+      "listingValidatedCommit": "5d88b7c2c0d095c61f121821d787ae8d988d95a5",
+      "listingValidatedAt": "2026-10-20T17:18:18.508Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -212047,8 +212047,8 @@
         "pluginIds": [
           "io.github.ferc10110.runbook"
         ],
-        "commit": "8d64787d3046b12923d505ef30ebad11e158b4db",
-        "checkedAt": "2026-10-01T21:30:50.620Z",
+        "commit": "5d88b7c2c0d095c61f121821d787ae8d988d95a5",
+        "checkedAt": "2026-10-20T17:18:18.508Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -212067,28 +212067,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ferc10110/omarchy-runbook",
-        "pluginIds": [
-          "io.github.ferc10110.runbook"
-        ],
-        "commit": "8d64787d3046b12923d505ef30ebad11e158b4db",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T21:30:50.620Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-30T14:43:10.104Z",
-        "requestEventId": 32288587518,
-        "requestedAt": "2026-10-01T20:58:31Z",
-        "reviewedAt": "2026-10-01T21:30:50.620Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -212135,8 +212113,75 @@
             "reviewedAt": "2026-09-18T02:08:46.604Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8d64787d3046b12923d505ef30ebad11e158b4db",
+          "validatedAt": "2026-10-01T21:30:50.620Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T17:18:18.508Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ferc10110/omarchy-runbook",
+            "pluginIds": [
+              "io.github.ferc10110.runbook"
+            ],
+            "commit": "8d64787d3046b12923d505ef30ebad11e158b4db",
+            "checkedAt": "2026-10-01T21:30:50.620Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ferc10110/omarchy-runbook",
+            "pluginIds": [
+              "io.github.ferc10110.runbook"
+            ],
+            "commit": "8d64787d3046b12923d505ef30ebad11e158b4db",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T21:30:50.620Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-30T14:43:10.104Z",
+            "requestEventId": 32288587518,
+            "requestedAt": "2026-10-01T20:58:31Z",
+            "reviewedAt": "2026-10-01T21:30:50.620Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ferc10110/omarchy-runbook",
+        "pluginIds": [
+          "io.github.ferc10110.runbook"
+        ],
+        "commit": "5d88b7c2c0d095c61f121821d787ae8d988d95a5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T17:18:18.508Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T17:47:00.471Z",
+        "requestEventId": 33765407476,
+        "requestedAt": "2026-10-20T17:04:05Z",
+        "reviewedAt": "2026-10-20T17:18:18.508Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/jeffmtb/omarchy-moon-phase",
