@@ -350160,8 +350160,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T19:07:55.793Z",
-      "listingValidatedCommit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
-      "listingValidatedAt": "2026-10-16T19:07:55.793Z",
+      "listingValidatedCommit": "ef9d75c7b73010b84ce7fee5c33ea47ece9eec8e",
+      "listingValidatedAt": "2026-10-20T15:26:05.091Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -350170,39 +350170,16 @@
         "pluginIds": [
           "dc.hyprtitles"
         ],
-        "commit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
-        "checkedAt": "2026-10-16T19:07:55.645Z",
+        "commit": "ef9d75c7b73010b84ce7fee5c33ea47ece9eec8e",
+        "checkedAt": "2026-10-20T15:26:05.091Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
-          "installer",
-          "package-manager"
+          "package-manager",
+          "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dobrician/hyprtitles",
-        "pluginIds": [
-          "dc.hyprtitles"
-        ],
-        "commit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T19:07:55.645Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T19:05:29.169Z",
-        "requestEventId": 33475305601,
-        "requestedAt": "2026-10-16T19:07:26Z",
-        "reviewedAt": "2026-10-16T19:07:55.645Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "dc.hyprtitles": {
@@ -350216,7 +350193,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dobrician/hyprtitles",
+        "pluginIds": [
+          "dc.hyprtitles"
+        ],
+        "commit": "ef9d75c7b73010b84ce7fee5c33ea47ece9eec8e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T15:26:05.091Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T05:55:49.939Z",
+        "requestEventId": 33755436995,
+        "requestedAt": "2026-10-20T15:12:37Z",
+        "reviewedAt": "2026-10-20T15:26:05.091Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
+          "validatedAt": "2026-10-16T19:07:55.793Z",
+          "branch": "master",
+          "supersededAt": "2026-10-20T15:26:05.091Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dobrician/hyprtitles",
+            "pluginIds": [
+              "dc.hyprtitles"
+            ],
+            "commit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
+            "checkedAt": "2026-10-16T19:07:55.645Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dobrician/hyprtitles",
+            "pluginIds": [
+              "dc.hyprtitles"
+            ],
+            "commit": "f11462f12cb7153c8cc9011bdc217c208de6e54d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T19:07:55.645Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T19:05:29.169Z",
+            "requestEventId": 33475305601,
+            "requestedAt": "2026-10-16T19:07:26Z",
+            "reviewedAt": "2026-10-16T19:07:55.645Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Pixel-Jack/omarchy-met-wallpaper",
