@@ -361132,6 +361132,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/keasbeexd/omarchy-mouse-ctrl",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T22:49:59.745Z",
+      "listingValidatedCommit": "025c0d3aedf02fe9aa672650fc2b469930bfe157",
+      "listingValidatedAt": "2026-10-20T22:49:59.745Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "keasbeexd/omarchy-mouse-ctrl",
+        "pluginIds": [
+          "keasbeexd.mousectrl"
+        ],
+        "commit": "025c0d3aedf02fe9aa672650fc2b469930bfe157",
+        "checkedAt": "2026-10-20T22:49:59.601Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "keasbeexd/omarchy-mouse-ctrl",
+        "pluginIds": [
+          "keasbeexd.mousectrl"
+        ],
+        "commit": "025c0d3aedf02fe9aa672650fc2b469930bfe157",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T22:49:59.601Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T14:18:18.515Z",
+        "requestEventId": 33792374339,
+        "requestedAt": "2026-10-20T22:46:25Z",
+        "reviewedAt": "2026-10-20T22:49:59.601Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "keasbeexd.mousectrl": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
