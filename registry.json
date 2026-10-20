@@ -127155,8 +127155,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T16:46:10.227Z",
-      "listingValidatedCommit": "2614ac1543829cf35489215fc92ef1c0162d549e",
-      "listingValidatedAt": "2026-10-14T00:24:40.918Z",
+      "listingValidatedCommit": "d762961e5d56f723b174686425b24dd600959eb7",
+      "listingValidatedAt": "2026-10-20T01:04:38.201Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -127165,8 +127165,8 @@
         "pluginIds": [
           "io.github.rdoupe.pixelbuds"
         ],
-        "commit": "2614ac1543829cf35489215fc92ef1c0162d549e",
-        "checkedAt": "2026-10-14T00:24:40.918Z",
+        "commit": "d762961e5d56f723b174686425b24dd600959eb7",
+        "checkedAt": "2026-10-20T01:04:38.201Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -127258,6 +127258,26 @@
             ],
             "commit": "da912eca9cb4d64191157acfffff0199458e4435",
             "checkedAt": "2026-10-04T21:09:03.568Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "2614ac1543829cf35489215fc92ef1c0162d549e",
+          "validatedAt": "2026-10-14T00:24:40.918Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T01:04:38.201Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rdoupe/omarchy-pixelbuds",
+            "pluginIds": [
+              "io.github.rdoupe.pixelbuds"
+            ],
+            "commit": "2614ac1543829cf35489215fc92ef1c0162d549e",
+            "checkedAt": "2026-10-14T00:24:40.918Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
