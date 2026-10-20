@@ -359547,6 +359547,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/rodrigondec/omarchy-tmog",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T16:16:07.968Z",
+      "listingValidatedCommit": "c31f8607c812ba2e4c42865d7b16482547b6a0f2",
+      "listingValidatedAt": "2026-10-20T16:16:07.968Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rodrigondec/omarchy-tmog",
+        "pluginIds": [
+          "io.github.rodrigondec.tmog"
+        ],
+        "commit": "c31f8607c812ba2e4c42865d7b16482547b6a0f2",
+        "checkedAt": "2026-10-20T16:16:07.787Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.rodrigondec.tmog": {
+          "category": "System",
+          "tags": [
+            "system",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
