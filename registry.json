@@ -361031,6 +361031,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/brian-cooney/omarchy-finale-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T22:38:57.349Z",
+      "listingValidatedCommit": "36d8c1bb4015d064ff5be6e5ae250e7577657c60",
+      "listingValidatedAt": "2026-10-20T22:38:57.349Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "brian-cooney/omarchy-finale-plugin",
+        "pluginIds": [
+          "com.github.brian-cooney.finale-mtb"
+        ],
+        "commit": "36d8c1bb4015d064ff5be6e5ae250e7577657c60",
+        "checkedAt": "2026-10-20T22:38:57.204Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "com.github.brian-cooney.finale-mtb": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
