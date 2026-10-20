@@ -360258,6 +360258,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mikeharrison-uk/omarchy-dell-peripheral-battery",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T17:58:13.822Z",
+      "listingValidatedCommit": "b2579574836c661998beb3f39e9f46729a79ca1d",
+      "listingValidatedAt": "2026-10-20T17:58:13.822Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mikeharrison-uk/omarchy-dell-peripheral-battery",
+        "pluginIds": [
+          "io.github.mikeharrison-uk.dell-peripheral-battery"
+        ],
+        "commit": "b2579574836c661998beb3f39e9f46729a79ca1d",
+        "checkedAt": "2026-10-20T17:58:13.702Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mikeharrison-uk/omarchy-dell-peripheral-battery",
+        "pluginIds": [
+          "io.github.mikeharrison-uk.dell-peripheral-battery"
+        ],
+        "commit": "b2579574836c661998beb3f39e9f46729a79ca1d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T17:58:13.702Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T10:52:33.672Z",
+        "requestEventId": 33767398128,
+        "requestedAt": "2026-10-20T17:27:45Z",
+        "reviewedAt": "2026-10-20T17:58:13.702Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.mikeharrison-uk.dell-peripheral-battery": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
