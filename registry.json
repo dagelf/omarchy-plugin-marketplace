@@ -258407,8 +258407,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T00:17:14.046Z",
-      "listingValidatedCommit": "bfd824e917234aa0745295e81bf954ca6deff336",
-      "listingValidatedAt": "2026-09-27T00:17:14.046Z",
+      "listingValidatedCommit": "8502493e0075cbf983206fcdd9a8846a8d88a4e2",
+      "listingValidatedAt": "2026-10-20T00:42:19.761Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -258417,8 +258417,8 @@
         "pluginIds": [
           "nzkritik.nerd-menu"
         ],
-        "commit": "bfd824e917234aa0745295e81bf954ca6deff336",
-        "checkedAt": "2026-09-27T00:17:13.946Z",
+        "commit": "8502493e0075cbf983206fcdd9a8846a8d88a4e2",
+        "checkedAt": "2026-10-20T00:42:19.761Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -258434,7 +258434,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "bfd824e917234aa0745295e81bf954ca6deff336",
+          "validatedAt": "2026-09-27T00:17:14.046Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T00:42:19.761Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nzkritik/omarchy-nerd-menu",
+            "pluginIds": [
+              "nzkritik.nerd-menu"
+            ],
+            "commit": "bfd824e917234aa0745295e81bf954ca6deff336",
+            "checkedAt": "2026-09-27T00:17:13.946Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Nexus-Agni/omarchy-diskspace",
