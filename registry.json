@@ -361258,6 +361258,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/musgandapur645-sudo/omarchy-health-mode",
+      "type": "plugin-source",
+      "addedAt": "2026-10-20",
+      "listedAt": "2026-10-20T22:57:54.038Z",
+      "listingValidatedCommit": "944f327df56f9901b21855f9c578e0e3a0ca66a4",
+      "listingValidatedAt": "2026-10-20T22:57:54.038Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "musgandapur645-sudo/omarchy-health-mode",
+        "pluginIds": [
+          "never.health"
+        ],
+        "commit": "944f327df56f9901b21855f9c578e0e3a0ca66a4",
+        "checkedAt": "2026-10-20T22:57:53.844Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "musgandapur645-sudo/omarchy-health-mode",
+        "pluginIds": [
+          "never.health"
+        ],
+        "commit": "944f327df56f9901b21855f9c578e0e3a0ca66a4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T22:57:53.844Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T14:46:15.237Z",
+        "requestEventId": 33792569671,
+        "requestedAt": "2026-10-20T22:49:24Z",
+        "reviewedAt": "2026-10-20T22:57:53.844Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "never.health": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
