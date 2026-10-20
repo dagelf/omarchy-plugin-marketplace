@@ -188515,8 +188515,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-13",
       "listedAt": "2026-09-13T17:14:27.339Z",
-      "listingValidatedCommit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
-      "listingValidatedAt": "2026-10-02T13:47:22.246Z",
+      "listingValidatedCommit": "9919e2cc4d25e667a10426ad2b2b2afde8932e18",
+      "listingValidatedAt": "2026-10-20T14:45:49.637Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -188525,8 +188525,8 @@
         "pluginIds": [
           "io.github.bvisagie.what-changed"
         ],
-        "commit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
-        "checkedAt": "2026-10-02T13:47:22.246Z",
+        "commit": "9919e2cc4d25e667a10426ad2b2b2afde8932e18",
+        "checkedAt": "2026-10-20T14:45:49.637Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -188545,28 +188545,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "bvisagie/omarchy-what-changed",
-        "pluginIds": [
-          "io.github.bvisagie.what-changed"
-        ],
-        "commit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T13:47:22.246Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T17:51:49.395Z",
-        "requestEventId": 32335829675,
-        "requestedAt": "2026-10-02T13:08:42Z",
-        "reviewedAt": "2026-10-02T13:47:22.246Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -188613,8 +188591,75 @@
             "reviewedAt": "2026-09-13T17:14:27.262Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
+          "validatedAt": "2026-10-02T13:47:22.246Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T14:45:49.637Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bvisagie/omarchy-what-changed",
+            "pluginIds": [
+              "io.github.bvisagie.what-changed"
+            ],
+            "commit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
+            "checkedAt": "2026-10-02T13:47:22.246Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bvisagie/omarchy-what-changed",
+            "pluginIds": [
+              "io.github.bvisagie.what-changed"
+            ],
+            "commit": "45ccc8190b44331d6d2fc0ac025724c5964b0980",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T13:47:22.246Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T17:51:49.395Z",
+            "requestEventId": 32335829675,
+            "requestedAt": "2026-10-02T13:08:42Z",
+            "reviewedAt": "2026-10-02T13:47:22.246Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bvisagie/omarchy-what-changed",
+        "pluginIds": [
+          "io.github.bvisagie.what-changed"
+        ],
+        "commit": "9919e2cc4d25e667a10426ad2b2b2afde8932e18",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-20T14:45:49.637Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T06:48:10.712Z",
+        "requestEventId": 33752912558,
+        "requestedAt": "2026-10-20T14:45:16Z",
+        "reviewedAt": "2026-10-20T14:45:49.637Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/therealasclepius/omarchy-apple-tv",
