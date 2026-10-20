@@ -94288,8 +94288,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-27",
       "listedAt": "2026-08-27T23:34:24.560Z",
-      "listingValidatedCommit": "c35e63d8ce8c301890b28278eaf6bd41725af5fe",
-      "listingValidatedAt": "2026-09-04T09:53:39.824Z",
+      "listingValidatedCommit": "b99210ed391a86923cccff8afed22ce6d1a41b7f",
+      "listingValidatedAt": "2026-10-20T15:03:19.046Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -94298,8 +94298,8 @@
         "pluginIds": [
           "io.github.jeremylanger.nightlight"
         ],
-        "commit": "c35e63d8ce8c301890b28278eaf6bd41725af5fe",
-        "checkedAt": "2026-09-04T09:53:39.824Z",
+        "commit": "b99210ed391a86923cccff8afed22ce6d1a41b7f",
+        "checkedAt": "2026-10-20T15:03:19.046Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -94331,6 +94331,26 @@
             ],
             "commit": "8051c9a2bedc32e9b5ee81cba5817626f35aa09f",
             "checkedAt": "2026-08-27T23:34:24.512Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "c35e63d8ce8c301890b28278eaf6bd41725af5fe",
+          "validatedAt": "2026-09-04T09:53:39.824Z",
+          "branch": "main",
+          "supersededAt": "2026-10-20T15:03:19.046Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jeremylanger/omarchy-nightlight",
+            "pluginIds": [
+              "io.github.jeremylanger.nightlight"
+            ],
+            "commit": "c35e63d8ce8c301890b28278eaf6bd41725af5fe",
+            "checkedAt": "2026-09-04T09:53:39.824Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
