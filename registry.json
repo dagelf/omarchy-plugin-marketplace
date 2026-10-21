@@ -361595,8 +361595,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-20",
       "listedAt": "2026-10-20T22:31:23.171Z",
-      "listingValidatedCommit": "a900d6f45db26b000324ee562843e8ab6c9abdc4",
-      "listingValidatedAt": "2026-10-20T22:31:23.171Z",
+      "listingValidatedCommit": "96a511415b532c1679b81251236fb55a30152b93",
+      "listingValidatedAt": "2026-10-21T18:01:08.339Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -361605,8 +361605,8 @@
         "pluginIds": [
           "io.github.fabiocuccaro.monitor-manager"
         ],
-        "commit": "a900d6f45db26b000324ee562843e8ab6c9abdc4",
-        "checkedAt": "2026-10-20T22:31:23.039Z",
+        "commit": "96a511415b532c1679b81251236fb55a30152b93",
+        "checkedAt": "2026-10-21T18:01:08.339Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -361622,7 +361622,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "a900d6f45db26b000324ee562843e8ab6c9abdc4",
+          "validatedAt": "2026-10-20T22:31:23.171Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T18:01:08.339Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "fabiocuccaro/omarchy_monitor_manager",
+            "pluginIds": [
+              "io.github.fabiocuccaro.monitor-manager"
+            ],
+            "commit": "a900d6f45db26b000324ee562843e8ab6c9abdc4",
+            "checkedAt": "2026-10-20T22:31:23.039Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/zihaomu/omarchy-amd-gpu",
