@@ -364241,6 +364241,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/NickmDrummer/omarchy-timer",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:53:47.629Z",
+      "listingValidatedCommit": "5cd454688360bb54eafa38f5793aaae1123de636",
+      "listingValidatedAt": "2026-10-21T13:53:47.629Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nickmdrummer/omarchy-timer",
+        "pluginIds": [
+          "nickmdrummer.timer"
+        ],
+        "commit": "5cd454688360bb54eafa38f5793aaae1123de636",
+        "checkedAt": "2026-10-21T13:53:47.492Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nickmdrummer/omarchy-timer",
+        "pluginIds": [
+          "nickmdrummer.timer"
+        ],
+        "commit": "5cd454688360bb54eafa38f5793aaae1123de636",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T13:53:47.492Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T13:38:33.670Z",
+        "requestEventId": 33850960074,
+        "requestedAt": "2026-10-21T13:40:13Z",
+        "reviewedAt": "2026-10-21T13:53:47.492Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nickmdrummer.timer": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
