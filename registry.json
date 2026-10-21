@@ -363360,6 +363360,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/taiku666/omarchy-pet",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T12:09:51.681Z",
+      "listingValidatedCommit": "0edb7efeefca1189ab15c69d1df11971714f7053",
+      "listingValidatedAt": "2026-10-21T12:09:51.681Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "taiku666/omarchy-pet",
+        "pluginIds": [
+          "io.github.taiku666.omarchy-pet"
+        ],
+        "commit": "0edb7efeefca1189ab15c69d1df11971714f7053",
+        "checkedAt": "2026-10-21T12:09:51.517Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "taiku666/omarchy-pet",
+        "pluginIds": [
+          "io.github.taiku666.omarchy-pet"
+        ],
+        "commit": "0edb7efeefca1189ab15c69d1df11971714f7053",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T12:09:51.517Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T11:45:35.908Z",
+        "requestEventId": 33842756397,
+        "requestedAt": "2026-10-21T12:07:23Z",
+        "reviewedAt": "2026-10-21T12:09:51.517Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.taiku666.omarchy-pet": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "games",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
