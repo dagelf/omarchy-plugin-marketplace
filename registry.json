@@ -285226,8 +285226,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T16:01:52.302Z",
-      "listingValidatedCommit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
-      "listingValidatedAt": "2026-10-16T03:45:01.503Z",
+      "listingValidatedCommit": "8c6435f91b78f8a0f579cc5e6c59056428970e24",
+      "listingValidatedAt": "2026-10-21T19:24:59.356Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -285236,8 +285236,8 @@
         "pluginIds": [
           "io.github.lwade.overlord"
         ],
-        "commit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
-        "checkedAt": "2026-10-16T03:45:01.502Z",
+        "commit": "8c6435f91b78f8a0f579cc5e6c59056428970e24",
+        "checkedAt": "2026-10-21T19:24:59.356Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -285255,28 +285255,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lwade/omarchy-overlord",
-        "pluginIds": [
-          "io.github.lwade.overlord"
-        ],
-        "commit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T03:45:01.502Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-15T18:00:14.006Z",
-        "requestEventId": 33405840013,
-        "requestedAt": "2026-10-16T03:43:28Z",
-        "reviewedAt": "2026-10-16T03:45:01.503Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -285321,8 +285299,75 @@
             "reviewedAt": "2026-10-01T16:01:52.205Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
+          "validatedAt": "2026-10-16T03:45:01.503Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T19:24:59.356Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lwade/omarchy-overlord",
+            "pluginIds": [
+              "io.github.lwade.overlord"
+            ],
+            "commit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
+            "checkedAt": "2026-10-16T03:45:01.502Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lwade/omarchy-overlord",
+            "pluginIds": [
+              "io.github.lwade.overlord"
+            ],
+            "commit": "7fbe16a91933a246f1701c293b7f612b3f8d91b8",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T03:45:01.502Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T18:00:14.006Z",
+            "requestEventId": 33405840013,
+            "requestedAt": "2026-10-16T03:43:28Z",
+            "reviewedAt": "2026-10-16T03:45:01.503Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lwade/omarchy-overlord",
+        "pluginIds": [
+          "io.github.lwade.overlord"
+        ],
+        "commit": "8c6435f91b78f8a0f579cc5e6c59056428970e24",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:24:59.356Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T18:59:50.657Z",
+        "requestEventId": 33879137455,
+        "requestedAt": "2026-10-21T19:01:11Z",
+        "reviewedAt": "2026-10-21T19:24:59.356Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Rufussed/omarchy-jargon",
