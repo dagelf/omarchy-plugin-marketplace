@@ -365894,6 +365894,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mpriem/omarchy-backdrop-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T18:43:50.338Z",
+      "listingValidatedCommit": "0707f5f09482351bd4225ecdffcd837dbd68f550",
+      "listingValidatedAt": "2026-10-21T18:43:50.338Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mpriem/omarchy-backdrop-plugin",
+        "pluginIds": [
+          "markpriem.backdrop"
+        ],
+        "commit": "0707f5f09482351bd4225ecdffcd837dbd68f550",
+        "checkedAt": "2026-10-21T18:43:50.203Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "markpriem.backdrop": {
+          "category": "Appearance",
+          "tags": [
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
