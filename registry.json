@@ -148416,8 +148416,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-05",
       "listedAt": "2026-09-05T16:55:02.157Z",
-      "listingValidatedCommit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
-      "listingValidatedAt": "2026-09-11T07:00:16.590Z",
+      "listingValidatedCommit": "620c3924b5cde945ec011132b29145327f272723",
+      "listingValidatedAt": "2026-10-21T20:07:30.416Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -148426,13 +148426,16 @@
         "pluginIds": [
           "io.github.randallyash.z13-power"
         ],
-        "commit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
-        "checkedAt": "2026-09-11T07:00:16.590Z",
+        "commit": "620c3924b5cde945ec011132b29145327f272723",
+        "checkedAt": "2026-10-21T20:07:30.416Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "privilege"
+          "installer",
+          "privilege",
+          "package-manager",
+          "service-management"
         ]
       },
       "plugins": {
@@ -148449,27 +148452,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "randallyash/omarchy-z13-power",
-        "pluginIds": [
-          "io.github.randallyash.z13-power"
-        ],
-        "commit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-11T07:00:16.590Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-08T13:14:32.219Z",
-        "requestEventId": 30953947930,
-        "requestedAt": "2026-09-11T06:43:54Z",
-        "reviewedAt": "2026-09-11T07:00:16.590Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -148514,8 +148496,75 @@
             "reviewedAt": "2026-09-05T16:55:02.097Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
+          "validatedAt": "2026-09-11T07:00:16.590Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T20:07:30.416Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "randallyash/omarchy-z13-power",
+            "pluginIds": [
+              "io.github.randallyash.z13-power"
+            ],
+            "commit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
+            "checkedAt": "2026-09-11T07:00:16.590Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "randallyash/omarchy-z13-power",
+            "pluginIds": [
+              "io.github.randallyash.z13-power"
+            ],
+            "commit": "438d4c57c73517e0ba03d53bebb8a8ee9675fc75",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-11T07:00:16.590Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-08T13:14:32.219Z",
+            "requestEventId": 30953947930,
+            "requestedAt": "2026-09-11T06:43:54Z",
+            "reviewedAt": "2026-09-11T07:00:16.590Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "randallyash/omarchy-z13-power",
+        "pluginIds": [
+          "io.github.randallyash.z13-power"
+        ],
+        "commit": "620c3924b5cde945ec011132b29145327f272723",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T20:07:30.416Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T01:58:48.979Z",
+        "requestEventId": 33882244590,
+        "requestedAt": "2026-10-21T19:39:33Z",
+        "reviewedAt": "2026-10-21T20:07:30.416Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Kiryuuki/oma-pulse",
