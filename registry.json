@@ -364357,6 +364357,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PixelTux/omarchy-battery-care",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T14:03:49.103Z",
+      "listingValidatedCommit": "3467172ffc6f8ad7227427be17019bdd22037e97",
+      "listingValidatedAt": "2026-10-21T14:03:49.103Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pixeltux/omarchy-battery-care",
+        "pluginIds": [
+          "pixeltux.battery"
+        ],
+        "commit": "3467172ffc6f8ad7227427be17019bdd22037e97",
+        "checkedAt": "2026-10-21T14:03:48.949Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pixeltux/omarchy-battery-care",
+        "pluginIds": [
+          "pixeltux.battery"
+        ],
+        "commit": "3467172ffc6f8ad7227427be17019bdd22037e97",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T14:03:48.949Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-10T17:31:47.759Z",
+        "requestEventId": 33851980701,
+        "requestedAt": "2026-10-21T13:51:16Z",
+        "reviewedAt": "2026-10-21T14:03:48.949Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "pixeltux.battery": {
+          "category": "Hardware",
+          "tags": [
+            "power-management",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
