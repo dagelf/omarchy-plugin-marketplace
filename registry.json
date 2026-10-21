@@ -317165,8 +317165,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-05",
       "listedAt": "2026-10-05T21:32:20.255Z",
-      "listingValidatedCommit": "cd8f118468e275e23dda1ef33dad67243f958193",
-      "listingValidatedAt": "2026-10-05T21:32:20.255Z",
+      "listingValidatedCommit": "076c83340a19b246cc351fd20ea85eac7ae44631",
+      "listingValidatedAt": "2026-10-21T12:26:29.207Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -317175,8 +317175,8 @@
         "pluginIds": [
           "priard.inair"
         ],
-        "commit": "cd8f118468e275e23dda1ef33dad67243f958193",
-        "checkedAt": "2026-10-05T21:32:20.133Z",
+        "commit": "076c83340a19b246cc351fd20ea85eac7ae44631",
+        "checkedAt": "2026-10-21T12:26:29.207Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -317191,7 +317191,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cd8f118468e275e23dda1ef33dad67243f958193",
+          "validatedAt": "2026-10-05T21:32:20.255Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T12:26:29.207Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "priard/omarchy-inair",
+            "pluginIds": [
+              "priard.inair"
+            ],
+            "commit": "cd8f118468e275e23dda1ef33dad67243f958193",
+            "checkedAt": "2026-10-05T21:32:20.133Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/grivera82/omarchy-agents",
