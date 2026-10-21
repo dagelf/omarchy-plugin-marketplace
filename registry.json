@@ -364178,6 +364178,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Grappabh/omarchy-pill-overlay",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:48:34.641Z",
+      "listingValidatedCommit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+      "listingValidatedAt": "2026-10-21T13:48:34.641Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "grappabh/omarchy-pill-overlay",
+        "pluginIds": [
+          "io.github.grappabh.pill-overlay"
+        ],
+        "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+        "checkedAt": "2026-10-21T13:48:34.457Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grappabh/omarchy-pill-overlay",
+        "pluginIds": [
+          "io.github.grappabh.pill-overlay"
+        ],
+        "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T13:48:34.457Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T13:36:18.602Z",
+        "requestEventId": 33850815345,
+        "requestedAt": "2026-10-21T13:38:38Z",
+        "reviewedAt": "2026-10-21T13:48:34.458Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.grappabh.pill-overlay": {
+          "category": "System",
+          "tags": [
+            "quickshell",
+            "system",
+            "games"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
