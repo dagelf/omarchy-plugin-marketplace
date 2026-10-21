@@ -366774,6 +366774,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AgentRBY/omarchy-speedup-browser-startup",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T20:15:14.441Z",
+      "listingValidatedCommit": "ce3abec27db4ca3ffbfba3193b1011a3049f38a9",
+      "listingValidatedAt": "2026-10-21T20:15:14.441Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "agentrby/omarchy-speedup-browser-startup",
+        "pluginIds": [
+          "io.github.agentrby.omarchy-speedup-browser-startup"
+        ],
+        "commit": "ce3abec27db4ca3ffbfba3193b1011a3049f38a9",
+        "checkedAt": "2026-10-21T20:15:14.308Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "agentrby/omarchy-speedup-browser-startup",
+        "pluginIds": [
+          "io.github.agentrby.omarchy-speedup-browser-startup"
+        ],
+        "commit": "ce3abec27db4ca3ffbfba3193b1011a3049f38a9",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T20:15:14.308Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T17:21:28.833Z",
+        "requestEventId": 33882550180,
+        "requestedAt": "2026-10-21T19:43:30Z",
+        "reviewedAt": "2026-10-21T20:15:14.308Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.agentrby.omarchy-speedup-browser-startup": {
+          "category": "System",
+          "tags": [
+            "system",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
