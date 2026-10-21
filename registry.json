@@ -363326,6 +363326,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/sersah/Study-Tracker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T12:04:14.112Z",
+      "listingValidatedCommit": "b9845733b7d1e80c196e3704a439d78087ed173f",
+      "listingValidatedAt": "2026-10-21T12:04:14.112Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "sersah/study-tracker",
+        "pluginIds": [
+          "io.github.sersah.study-tracker"
+        ],
+        "commit": "b9845733b7d1e80c196e3704a439d78087ed173f",
+        "checkedAt": "2026-10-21T12:04:13.950Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.sersah.study-tracker": {
+          "category": "Productivity",
+          "tags": [
+            "education",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
