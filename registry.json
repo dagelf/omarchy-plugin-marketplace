@@ -364926,6 +364926,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ombrascarlatta/omarchy-audio-ports",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T15:49:02.007Z",
+      "listingValidatedCommit": "9d58f121ab8492146755663439b621d383713da5",
+      "listingValidatedAt": "2026-10-21T15:49:02.007Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ombrascarlatta/omarchy-audio-ports",
+        "pluginIds": [
+          "ombrascarlatta.audio-ports"
+        ],
+        "commit": "9d58f121ab8492146755663439b621d383713da5",
+        "checkedAt": "2026-10-21T15:49:01.836Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ombrascarlatta.audio-ports": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
