@@ -339337,8 +339337,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T23:09:00.316Z",
-      "listingValidatedCommit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
-      "listingValidatedAt": "2026-10-11T23:09:00.316Z",
+      "listingValidatedCommit": "c745e48817af9308404b9d481d669db7041df24d",
+      "listingValidatedAt": "2026-10-21T11:59:19.699Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -339347,12 +339347,14 @@
         "pluginIds": [
           "more-gestures"
         ],
-        "commit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
-        "checkedAt": "2026-10-11T23:09:00.171Z",
-        "outcome": "passed",
+        "commit": "c745e48817af9308404b9d481d669db7041df24d",
+        "checkedAt": "2026-10-21T11:59:19.699Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "privilege"
+        ]
       },
       "plugins": {
         "more-gestures": {
@@ -339368,7 +339370,50 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "t-the-coder/more-gestures",
+        "pluginIds": [
+          "more-gestures"
+        ],
+        "commit": "c745e48817af9308404b9d481d669db7041df24d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T11:59:19.699Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-19T18:54:53.786Z",
+        "requestEventId": 33841758983,
+        "requestedAt": "2026-10-21T11:55:06Z",
+        "reviewedAt": "2026-10-21T11:59:19.699Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
+          "validatedAt": "2026-10-11T23:09:00.316Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T11:59:19.699Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "t-the-coder/more-gestures",
+            "pluginIds": [
+              "more-gestures"
+            ],
+            "commit": "85e863dae11a733e54696d8b52eb0f8aafd4dde8",
+            "checkedAt": "2026-10-11T23:09:00.171Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/kristjaningi/omarchy-touchline",
