@@ -354750,8 +354750,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T22:18:23.951Z",
-      "listingValidatedCommit": "99e3e5edf437ee075cdd682d2003e4d898aacae6",
-      "listingValidatedAt": "2026-10-17T22:18:23.951Z",
+      "listingValidatedCommit": "b6aac85e016387b6672f55672b3cf71a49d12177",
+      "listingValidatedAt": "2026-10-21T16:17:27.581Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -354760,8 +354760,8 @@
         "pluginIds": [
           "emrgim.shader-desk"
         ],
-        "commit": "99e3e5edf437ee075cdd682d2003e4d898aacae6",
-        "checkedAt": "2026-10-17T22:18:23.803Z",
+        "commit": "b6aac85e016387b6672f55672b3cf71a49d12177",
+        "checkedAt": "2026-10-21T16:17:27.581Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -354776,7 +354776,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "99e3e5edf437ee075cdd682d2003e4d898aacae6",
+          "validatedAt": "2026-10-17T22:18:23.951Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T16:17:27.581Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "emrgim/shader-desk",
+            "pluginIds": [
+              "emrgim.shader-desk"
+            ],
+            "commit": "99e3e5edf437ee075cdd682d2003e4d898aacae6",
+            "checkedAt": "2026-10-17T22:18:23.803Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/vladgabrielboca/omarchy-monitor-workspaces",
