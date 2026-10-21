@@ -278314,8 +278314,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-29",
       "listedAt": "2026-09-29T15:39:49.939Z",
-      "listingValidatedCommit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
-      "listingValidatedAt": "2026-09-29T15:39:49.939Z",
+      "listingValidatedCommit": "35ec0e59f5f7f6e4aa8aaa64822876628ba161c7",
+      "listingValidatedAt": "2026-10-21T12:22:42.651Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -278324,8 +278324,8 @@
         "pluginIds": [
           "community.v2ray-client"
         ],
-        "commit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
-        "checkedAt": "2026-09-29T15:39:49.848Z",
+        "commit": "35ec0e59f5f7f6e4aa8aaa64822876628ba161c7",
+        "checkedAt": "2026-10-21T12:22:42.651Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -278335,30 +278335,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "justhosi/v2ray-plugin",
-        "pluginIds": [
-          "community.v2ray-client"
-        ],
-        "commit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T15:39:49.848Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "remote-build",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-29T14:20:56.946Z",
-        "requestEventId": 32087487703,
-        "requestedAt": "2026-09-29T14:25:44Z",
-        "reviewedAt": "2026-09-29T15:39:49.848Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "community.v2ray-client": {
@@ -278373,7 +278349,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "justhosi/v2ray-plugin",
+        "pluginIds": [
+          "community.v2ray-client"
+        ],
+        "commit": "35ec0e59f5f7f6e4aa8aaa64822876628ba161c7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T12:22:42.651Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T10:53:20.285Z",
+        "requestEventId": 33843732294,
+        "requestedAt": "2026-10-21T12:19:10Z",
+        "reviewedAt": "2026-10-21T12:22:42.651Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
+          "validatedAt": "2026-09-29T15:39:49.939Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T12:22:42.651Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "justhosi/v2ray-plugin",
+            "pluginIds": [
+              "community.v2ray-client"
+            ],
+            "commit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
+            "checkedAt": "2026-09-29T15:39:49.848Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "justhosi/v2ray-plugin",
+            "pluginIds": [
+              "community.v2ray-client"
+            ],
+            "commit": "e0b8b3c5f0b740674dda648432f49f9b344ac8a1",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T15:39:49.848Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "remote-build",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-29T14:20:56.946Z",
+            "requestEventId": 32087487703,
+            "requestedAt": "2026-09-29T14:25:44Z",
+            "reviewedAt": "2026-09-29T15:39:49.848Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/nicknow/omarchy.nicknow.weather",
