@@ -362046,6 +362046,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CallMeBakugo/omarchy-mullvad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T02:13:53.191Z",
+      "listingValidatedCommit": "13be1434a6066db89a2af0e1e649a9b0fefe0dab",
+      "listingValidatedAt": "2026-10-21T02:13:53.191Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "callmebakugo/omarchy-mullvad",
+        "pluginIds": [
+          "bakugo.mullvad"
+        ],
+        "commit": "13be1434a6066db89a2af0e1e649a9b0fefe0dab",
+        "checkedAt": "2026-10-21T02:13:53.027Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "callmebakugo/omarchy-mullvad",
+        "pluginIds": [
+          "bakugo.mullvad"
+        ],
+        "commit": "13be1434a6066db89a2af0e1e649a9b0fefe0dab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T02:13:53.027Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T02:10:58.035Z",
+        "requestEventId": 33803894689,
+        "requestedAt": "2026-10-21T02:13:25Z",
+        "reviewedAt": "2026-10-21T02:13:53.027Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "bakugo.mullvad": {
+          "category": "Widgets",
+          "tags": [
+            "vpn",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
