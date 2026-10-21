@@ -149606,8 +149606,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-05",
       "listedAt": "2026-09-05T22:52:08.427Z",
-      "listingValidatedCommit": "d3db145b1d3321da3008a9acd0d61da2c40e6071",
-      "listingValidatedAt": "2026-09-27T08:50:31.371Z",
+      "listingValidatedCommit": "e80070a611e1dba44f03b0f932469e10226f26dd",
+      "listingValidatedAt": "2026-10-21T13:12:30.435Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -149616,8 +149616,8 @@
         "pluginIds": [
           "nzkritik.matrix-rain"
         ],
-        "commit": "d3db145b1d3321da3008a9acd0d61da2c40e6071",
-        "checkedAt": "2026-09-27T08:50:31.371Z",
+        "commit": "e80070a611e1dba44f03b0f932469e10226f26dd",
+        "checkedAt": "2026-10-21T13:12:30.435Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -149668,6 +149668,26 @@
             ],
             "commit": "81ffea5f45abcde221a04cd3d0dae1a45d89398e",
             "checkedAt": "2026-09-11T20:00:54.144Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "d3db145b1d3321da3008a9acd0d61da2c40e6071",
+          "validatedAt": "2026-09-27T08:50:31.371Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T13:12:30.435Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nzkritik/omarchy-matrix-rain",
+            "pluginIds": [
+              "nzkritik.matrix-rain"
+            ],
+            "commit": "d3db145b1d3321da3008a9acd0d61da2c40e6071",
+            "checkedAt": "2026-09-27T08:50:31.371Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
