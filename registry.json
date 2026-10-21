@@ -362691,6 +362691,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/lb6eh/omarchy-cw-quest",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T08:17:35.432Z",
+      "listingValidatedCommit": "ee9f76b2276b53a29f5a7f886f7b15c9c1bcfd8c",
+      "listingValidatedAt": "2026-10-21T08:17:35.432Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lb6eh/omarchy-cw-quest",
+        "pluginIds": [
+          "lb6eh.cw-quest"
+        ],
+        "commit": "ee9f76b2276b53a29f5a7f886f7b15c9c1bcfd8c",
+        "checkedAt": "2026-10-21T08:17:35.268Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "lb6eh.cw-quest": {
+          "category": "Widgets",
+          "tags": [
+            "games",
+            "bar",
+            "education"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
