@@ -362576,6 +362576,64 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/second-state/omarchy-vibeup-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T05:16:52.059Z",
+      "listingValidatedCommit": "ee3fdad663e83b24ef66940484f05b21f20d7c57",
+      "listingValidatedAt": "2026-10-21T05:16:52.059Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "second-state/omarchy-vibeup-plugin",
+        "pluginIds": [
+          "io.github.second-state.vibeup"
+        ],
+        "commit": "ee3fdad663e83b24ef66940484f05b21f20d7c57",
+        "checkedAt": "2026-10-21T05:16:51.885Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "second-state/omarchy-vibeup-plugin",
+        "pluginIds": [
+          "io.github.second-state.vibeup"
+        ],
+        "commit": "ee3fdad663e83b24ef66940484f05b21f20d7c57",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T05:16:51.885Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T05:12:17.893Z",
+        "requestEventId": 33813314240,
+        "requestedAt": "2026-10-21T05:16:19Z",
+        "reviewedAt": "2026-10-21T05:16:51.885Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.second-state.vibeup": {
+          "category": "Hardware",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
