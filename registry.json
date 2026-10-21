@@ -362013,6 +362013,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/questflowai/omatrade",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T02:06:56.922Z",
+      "listingValidatedCommit": "99500ac9bed30e553109d1e26511834225c0c52d",
+      "listingValidatedAt": "2026-10-21T02:06:56.922Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "questflowai/omatrade",
+        "pluginIds": [
+          "questflow.omatrade"
+        ],
+        "commit": "99500ac9bed30e553109d1e26511834225c0c52d",
+        "checkedAt": "2026-10-21T02:06:56.783Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "questflow.omatrade": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
