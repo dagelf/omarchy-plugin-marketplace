@@ -364298,6 +364298,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ThePsyberSleuth/omarchy-battery-guard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:58:10.635Z",
+      "listingValidatedCommit": "d2e1423652ad27822c6180595dcbda2cf2fe3b21",
+      "listingValidatedAt": "2026-10-21T13:58:10.635Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thepsybersleuth/omarchy-battery-guard",
+        "pluginIds": [
+          "thepsybersleuth.battery-guard"
+        ],
+        "commit": "d2e1423652ad27822c6180595dcbda2cf2fe3b21",
+        "checkedAt": "2026-10-21T13:58:10.453Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thepsybersleuth/omarchy-battery-guard",
+        "pluginIds": [
+          "thepsybersleuth.battery-guard"
+        ],
+        "commit": "d2e1423652ad27822c6180595dcbda2cf2fe3b21",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T13:58:10.453Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-10T08:25:13.125Z",
+        "requestEventId": 33851647873,
+        "requestedAt": "2026-10-21T13:47:38Z",
+        "reviewedAt": "2026-10-21T13:58:10.453Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "thepsybersleuth.battery-guard": {
+          "category": "Hardware",
+          "tags": [
+            "power-management",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
