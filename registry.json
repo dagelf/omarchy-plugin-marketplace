@@ -362762,6 +362762,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/M1ke324/omarchy-keyboard-toggle",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T09:07:24.760Z",
+      "listingValidatedCommit": "8d11e899d3fa90a12d22698d5c6282460ac5289e",
+      "listingValidatedAt": "2026-10-21T09:07:24.760Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "m1ke324/omarchy-keyboard-toggle",
+        "pluginIds": [
+          "io.github.m1ke324.keyboard-toggle"
+        ],
+        "commit": "8d11e899d3fa90a12d22698d5c6282460ac5289e",
+        "checkedAt": "2026-10-21T09:07:24.574Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.m1ke324.keyboard-toggle": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
