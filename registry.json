@@ -365442,8 +365442,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T14:25:25.213Z",
-      "listingValidatedCommit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
-      "listingValidatedAt": "2026-10-21T14:25:25.213Z",
+      "listingValidatedCommit": "cf79cccd2899a86c55d8926839116d8980b511b5",
+      "listingValidatedAt": "2026-10-21T19:54:50.725Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -365452,8 +365452,8 @@
         "pluginIds": [
           "io.github.fterenas.omasound-airplay"
         ],
-        "commit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
-        "checkedAt": "2026-10-21T14:25:25.053Z",
+        "commit": "cf79cccd2899a86c55d8926839116d8980b511b5",
+        "checkedAt": "2026-10-21T19:54:50.725Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -365462,29 +365462,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "fterenas/omarchy-omasound-airplay",
-        "pluginIds": [
-          "io.github.fterenas.omasound-airplay"
-        ],
-        "commit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T14:25:25.053Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T23:52:07.883Z",
-        "requestEventId": 33855154686,
-        "requestedAt": "2026-10-21T14:24:52Z",
-        "reviewedAt": "2026-10-21T14:25:25.053Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.fterenas.omasound-airplay": {
@@ -365500,7 +365477,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "fterenas/omarchy-omasound-airplay",
+        "pluginIds": [
+          "io.github.fterenas.omasound-airplay"
+        ],
+        "commit": "cf79cccd2899a86c55d8926839116d8980b511b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:54:50.725Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T14:59:43.483Z",
+        "requestEventId": 33879212338,
+        "requestedAt": "2026-10-21T19:02:06Z",
+        "reviewedAt": "2026-10-21T19:54:50.725Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
+          "validatedAt": "2026-10-21T14:25:25.213Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T19:54:50.725Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "fterenas/omarchy-omasound-airplay",
+            "pluginIds": [
+              "io.github.fterenas.omasound-airplay"
+            ],
+            "commit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
+            "checkedAt": "2026-10-21T14:25:25.053Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "fterenas/omarchy-omasound-airplay",
+            "pluginIds": [
+              "io.github.fterenas.omasound-airplay"
+            ],
+            "commit": "b7c0aa7d405483b3e56ba5e30483cd93561d662e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T14:25:25.053Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T23:52:07.883Z",
+            "requestEventId": 33855154686,
+            "requestedAt": "2026-10-21T14:24:52Z",
+            "reviewedAt": "2026-10-21T14:25:25.053Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/WhiskeyTangoFussell/omarchy-matrix-screens",
