@@ -361922,6 +361922,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Andean-Bridge/omarchy-quick-apps",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T01:28:01.165Z",
+      "listingValidatedCommit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
+      "listingValidatedAt": "2026-10-21T01:28:01.165Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "andean-bridge/omarchy-quick-apps",
+        "pluginIds": [
+          "andean-bridge.quick-apps"
+        ],
+        "commit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
+        "checkedAt": "2026-10-21T01:28:00.963Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "andean-bridge.quick-apps": {
+          "category": "Desktop",
+          "tags": [
+            "launcher",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
