@@ -364454,6 +364454,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Motzemoere/BurningCat",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T14:12:24.808Z",
+      "listingValidatedCommit": "892d2c12cdd597a9e7974b37b8fce4be5ea59375",
+      "listingValidatedAt": "2026-10-21T14:12:24.808Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "motzemoere/burningcat",
+        "pluginIds": [
+          "motzemoere.burningcat"
+        ],
+        "commit": "892d2c12cdd597a9e7974b37b8fce4be5ea59375",
+        "checkedAt": "2026-10-21T14:12:24.702Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "motzemoere.burningcat": {
+          "category": "Other",
+          "tags": [
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
