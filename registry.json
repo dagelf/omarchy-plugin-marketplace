@@ -362634,6 +362634,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hari45wavin/omarchy-mac-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T07:26:25.803Z",
+      "listingValidatedCommit": "0492959efa7da6ff911a908c01043d098b367865",
+      "listingValidatedAt": "2026-10-21T07:26:25.803Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hari45wavin/omarchy-mac-dock",
+        "pluginIds": [
+          "omarchy-mac-dock"
+        ],
+        "commit": "0492959efa7da6ff911a908c01043d098b367865",
+        "checkedAt": "2026-10-21T07:26:25.656Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hari45wavin/omarchy-mac-dock",
+        "pluginIds": [
+          "omarchy-mac-dock"
+        ],
+        "commit": "0492959efa7da6ff911a908c01043d098b367865",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T07:26:25.656Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T07:22:40.799Z",
+        "requestEventId": 33821116072,
+        "requestedAt": "2026-10-21T07:25:54Z",
+        "reviewedAt": "2026-10-21T07:26:25.656Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "omarchy-mac-dock": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
