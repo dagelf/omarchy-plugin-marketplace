@@ -354824,8 +354824,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T22:25:24.936Z",
-      "listingValidatedCommit": "ed815b747ae5a9986b93a6a85644eec88b679248",
-      "listingValidatedAt": "2026-10-17T22:25:24.936Z",
+      "listingValidatedCommit": "45acc674f3f2574f10be03ddb66324f5edc19a74",
+      "listingValidatedAt": "2026-10-21T15:45:44.746Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -354834,8 +354834,8 @@
         "pluginIds": [
           "io.github.shredder32.keydojo"
         ],
-        "commit": "ed815b747ae5a9986b93a6a85644eec88b679248",
-        "checkedAt": "2026-10-17T22:25:24.827Z",
+        "commit": "45acc674f3f2574f10be03ddb66324f5edc19a74",
+        "checkedAt": "2026-10-21T15:45:44.746Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -354851,7 +354851,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ed815b747ae5a9986b93a6a85644eec88b679248",
+          "validatedAt": "2026-10-17T22:25:24.936Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T15:45:44.746Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "shredder32/omarchy-keydojo",
+            "pluginIds": [
+              "io.github.shredder32.keydojo"
+            ],
+            "commit": "ed815b747ae5a9986b93a6a85644eec88b679248",
+            "checkedAt": "2026-10-17T22:25:24.827Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/D05Col/omarchy-aorus-fan",
