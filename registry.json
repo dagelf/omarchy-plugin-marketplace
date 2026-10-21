@@ -363222,6 +363222,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/momostifler96/omarchy-dbclient",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T11:55:30.872Z",
+      "listingValidatedCommit": "cd10ca8abe1374a29d0c20a2a631a19e3c4f5c1e",
+      "listingValidatedAt": "2026-10-21T11:55:30.872Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "momostifler96/omarchy-dbclient",
+        "pluginIds": [
+          "momoledev.dbclient"
+        ],
+        "commit": "cd10ca8abe1374a29d0c20a2a631a19e3c4f5c1e",
+        "checkedAt": "2026-10-21T11:55:30.706Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "momostifler96/omarchy-dbclient",
+        "pluginIds": [
+          "momoledev.dbclient"
+        ],
+        "commit": "cd10ca8abe1374a29d0c20a2a631a19e3c4f5c1e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T11:55:30.706Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T11:44:55.888Z",
+        "requestEventId": 33841752504,
+        "requestedAt": "2026-10-21T11:55:01Z",
+        "reviewedAt": "2026-10-21T11:55:30.706Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "momoledev.dbclient": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
