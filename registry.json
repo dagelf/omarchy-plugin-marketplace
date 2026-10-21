@@ -365002,6 +365002,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/vk2r/battle-station",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:01:12.087Z",
+      "listingValidatedCommit": "4bbbb32d228a9b7b71cb5be81d8649cd5147c4d8",
+      "listingValidatedAt": "2026-10-21T16:01:12.087Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vk2r/battle-station",
+        "pluginIds": [
+          "io.github.vk2r.battle-station"
+        ],
+        "commit": "4bbbb32d228a9b7b71cb5be81d8649cd5147c4d8",
+        "checkedAt": "2026-10-21T16:01:11.921Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vk2r/battle-station",
+        "pluginIds": [
+          "io.github.vk2r.battle-station"
+        ],
+        "commit": "4bbbb32d228a9b7b71cb5be81d8649cd5147c4d8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T16:01:11.921Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-15T01:53:39.928Z",
+        "requestEventId": 33861129716,
+        "requestedAt": "2026-10-21T15:31:16Z",
+        "reviewedAt": "2026-10-21T16:01:11.922Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.vk2r.battle-station": {
+          "category": "System",
+          "tags": [
+            "ai",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
