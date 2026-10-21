@@ -364036,6 +364036,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kazuhidet/Omarchy-Mac-TouchBarBrightnessColtrol",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:35:32.457Z",
+      "listingValidatedCommit": "20000538a6a65376dfacf817ea95ca2348cd4927",
+      "listingValidatedAt": "2026-10-21T13:35:32.457Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kazuhidet/omarchy-mac-touchbarbrightnesscoltrol",
+        "pluginIds": [
+          "kazu.touchbar"
+        ],
+        "commit": "20000538a6a65376dfacf817ea95ca2348cd4927",
+        "checkedAt": "2026-10-21T13:35:32.287Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kazuhidet/omarchy-mac-touchbarbrightnesscoltrol",
+        "pluginIds": [
+          "kazu.touchbar"
+        ],
+        "commit": "20000538a6a65376dfacf817ea95ca2348cd4927",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T13:35:32.287Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T03:05:31.979Z",
+        "requestEventId": 33850032257,
+        "requestedAt": "2026-10-21T13:30:19Z",
+        "reviewedAt": "2026-10-21T13:35:32.287Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kazu.touchbar": {
+          "category": "System",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
