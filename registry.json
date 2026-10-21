@@ -362479,6 +362479,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jeremiahjohnston/omarchy-wunderground",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T04:56:33.850Z",
+      "listingValidatedCommit": "6cd86f59f83fd66cbb8be6d2f6b7c928385b3dea",
+      "listingValidatedAt": "2026-10-21T04:56:33.850Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jeremiahjohnston/omarchy-wunderground",
+        "pluginIds": [
+          "io.github.jeremiahjohnston.wunderground"
+        ],
+        "commit": "6cd86f59f83fd66cbb8be6d2f6b7c928385b3dea",
+        "checkedAt": "2026-10-21T04:56:33.687Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jeremiahjohnston.wunderground": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
