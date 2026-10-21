@@ -362512,6 +362512,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Lcryolite/omarchy-clipper",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T05:08:35.781Z",
+      "listingValidatedCommit": "3bf3d1fd8f92453ebdda98c289322bf18a2b9f35",
+      "listingValidatedAt": "2026-10-21T05:08:35.781Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "lcryolite/omarchy-clipper",
+        "pluginIds": [
+          "lcryolite.clipper"
+        ],
+        "commit": "3bf3d1fd8f92453ebdda98c289322bf18a2b9f35",
+        "checkedAt": "2026-10-21T05:08:35.638Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lcryolite/omarchy-clipper",
+        "pluginIds": [
+          "lcryolite.clipper"
+        ],
+        "commit": "3bf3d1fd8f92453ebdda98c289322bf18a2b9f35",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T05:08:35.638Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T05:05:50.452Z",
+        "requestEventId": 33812879319,
+        "requestedAt": "2026-10-21T05:08:03Z",
+        "reviewedAt": "2026-10-21T05:08:35.638Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "lcryolite.clipper": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
