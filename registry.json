@@ -362293,6 +362293,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/zhaohang1205/horae_for_omarchy_shell",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T04:18:28.076Z",
+      "listingValidatedCommit": "0ac32e4191d4e3f02ffad56f13dfe30c5658c0a1",
+      "listingValidatedAt": "2026-10-21T04:18:28.076Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zhaohang1205/horae_for_omarchy_shell",
+        "pluginIds": [
+          "io.github.zhaohang1205.horae-tasks"
+        ],
+        "commit": "0ac32e4191d4e3f02ffad56f13dfe30c5658c0a1",
+        "checkedAt": "2026-10-21T04:18:27.923Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zhaohang1205/horae_for_omarchy_shell",
+        "pluginIds": [
+          "io.github.zhaohang1205.horae-tasks"
+        ],
+        "commit": "0ac32e4191d4e3f02ffad56f13dfe30c5658c0a1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T04:18:27.923Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T04:16:12.595Z",
+        "requestEventId": 33810390151,
+        "requestedAt": "2026-10-21T04:17:57Z",
+        "reviewedAt": "2026-10-21T04:18:27.924Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.zhaohang1205.horae-tasks": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
