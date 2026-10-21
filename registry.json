@@ -365655,6 +365655,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/momostifler96/omarchy-tot",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T17:15:06.033Z",
+      "listingValidatedCommit": "6907fc250bc67b56ecc6410f91dcd9b221656a1e",
+      "listingValidatedAt": "2026-10-21T17:15:06.033Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "momostifler96/omarchy-tot",
+        "pluginIds": [
+          "momoledev.tot"
+        ],
+        "commit": "6907fc250bc67b56ecc6410f91dcd9b221656a1e",
+        "checkedAt": "2026-10-21T17:15:05.941Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "momostifler96/omarchy-tot",
+        "pluginIds": [
+          "momoledev.tot"
+        ],
+        "commit": "6907fc250bc67b56ecc6410f91dcd9b221656a1e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T17:15:05.941Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T13:45:41.307Z",
+        "requestEventId": 33869696892,
+        "requestedAt": "2026-10-21T17:08:30Z",
+        "reviewedAt": "2026-10-21T17:15:05.941Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "momoledev.tot": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
