@@ -364095,6 +364095,67 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/saurasanchezpablo/tabby-integration",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:40:10.570Z",
+      "listingValidatedCommit": "7bf6be80ab064c7a214e63c159562abdffcb4174",
+      "listingValidatedAt": "2026-10-21T13:40:10.570Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "saurasanchezpablo/tabby-integration",
+        "pluginIds": [
+          "io.github.saurasanchezpablo.tabby"
+        ],
+        "commit": "7bf6be80ab064c7a214e63c159562abdffcb4174",
+        "checkedAt": "2026-10-21T13:40:10.422Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "saurasanchezpablo/tabby-integration",
+        "pluginIds": [
+          "io.github.saurasanchezpablo.tabby"
+        ],
+        "commit": "7bf6be80ab064c7a214e63c159562abdffcb4174",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T13:40:10.422Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-09T16:28:47.668Z",
+        "requestEventId": 33850159239,
+        "requestedAt": "2026-10-21T13:31:40Z",
+        "reviewedAt": "2026-10-21T13:40:10.422Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.saurasanchezpablo.tabby": {
+          "category": "Developer Tools",
+          "tags": [
+            "hyprland",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
