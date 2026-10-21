@@ -365556,6 +365556,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/n1s/omarchy-sleep-fast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T17:05:41.338Z",
+      "listingValidatedCommit": "11bf9f87d525f15e5177cf96f21acb860ab721e7",
+      "listingValidatedAt": "2026-10-21T17:05:41.338Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "n1s/omarchy-sleep-fast",
+        "pluginIds": [
+          "sleep-fast"
+        ],
+        "commit": "11bf9f87d525f15e5177cf96f21acb860ab721e7",
+        "checkedAt": "2026-10-21T17:05:41.155Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "sleep-fast": {
+          "category": "System",
+          "tags": [
+            "launcher"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
