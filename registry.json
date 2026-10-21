@@ -236229,8 +236229,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T11:19:03.233Z",
-      "listingValidatedCommit": "b76f7638112a8a3586e55d22aff7e45ddcecd13b",
-      "listingValidatedAt": "2026-10-16T16:59:20.312Z",
+      "listingValidatedCommit": "f3554ae08609e56ba2a3fe9950bc2b3ecb25bb28",
+      "listingValidatedAt": "2026-10-21T12:30:35.207Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -236239,8 +236239,8 @@
         "pluginIds": [
           "yakumy.station"
         ],
-        "commit": "b76f7638112a8a3586e55d22aff7e45ddcecd13b",
-        "checkedAt": "2026-10-16T16:59:20.312Z",
+        "commit": "f3554ae08609e56ba2a3fe9950bc2b3ecb25bb28",
+        "checkedAt": "2026-10-21T12:30:35.207Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -236361,6 +236361,26 @@
             ],
             "commit": "fd970f1e01696b861c5ce849bf72470cf9fdd687",
             "checkedAt": "2026-10-13T23:48:50.401Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "b76f7638112a8a3586e55d22aff7e45ddcecd13b",
+          "validatedAt": "2026-10-16T16:59:20.312Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T12:30:35.207Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yakumy/station",
+            "pluginIds": [
+              "yakumy.station"
+            ],
+            "commit": "b76f7638112a8a3586e55d22aff7e45ddcecd13b",
+            "checkedAt": "2026-10-16T16:59:20.312Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
