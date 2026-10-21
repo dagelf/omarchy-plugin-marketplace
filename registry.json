@@ -291918,8 +291918,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T01:28:00.637Z",
-      "listingValidatedCommit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
-      "listingValidatedAt": "2026-10-06T01:12:07.139Z",
+      "listingValidatedCommit": "527aa64b2275f40a08387dfb8b79598f6db31327",
+      "listingValidatedAt": "2026-10-21T21:14:46.607Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -291928,8 +291928,8 @@
         "pluginIds": [
           "tempest-chaoscreator.omaflow"
         ],
-        "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
-        "checkedAt": "2026-10-06T01:12:07.139Z",
+        "commit": "527aa64b2275f40a08387dfb8b79598f6db31327",
+        "checkedAt": "2026-10-21T21:14:46.607Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -292056,6 +292056,57 @@
             "reviewedAt": "2026-10-03T11:46:47.510Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+          "validatedAt": "2026-10-06T01:12:07.139Z",
+          "branch": "master",
+          "supersededAt": "2026-10-21T21:14:46.607Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tempest-chaoscreator/omaflow",
+            "pluginIds": [
+              "tempest-chaoscreator.omaflow"
+            ],
+            "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+            "checkedAt": "2026-10-06T01:12:07.139Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tempest-chaoscreator/omaflow",
+            "pluginIds": [
+              "tempest-chaoscreator.omaflow"
+            ],
+            "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T01:12:07.139Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "privilege",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T00:03:14.085Z",
+            "requestEventId": 32558760665,
+            "requestedAt": "2026-10-06T01:11:40Z",
+            "reviewedAt": "2026-10-06T01:12:07.139Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -292064,10 +292115,10 @@
         "pluginIds": [
           "tempest-chaoscreator.omaflow"
         ],
-        "commit": "e47e190f8287eb1d66d9a949489bae75cc9d8fe2",
+        "commit": "527aa64b2275f40a08387dfb8b79598f6db31327",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T01:12:07.139Z",
+        "baselineCheckedAt": "2026-10-21T21:14:46.607Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -292077,10 +292128,10 @@
           "remote-build",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-06T00:03:14.085Z",
-        "requestEventId": 32558760665,
-        "requestedAt": "2026-10-06T01:11:40Z",
-        "reviewedAt": "2026-10-06T01:12:07.139Z",
+        "reviewedBaselineCheckedAt": "2026-10-21T21:04:27.514Z",
+        "requestEventId": 33889736382,
+        "requestedAt": "2026-10-21T21:14:14Z",
+        "reviewedAt": "2026-10-21T21:14:46.607Z",
         "reviewer": "HANCORE-linux"
       }
     },
