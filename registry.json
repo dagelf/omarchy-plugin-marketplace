@@ -361592,8 +361592,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-20",
       "listedAt": "2026-10-20T23:03:36.973Z",
-      "listingValidatedCommit": "83238996d0b92415182450a1e696565e40ff6135",
-      "listingValidatedAt": "2026-10-20T23:03:36.973Z",
+      "listingValidatedCommit": "9ab9799010d2f1c5e9bd4b78769a22d1c44dcf6a",
+      "listingValidatedAt": "2026-10-21T12:52:07.328Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -361602,8 +361602,8 @@
         "pluginIds": [
           "io.github.statick.lang-toggle"
         ],
-        "commit": "83238996d0b92415182450a1e696565e40ff6135",
-        "checkedAt": "2026-10-20T23:03:36.780Z",
+        "commit": "9ab9799010d2f1c5e9bd4b78769a22d1c44dcf6a",
+        "checkedAt": "2026-10-21T12:52:07.328Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -361623,7 +361623,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "83238996d0b92415182450a1e696565e40ff6135",
+          "validatedAt": "2026-10-20T23:03:36.973Z",
+          "branch": "master",
+          "supersededAt": "2026-10-21T12:52:07.328Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "statick88/omarchy-lang-toggle",
+            "pluginIds": [
+              "io.github.statick.lang-toggle"
+            ],
+            "commit": "83238996d0b92415182450a1e696565e40ff6135",
+            "checkedAt": "2026-10-20T23:03:36.780Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tbye/omadown",
