@@ -246533,8 +246533,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T09:18:24.478Z",
-      "listingValidatedCommit": "ebdd0e1dc282534e2b8d45fba2bd932f63f89c93",
-      "listingValidatedAt": "2026-10-02T18:39:29.125Z",
+      "listingValidatedCommit": "58801de609b22425973b16261dc5991a3e20a590",
+      "listingValidatedAt": "2026-10-21T19:44:00.716Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -246543,12 +246543,14 @@
         "pluginIds": [
           "ozdil.omanotes"
         ],
-        "commit": "ebdd0e1dc282534e2b8d45fba2bd932f63f89c93",
-        "checkedAt": "2026-10-02T18:39:29.125Z",
-        "outcome": "passed",
+        "commit": "58801de609b22425973b16261dc5991a3e20a590",
+        "checkedAt": "2026-10-21T19:44:00.716Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "installer"
+        ]
       },
       "plugins": {
         "ozdil.omanotes": {
@@ -246580,8 +246582,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "ebdd0e1dc282534e2b8d45fba2bd932f63f89c93",
+          "validatedAt": "2026-10-02T18:39:29.125Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T19:44:00.716Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ozdil/omarchy-omanotes",
+            "pluginIds": [
+              "ozdil.omanotes"
+            ],
+            "commit": "ebdd0e1dc282534e2b8d45fba2bd932f63f89c93",
+            "checkedAt": "2026-10-02T18:39:29.125Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ozdil/omarchy-omanotes",
+        "pluginIds": [
+          "ozdil.omanotes"
+        ],
+        "commit": "58801de609b22425973b16261dc5991a3e20a590",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:44:00.716Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T08:19:38.103Z",
+        "requestEventId": 33879186719,
+        "requestedAt": "2026-10-21T19:01:47Z",
+        "reviewedAt": "2026-10-21T19:44:00.716Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/greenermoose/sysinfo-fred-tamlinux",
