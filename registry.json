@@ -364420,6 +364420,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ThePsyberSleuth/omarchy-audio-port-switcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T14:08:05.718Z",
+      "listingValidatedCommit": "0c643fc507c015c25550c58656b5bff383e12b60",
+      "listingValidatedAt": "2026-10-21T14:08:05.718Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thepsybersleuth/omarchy-audio-port-switcher",
+        "pluginIds": [
+          "thepsybersleuth.audio-port-switcher"
+        ],
+        "commit": "0c643fc507c015c25550c58656b5bff383e12b60",
+        "checkedAt": "2026-10-21T14:08:05.536Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "thepsybersleuth.audio-port-switcher": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
