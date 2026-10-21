@@ -365401,6 +365401,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/prostratepossum/omarchy-living-lock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:48:46.213Z",
+      "listingValidatedCommit": "26a3a537c39f7bd0aefd546e0b895579a9e4edfb",
+      "listingValidatedAt": "2026-10-21T16:48:46.213Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "prostratepossum/omarchy-living-lock",
+        "pluginIds": [
+          "io.github.prostratepossum.living-lock"
+        ],
+        "commit": "26a3a537c39f7bd0aefd546e0b895579a9e4edfb",
+        "checkedAt": "2026-10-21T16:48:46.056Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.prostratepossum.living-lock": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "security"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
