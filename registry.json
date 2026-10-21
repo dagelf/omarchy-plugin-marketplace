@@ -351969,8 +351969,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T18:12:25.396Z",
-      "listingValidatedCommit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
-      "listingValidatedAt": "2026-10-19T23:17:00.817Z",
+      "listingValidatedCommit": "bbae012a674ce27d59cde5709a233d0fdb872f12",
+      "listingValidatedAt": "2026-10-21T20:34:12.596Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -351979,8 +351979,8 @@
         "pluginIds": [
           "io.github.sabb4th.powerkit"
         ],
-        "commit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
-        "checkedAt": "2026-10-19T23:17:00.817Z",
+        "commit": "bbae012a674ce27d59cde5709a233d0fdb872f12",
+        "checkedAt": "2026-10-21T20:34:12.596Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -352005,30 +352005,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "sabb4th/omarchy-powerkit",
-        "pluginIds": [
-          "io.github.sabb4th.powerkit"
-        ],
-        "commit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-19T23:17:00.817Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-18T23:35:58.705Z",
-        "requestEventId": 33693378210,
-        "requestedAt": "2026-10-19T23:08:09Z",
-        "reviewedAt": "2026-10-19T23:17:00.817Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -352077,8 +352053,81 @@
             "reviewedAt": "2026-10-16T18:12:25.277Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
+          "validatedAt": "2026-10-19T23:17:00.817Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T20:34:12.596Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "sabb4th/omarchy-powerkit",
+            "pluginIds": [
+              "io.github.sabb4th.powerkit"
+            ],
+            "commit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
+            "checkedAt": "2026-10-19T23:17:00.817Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "sabb4th/omarchy-powerkit",
+            "pluginIds": [
+              "io.github.sabb4th.powerkit"
+            ],
+            "commit": "22fef4f379e3fc4578182792c4c13aa0273341c2",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-19T23:17:00.817Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-18T23:35:58.705Z",
+            "requestEventId": 33693378210,
+            "requestedAt": "2026-10-19T23:08:09Z",
+            "reviewedAt": "2026-10-19T23:17:00.817Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "sabb4th/omarchy-powerkit",
+        "pluginIds": [
+          "io.github.sabb4th.powerkit"
+        ],
+        "commit": "bbae012a674ce27d59cde5709a233d0fdb872f12",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T20:34:12.596Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T19:24:30.851Z",
+        "requestEventId": 33884004622,
+        "requestedAt": "2026-10-21T20:01:36Z",
+        "reviewedAt": "2026-10-21T20:34:12.596Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/TylerSw1ft/omarchy-arrange",
