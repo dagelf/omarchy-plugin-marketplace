@@ -87394,8 +87394,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-26",
       "listedAt": "2026-08-26T20:27:23.919Z",
-      "listingValidatedCommit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
-      "listingValidatedAt": "2026-10-07T20:38:42.911Z",
+      "listingValidatedCommit": "3ede4b72d6f4ff96028f147f6530437f409428d1",
+      "listingValidatedAt": "2026-10-21T12:18:41.859Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -87404,8 +87404,8 @@
         "pluginIds": [
           "dev.android-mirroring"
         ],
-        "commit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
-        "checkedAt": "2026-10-07T20:38:42.911Z",
+        "commit": "3ede4b72d6f4ff96028f147f6530437f409428d1",
+        "checkedAt": "2026-10-21T12:18:41.859Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -87425,29 +87425,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "camburalex/android-mirroring-omarchy",
-        "pluginIds": [
-          "dev.android-mirroring"
-        ],
-        "commit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T20:38:42.911Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-07T17:50:06.506Z",
-        "requestEventId": 32724256933,
-        "requestedAt": "2026-10-07T20:31:59Z",
-        "reviewedAt": "2026-10-07T20:38:42.911Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -87492,8 +87469,78 @@
             "reviewedAt": "2026-08-26T20:27:23.875Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
+          "validatedAt": "2026-10-07T20:38:42.911Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T12:18:41.859Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "camburalex/android-mirroring-omarchy",
+            "pluginIds": [
+              "dev.android-mirroring"
+            ],
+            "commit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
+            "checkedAt": "2026-10-07T20:38:42.911Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "camburalex/android-mirroring-omarchy",
+            "pluginIds": [
+              "dev.android-mirroring"
+            ],
+            "commit": "303081c2bf43b2a35cdae303f3bbb1b2cbdf9683",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T20:38:42.911Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T17:50:06.506Z",
+            "requestEventId": 32724256933,
+            "requestedAt": "2026-10-07T20:31:59Z",
+            "reviewedAt": "2026-10-07T20:38:42.911Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "camburalex/android-mirroring-omarchy",
+        "pluginIds": [
+          "dev.android-mirroring"
+        ],
+        "commit": "3ede4b72d6f4ff96028f147f6530437f409428d1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T12:18:41.859Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-17T21:32:20.970Z",
+        "requestEventId": 33843083701,
+        "requestedAt": "2026-10-21T12:11:16Z",
+        "reviewedAt": "2026-10-21T12:18:41.859Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/sanjayatony/omarchy-ddev-projects",
