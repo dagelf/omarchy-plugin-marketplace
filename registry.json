@@ -362725,6 +362725,43 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Hizoul/omarchy-weather-nowcast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T08:41:26.443Z",
+      "listingValidatedCommit": "c9eff64c42b8d8cb236146d7b7827ea9968209d0",
+      "listingValidatedAt": "2026-10-21T08:41:26.443Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hizoul/omarchy-weather-nowcast",
+        "pluginIds": [
+          "mmb.rainnowcast"
+        ],
+        "commit": "c9eff64c42b8d8cb236146d7b7827ea9968209d0",
+        "checkedAt": "2026-10-21T08:41:26.328Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "mmb.rainnowcast": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
