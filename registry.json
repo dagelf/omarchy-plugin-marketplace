@@ -363127,6 +363127,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/momostifler96/omarchy-cleaner",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T11:39:19.552Z",
+      "listingValidatedCommit": "19930160fd4d1cefe8d9ca9e0cfc1cbe2438a9a3",
+      "listingValidatedAt": "2026-10-21T11:39:19.552Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "momostifler96/omarchy-cleaner",
+        "pluginIds": [
+          "io.github.momostifler96.omarchy-cleaner"
+        ],
+        "commit": "19930160fd4d1cefe8d9ca9e0cfc1cbe2438a9a3",
+        "checkedAt": "2026-10-21T11:39:19.376Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "momostifler96/omarchy-cleaner",
+        "pluginIds": [
+          "io.github.momostifler96.omarchy-cleaner"
+        ],
+        "commit": "19930160fd4d1cefe8d9ca9e0cfc1cbe2438a9a3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T11:39:19.376Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "remote-build",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T11:36:48.555Z",
+        "requestEventId": 33840467084,
+        "requestedAt": "2026-10-21T11:38:41Z",
+        "reviewedAt": "2026-10-21T11:39:19.376Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.momostifler96.omarchy-cleaner": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
