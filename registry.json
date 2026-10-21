@@ -362358,6 +362358,67 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/akashanil-dev/omarchy-present",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T04:22:00.601Z",
+      "listingValidatedCommit": "3f2d4314ba8148e1831d7c91275f1daebd58f988",
+      "listingValidatedAt": "2026-10-21T04:22:00.601Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akashanil-dev/omarchy-present",
+        "pluginIds": [
+          "io.github.akashanil-dev.present"
+        ],
+        "commit": "3f2d4314ba8148e1831d7c91275f1daebd58f988",
+        "checkedAt": "2026-10-21T04:22:00.431Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "akashanil-dev/omarchy-present",
+        "pluginIds": [
+          "io.github.akashanil-dev.present"
+        ],
+        "commit": "3f2d4314ba8148e1831d7c91275f1daebd58f988",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T04:22:00.431Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T04:13:19.225Z",
+        "requestEventId": 33810442495,
+        "requestedAt": "2026-10-21T04:19:00Z",
+        "reviewedAt": "2026-10-21T04:22:00.431Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.akashanil-dev.present": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
