@@ -362222,8 +362222,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T01:28:01.165Z",
-      "listingValidatedCommit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
-      "listingValidatedAt": "2026-10-21T01:28:01.165Z",
+      "listingValidatedCommit": "c064eb17f4d61b43e4a8879172b1b597d9eddfe8",
+      "listingValidatedAt": "2026-10-21T12:55:31.723Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -362232,8 +362232,8 @@
         "pluginIds": [
           "andean-bridge.quick-apps"
         ],
-        "commit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
-        "checkedAt": "2026-10-21T01:28:00.963Z",
+        "commit": "c064eb17f4d61b43e4a8879172b1b597d9eddfe8",
+        "checkedAt": "2026-10-21T12:55:31.723Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -362249,7 +362249,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
+          "validatedAt": "2026-10-21T01:28:01.165Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T12:55:31.723Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "andean-bridge/omarchy-quick-apps",
+            "pluginIds": [
+              "andean-bridge.quick-apps"
+            ],
+            "commit": "c0dcb4904a7e063a4cd674f6ecc434d41a7b5917",
+            "checkedAt": "2026-10-21T01:28:00.963Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/muqiann2022/windows-touchpad-experience",
