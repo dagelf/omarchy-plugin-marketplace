@@ -365756,6 +365756,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/motorstreak/omarchy-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T17:40:41.459Z",
+      "listingValidatedCommit": "886e6b7e7f457b94c5689a546763ba3e1bf4d9b5",
+      "listingValidatedAt": "2026-10-21T17:40:41.459Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "motorstreak/omarchy-display",
+        "pluginIds": [
+          "io.github.motorstreak.display"
+        ],
+        "commit": "886e6b7e7f457b94c5689a546763ba3e1bf4d9b5",
+        "checkedAt": "2026-10-21T17:40:41.278Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "motorstreak/omarchy-display",
+        "pluginIds": [
+          "io.github.motorstreak.display"
+        ],
+        "commit": "886e6b7e7f457b94c5689a546763ba3e1bf4d9b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T17:40:41.278Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T17:33:16.117Z",
+        "requestEventId": 33872189961,
+        "requestedAt": "2026-10-21T17:37:42Z",
+        "reviewedAt": "2026-10-21T17:40:41.278Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.motorstreak.display": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
