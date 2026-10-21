@@ -281187,8 +281187,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T00:01:45.156Z",
-      "listingValidatedCommit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
-      "listingValidatedAt": "2026-10-01T00:01:45.156Z",
+      "listingValidatedCommit": "9dd2506f1532904b89991a6f0e42be6c1321fe06",
+      "listingValidatedAt": "2026-10-21T13:26:15.528Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -281197,8 +281197,8 @@
         "pluginIds": [
           "li.window-controls"
         ],
-        "commit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
-        "checkedAt": "2026-10-01T00:01:45.063Z",
+        "commit": "9dd2506f1532904b89991a6f0e42be6c1321fe06",
+        "checkedAt": "2026-10-21T13:26:15.528Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -281213,7 +281213,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
+          "validatedAt": "2026-10-01T00:01:45.156Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T13:26:15.528Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "andersonmorillo/window-controls",
+            "pluginIds": [
+              "li.window-controls"
+            ],
+            "commit": "38f6d35abb0ccc36b238bccdd434790396a28a7b",
+            "checkedAt": "2026-10-01T00:01:45.063Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/aashbury/stelline",
