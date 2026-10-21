@@ -365061,6 +365061,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/remigius-labs/omarchy-read-aloud",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:09:07.893Z",
+      "listingValidatedCommit": "7e659024073d0932af1bdb04cd68f23130bf9183",
+      "listingValidatedAt": "2026-10-21T16:09:07.893Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "remigius-labs/omarchy-read-aloud",
+        "pluginIds": [
+          "remi.say"
+        ],
+        "commit": "7e659024073d0932af1bdb04cd68f23130bf9183",
+        "checkedAt": "2026-10-21T16:09:07.702Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "remigius-labs/omarchy-read-aloud",
+        "pluginIds": [
+          "remi.say"
+        ],
+        "commit": "7e659024073d0932af1bdb04cd68f23130bf9183",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T16:09:07.702Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-16T22:35:13.677Z",
+        "requestEventId": 33861732149,
+        "requestedAt": "2026-10-21T15:37:58Z",
+        "reviewedAt": "2026-10-21T16:09:07.702Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "remi.say": {
+          "category": "Productivity",
+          "tags": [
+            "ai",
+            "bar",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
