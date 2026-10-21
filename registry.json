@@ -365466,6 +365466,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/jacueblol/omarchy-wallpaper-library",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:57:57.781Z",
+      "listingValidatedCommit": "2407d4b547051f6b5fb8802a0418d150ed323335",
+      "listingValidatedAt": "2026-10-21T16:57:57.781Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jacueblol/omarchy-wallpaper-library",
+        "pluginIds": [
+          "io.github.jacueblol.wallpaper-library"
+        ],
+        "commit": "2407d4b547051f6b5fb8802a0418d150ed323335",
+        "checkedAt": "2026-10-21T16:57:57.585Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.jacueblol.wallpaper-library": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
