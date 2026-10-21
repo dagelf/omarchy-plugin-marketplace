@@ -83831,8 +83831,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-25",
       "listedAt": "2026-08-25T21:28:27.364Z",
-      "listingValidatedCommit": "90783eed250c2d51c8733c512d06f16793fff202",
-      "listingValidatedAt": "2026-08-25T21:28:27.364Z",
+      "listingValidatedCommit": "1d53fb91adf894691949eb20985f6f95cb4d2d6a",
+      "listingValidatedAt": "2026-10-21T19:15:53.726Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -83841,35 +83841,14 @@
         "pluginIds": [
           "rockeyxx.lock-plus"
         ],
-        "commit": "90783eed250c2d51c8733c512d06f16793fff202",
-        "checkedAt": "2026-08-25T21:28:27.331Z",
+        "commit": "1d53fb91adf894691949eb20985f6f95cb4d2d6a",
+        "checkedAt": "2026-10-21T19:15:53.725Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rockeyxx/omarchy-plugin-lock-plus",
-        "pluginIds": [
-          "rockeyxx.lock-plus"
-        ],
-        "commit": "90783eed250c2d51c8733c512d06f16793fff202",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-08-25T21:28:27.331Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-08-25T21:11:06.388Z",
-        "requestEventId": 30006412391,
-        "requestedAt": "2026-08-25T21:28:04Z",
-        "reviewedAt": "2026-08-25T21:28:27.331Z",
-        "reviewer": "ryanrhughes"
       },
       "plugins": {
         "rockeyxx.lock-plus": {
@@ -83884,7 +83863,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rockeyxx/omarchy-plugin-lock-plus",
+        "pluginIds": [
+          "rockeyxx.lock-plus"
+        ],
+        "commit": "1d53fb91adf894691949eb20985f6f95cb4d2d6a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:15:53.725Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T00:16:44.587Z",
+        "requestEventId": 33879084553,
+        "requestedAt": "2026-10-21T19:00:32Z",
+        "reviewedAt": "2026-10-21T19:15:53.726Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "90783eed250c2d51c8733c512d06f16793fff202",
+          "validatedAt": "2026-08-25T21:28:27.364Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T19:15:53.726Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rockeyxx/omarchy-plugin-lock-plus",
+            "pluginIds": [
+              "rockeyxx.lock-plus"
+            ],
+            "commit": "90783eed250c2d51c8733c512d06f16793fff202",
+            "checkedAt": "2026-08-25T21:28:27.331Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rockeyxx/omarchy-plugin-lock-plus",
+            "pluginIds": [
+              "rockeyxx.lock-plus"
+            ],
+            "commit": "90783eed250c2d51c8733c512d06f16793fff202",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-08-25T21:28:27.331Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-08-25T21:11:06.388Z",
+            "requestEventId": 30006412391,
+            "requestedAt": "2026-08-25T21:28:04Z",
+            "reviewedAt": "2026-08-25T21:28:27.331Z",
+            "reviewer": "ryanrhughes"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/gabrielvincent/omarchy-switcharoo",
