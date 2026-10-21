@@ -363873,6 +363873,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/funkyspider/omarchy-plugin-keyboard-backlight",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T13:07:38.128Z",
+      "listingValidatedCommit": "d19353a3f487497ead887e40d6219d90d8dcaeca",
+      "listingValidatedAt": "2026-10-21T13:07:38.128Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "funkyspider/omarchy-plugin-keyboard-backlight",
+        "pluginIds": [
+          "io.github.funkyspider.keyboard-backlight"
+        ],
+        "commit": "d19353a3f487497ead887e40d6219d90d8dcaeca",
+        "checkedAt": "2026-10-21T13:07:37.946Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.funkyspider.keyboard-backlight": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
