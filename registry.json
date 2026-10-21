@@ -362989,6 +362989,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/twiking/omacontrol",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T10:54:07.355Z",
+      "listingValidatedCommit": "efccb170739e69f7c0f0515bb15b24bc9535229c",
+      "listingValidatedAt": "2026-10-21T10:54:07.355Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "twiking/omacontrol",
+        "pluginIds": [
+          "io.github.twiking.omacontrol"
+        ],
+        "commit": "efccb170739e69f7c0f0515bb15b24bc9535229c",
+        "checkedAt": "2026-10-21T10:54:07.214Z",
+        "outcome": "needs-fixes",
+        "enforcementMode": "selective",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "twiking/omacontrol",
+        "pluginIds": [
+          "io.github.twiking.omacontrol"
+        ],
+        "commit": "efccb170739e69f7c0f0515bb15b24bc9535229c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T10:54:07.214Z",
+        "baselineOutcome": "needs-fixes",
+        "findings": [
+          "curl-pipe-shell"
+        ],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T10:24:43.698Z",
+        "requestEventId": 33837058427,
+        "requestedAt": "2026-10-21T10:53:33Z",
+        "reviewedAt": "2026-10-21T10:54:07.214Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.twiking.omacontrol": {
+          "category": "System",
+          "tags": [
+            "system",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
