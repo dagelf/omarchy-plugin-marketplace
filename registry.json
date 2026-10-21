@@ -361796,6 +361796,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kladaFOX/layoutless",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T00:26:43.441Z",
+      "listingValidatedCommit": "a3d0270d8cd052c2a18644bc8a39c019941c832e",
+      "listingValidatedAt": "2026-10-21T00:26:43.441Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kladafox/layoutless",
+        "pluginIds": [
+          "kladafox.layoutless"
+        ],
+        "commit": "a3d0270d8cd052c2a18644bc8a39c019941c832e",
+        "checkedAt": "2026-10-21T00:26:43.278Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kladafox/layoutless",
+        "pluginIds": [
+          "kladafox.layoutless"
+        ],
+        "commit": "a3d0270d8cd052c2a18644bc8a39c019941c832e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T00:26:43.278Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T00:24:36.568Z",
+        "requestEventId": 33798232231,
+        "requestedAt": "2026-10-21T00:26:11Z",
+        "reviewedAt": "2026-10-21T00:26:43.278Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "kladafox.layoutless": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
