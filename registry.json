@@ -361865,6 +361865,63 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/jwkicklighter/omarchy-snipboard",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T00:48:14.453Z",
+      "listingValidatedCommit": "646377447585eef0d898eba1de4db0fd5d391d51",
+      "listingValidatedAt": "2026-10-21T00:48:14.453Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jwkicklighter/omarchy-snipboard",
+        "pluginIds": [
+          "io.github.jwkicklighter.snipboard"
+        ],
+        "commit": "646377447585eef0d898eba1de4db0fd5d391d51",
+        "checkedAt": "2026-10-21T00:48:14.335Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "jwkicklighter/omarchy-snipboard",
+        "pluginIds": [
+          "io.github.jwkicklighter.snipboard"
+        ],
+        "commit": "646377447585eef0d898eba1de4db0fd5d391d51",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T00:48:14.335Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T00:39:53.115Z",
+        "requestEventId": 33799377503,
+        "requestedAt": "2026-10-21T00:47:44Z",
+        "reviewedAt": "2026-10-21T00:48:14.335Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.jwkicklighter.snipboard": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
