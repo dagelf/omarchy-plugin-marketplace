@@ -362419,6 +362419,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CallMeBakugo/omarchy-hermes-attention",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T04:25:45.879Z",
+      "listingValidatedCommit": "72afaf50eac9bacbe897539eb0695abe52b8bf3e",
+      "listingValidatedAt": "2026-10-21T04:25:45.879Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "callmebakugo/omarchy-hermes-attention",
+        "pluginIds": [
+          "bakugo.hermes-attention"
+        ],
+        "commit": "72afaf50eac9bacbe897539eb0695abe52b8bf3e",
+        "checkedAt": "2026-10-21T04:25:45.732Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "callmebakugo/omarchy-hermes-attention",
+        "pluginIds": [
+          "bakugo.hermes-attention"
+        ],
+        "commit": "72afaf50eac9bacbe897539eb0695abe52b8bf3e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T04:25:45.732Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T04:09:21.674Z",
+        "requestEventId": 33810503734,
+        "requestedAt": "2026-10-21T04:20:17Z",
+        "reviewedAt": "2026-10-21T04:25:45.732Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "bakugo.hermes-attention": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
