@@ -185502,8 +185502,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-12",
       "listedAt": "2026-09-12T17:28:08.624Z",
-      "listingValidatedCommit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
-      "listingValidatedAt": "2026-09-22T21:51:46.539Z",
+      "listingValidatedCommit": "e62d253a93c3e7a020f64fdee5e7eb7b98a1b8b4",
+      "listingValidatedAt": "2026-10-21T19:51:07.392Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -185512,8 +185512,8 @@
         "pluginIds": [
           "io.github.dmatthan.omairplay"
         ],
-        "commit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
-        "checkedAt": "2026-09-22T21:51:46.538Z",
+        "commit": "e62d253a93c3e7a020f64fdee5e7eb7b98a1b8b4",
+        "checkedAt": "2026-10-21T19:51:07.392Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -185534,30 +185534,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "dmatthan/omairplay",
-        "pluginIds": [
-          "io.github.dmatthan.omairplay"
-        ],
-        "commit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-22T21:51:46.538Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management",
-          "installer",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-19T23:27:18.460Z",
-        "requestEventId": 31633839834,
-        "requestedAt": "2026-09-22T21:45:31Z",
-        "reviewedAt": "2026-09-22T21:51:46.539Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -185608,8 +185584,81 @@
             "reviewedAt": "2026-09-12T17:28:08.549Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
+          "validatedAt": "2026-09-22T21:51:46.539Z",
+          "branch": "main",
+          "supersededAt": "2026-10-21T19:51:07.392Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dmatthan/omairplay",
+            "pluginIds": [
+              "io.github.dmatthan.omairplay"
+            ],
+            "commit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
+            "checkedAt": "2026-09-22T21:51:46.538Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "dmatthan/omairplay",
+            "pluginIds": [
+              "io.github.dmatthan.omairplay"
+            ],
+            "commit": "6fb8b4e4683af7b4b776845cfb59add8408745ee",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-22T21:51:46.538Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management",
+              "installer",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-19T23:27:18.460Z",
+            "requestEventId": 31633839834,
+            "requestedAt": "2026-09-22T21:45:31Z",
+            "reviewedAt": "2026-09-22T21:51:46.539Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dmatthan/omairplay",
+        "pluginIds": [
+          "io.github.dmatthan.omairplay"
+        ],
+        "commit": "e62d253a93c3e7a020f64fdee5e7eb7b98a1b8b4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:51:07.392Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T14:38:34.294Z",
+        "requestEventId": 33879202631,
+        "requestedAt": "2026-10-21T19:01:59Z",
+        "reviewedAt": "2026-10-21T19:51:07.392Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/htrnguyen-labs/omarchy-clipboard",
