@@ -363189,6 +363189,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/davidboulay/omarchy-maintainer-inbox",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T11:46:53.579Z",
+      "listingValidatedCommit": "63dcd860e11b603af0ce698be2e69554b63d64a1",
+      "listingValidatedAt": "2026-10-21T11:46:53.579Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "davidboulay/omarchy-maintainer-inbox",
+        "pluginIds": [
+          "io.github.davidboulay.maintainer-inbox"
+        ],
+        "commit": "63dcd860e11b603af0ce698be2e69554b63d64a1",
+        "checkedAt": "2026-10-21T11:46:53.472Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.davidboulay.maintainer-inbox": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
