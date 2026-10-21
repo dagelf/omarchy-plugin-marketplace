@@ -365180,6 +365180,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/JesperFiltenborg/omarchy-glass-dock",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:21:17.270Z",
+      "listingValidatedCommit": "4783ad8166677d10f8108c983d38587dded7ac74",
+      "listingValidatedAt": "2026-10-21T16:21:17.270Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "jesperfiltenborg/omarchy-glass-dock",
+        "pluginIds": [
+          "jesperfiltenborg.glassdock"
+        ],
+        "commit": "4783ad8166677d10f8108c983d38587dded7ac74",
+        "checkedAt": "2026-10-21T16:21:17.101Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jesperfiltenborg.glassdock": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "launcher"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
