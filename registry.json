@@ -235477,8 +235477,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T09:59:17.313Z",
-      "listingValidatedCommit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
-      "listingValidatedAt": "2026-09-29T18:48:43.556Z",
+      "listingValidatedCommit": "638b2d7966bd76b4b041f18f354bf00ed98f8dbc",
+      "listingValidatedAt": "2026-10-21T19:47:42.540Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -235487,8 +235487,8 @@
         "pluginIds": [
           "wifi-dns-ru"
         ],
-        "commit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
-        "checkedAt": "2026-09-29T18:48:43.556Z",
+        "commit": "638b2d7966bd76b4b041f18f354bf00ed98f8dbc",
+        "checkedAt": "2026-10-21T19:47:42.540Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -235507,28 +235507,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "wokoflipper/omarchy-network-ru",
-        "pluginIds": [
-          "wifi-dns-ru"
-        ],
-        "commit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-29T18:48:43.556Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-25T05:09:09.549Z",
-        "requestEventId": 32093103852,
-        "requestedAt": "2026-09-29T15:41:55Z",
-        "reviewedAt": "2026-09-29T18:48:43.556Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -235575,8 +235553,75 @@
             "reviewedAt": "2026-09-22T09:59:17.219Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
+          "validatedAt": "2026-09-29T18:48:43.556Z",
+          "branch": "master",
+          "supersededAt": "2026-10-21T19:47:42.540Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "wokoflipper/omarchy-network-ru",
+            "pluginIds": [
+              "wifi-dns-ru"
+            ],
+            "commit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
+            "checkedAt": "2026-09-29T18:48:43.556Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "wokoflipper/omarchy-network-ru",
+            "pluginIds": [
+              "wifi-dns-ru"
+            ],
+            "commit": "914d19ea504cfbd33d3ef1a77cd94d783f0d10f4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-29T18:48:43.556Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-25T05:09:09.549Z",
+            "requestEventId": 32093103852,
+            "requestedAt": "2026-09-29T15:41:55Z",
+            "reviewedAt": "2026-09-29T18:48:43.556Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "wokoflipper/omarchy-network-ru",
+        "pluginIds": [
+          "wifi-dns-ru"
+        ],
+        "commit": "638b2d7966bd76b4b041f18f354bf00ed98f8dbc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T19:47:42.540Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T16:29:17.736Z",
+        "requestEventId": 33879193437,
+        "requestedAt": "2026-10-21T19:01:52Z",
+        "reviewedAt": "2026-10-21T19:47:42.540Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/iampoul/omanews",
