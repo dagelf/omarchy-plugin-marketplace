@@ -365234,6 +365234,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gdeyoung/omarchy-ultrawide-bar",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:30:16.312Z",
+      "listingValidatedCommit": "b4d6f4ac37c9382b5a8bcfcaf5328e9dd4177d14",
+      "listingValidatedAt": "2026-10-21T16:30:16.312Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gdeyoung/omarchy-ultrawide-bar",
+        "pluginIds": [
+          "gdeyoung.ultrawide-bar"
+        ],
+        "commit": "b4d6f4ac37c9382b5a8bcfcaf5328e9dd4177d14",
+        "checkedAt": "2026-10-21T16:30:16.165Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-ultrawide-bar",
+        "pluginIds": [
+          "gdeyoung.ultrawide-bar"
+        ],
+        "commit": "b4d6f4ac37c9382b5a8bcfcaf5328e9dd4177d14",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T16:30:16.165Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-20T20:43:57.838Z",
+        "requestEventId": 33864164086,
+        "requestedAt": "2026-10-21T16:05:05Z",
+        "reviewedAt": "2026-10-21T16:30:16.165Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gdeyoung.ultrawide-bar": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "workspaces",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
