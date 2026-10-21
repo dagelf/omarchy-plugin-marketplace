@@ -364870,6 +364870,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/nertwork/omarchy-battery-health",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T15:41:11.579Z",
+      "listingValidatedCommit": "d62ec5a378d861d3e80af7c8d987f1ebacf13e95",
+      "listingValidatedAt": "2026-10-21T15:41:11.579Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "nertwork/omarchy-battery-health",
+        "pluginIds": [
+          "nertwork.power"
+        ],
+        "commit": "d62ec5a378d861d3e80af7c8d987f1ebacf13e95",
+        "checkedAt": "2026-10-21T15:41:11.421Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nertwork.power": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
