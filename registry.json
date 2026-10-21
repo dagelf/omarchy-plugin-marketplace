@@ -365313,6 +365313,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cfryerdev/OmarchyPoker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-21",
+      "listedAt": "2026-10-21T16:39:05.519Z",
+      "listingValidatedCommit": "e2a2d9ed36177eeba7ecb82cc109e774033eec7e",
+      "listingValidatedAt": "2026-10-21T16:39:05.519Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cfryerdev/omarchypoker",
+        "pluginIds": [
+          "nosignal.omarchyholdem"
+        ],
+        "commit": "e2a2d9ed36177eeba7ecb82cc109e774033eec7e",
+        "checkedAt": "2026-10-21T16:39:05.362Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cfryerdev/omarchypoker",
+        "pluginIds": [
+          "nosignal.omarchyholdem"
+        ],
+        "commit": "e2a2d9ed36177eeba7ecb82cc109e774033eec7e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-21T16:39:05.362Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-21T16:17:48.765Z",
+        "requestEventId": 33865964784,
+        "requestedAt": "2026-10-21T16:25:14Z",
+        "reviewedAt": "2026-10-21T16:39:05.362Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nosignal.omarchyholdem": {
+          "category": "Other",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
