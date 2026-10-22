@@ -344467,8 +344467,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T01:00:33.055Z",
-      "listingValidatedCommit": "26f4ab32bead6d408741ee050e117dbc186342fa",
-      "listingValidatedAt": "2026-10-16T03:17:23.914Z",
+      "listingValidatedCommit": "d124909620a37699f081e7415e8c6644ec22657c",
+      "listingValidatedAt": "2026-10-22T13:01:25.462Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -344477,8 +344477,8 @@
         "pluginIds": [
           "macondo.quickshare"
         ],
-        "commit": "26f4ab32bead6d408741ee050e117dbc186342fa",
-        "checkedAt": "2026-10-16T03:17:23.914Z",
+        "commit": "d124909620a37699f081e7415e8c6644ec22657c",
+        "checkedAt": "2026-10-22T13:01:25.462Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -344501,30 +344501,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "purodelphi/omarchy-quickshare",
-        "pluginIds": [
-          "macondo.quickshare"
-        ],
-        "commit": "26f4ab32bead6d408741ee050e117dbc186342fa",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T03:17:23.914Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T02:37:59.302Z",
-        "requestEventId": 33404034393,
-        "requestedAt": "2026-10-16T03:16:46Z",
-        "reviewedAt": "2026-10-16T03:17:23.914Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -344575,8 +344551,81 @@
             "reviewedAt": "2026-10-13T01:00:32.925Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "26f4ab32bead6d408741ee050e117dbc186342fa",
+          "validatedAt": "2026-10-16T03:17:23.914Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T13:01:25.462Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "purodelphi/omarchy-quickshare",
+            "pluginIds": [
+              "macondo.quickshare"
+            ],
+            "commit": "26f4ab32bead6d408741ee050e117dbc186342fa",
+            "checkedAt": "2026-10-16T03:17:23.914Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "purodelphi/omarchy-quickshare",
+            "pluginIds": [
+              "macondo.quickshare"
+            ],
+            "commit": "26f4ab32bead6d408741ee050e117dbc186342fa",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T03:17:23.914Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T02:37:59.302Z",
+            "requestEventId": 33404034393,
+            "requestedAt": "2026-10-16T03:16:46Z",
+            "reviewedAt": "2026-10-16T03:17:23.914Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "purodelphi/omarchy-quickshare",
+        "pluginIds": [
+          "macondo.quickshare"
+        ],
+        "commit": "d124909620a37699f081e7415e8c6644ec22657c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T13:01:25.462Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T11:46:43.805Z",
+        "requestEventId": 33951596972,
+        "requestedAt": "2026-10-22T13:00:48Z",
+        "reviewedAt": "2026-10-22T13:01:25.462Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/nertwork/omarchy-ip-info",
