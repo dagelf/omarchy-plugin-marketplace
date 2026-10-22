@@ -308116,8 +308116,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T02:22:53.341Z",
-      "listingValidatedCommit": "24550355315b77c2511047a11a71885de667d3d5",
-      "listingValidatedAt": "2026-10-16T19:37:47.803Z",
+      "listingValidatedCommit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+      "listingValidatedAt": "2026-10-22T15:15:35.288Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -308126,8 +308126,8 @@
         "pluginIds": [
           "alanroman117.amd-npu"
         ],
-        "commit": "24550355315b77c2511047a11a71885de667d3d5",
-        "checkedAt": "2026-10-16T19:37:47.803Z",
+        "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+        "checkedAt": "2026-10-22T15:15:35.288Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -308151,29 +308151,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alanroman117/omarchy-amd-npu",
-        "pluginIds": [
-          "alanroman117.amd-npu"
-        ],
-        "commit": "24550355315b77c2511047a11a71885de667d3d5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T19:37:47.803Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T18:59:58.202Z",
-        "requestEventId": 33476789062,
-        "requestedAt": "2026-10-16T19:29:17Z",
-        "reviewedAt": "2026-10-16T19:37:47.803Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -308222,8 +308199,78 @@
             "reviewedAt": "2026-10-04T02:22:53.214Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "24550355315b77c2511047a11a71885de667d3d5",
+          "validatedAt": "2026-10-16T19:37:47.803Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T15:15:35.288Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alanroman117/omarchy-amd-npu",
+            "pluginIds": [
+              "alanroman117.amd-npu"
+            ],
+            "commit": "24550355315b77c2511047a11a71885de667d3d5",
+            "checkedAt": "2026-10-16T19:37:47.803Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alanroman117/omarchy-amd-npu",
+            "pluginIds": [
+              "alanroman117.amd-npu"
+            ],
+            "commit": "24550355315b77c2511047a11a71885de667d3d5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T19:37:47.803Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T18:59:58.202Z",
+            "requestEventId": 33476789062,
+            "requestedAt": "2026-10-16T19:29:17Z",
+            "reviewedAt": "2026-10-16T19:37:47.803Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alanroman117/omarchy-amd-npu",
+        "pluginIds": [
+          "alanroman117.amd-npu"
+        ],
+        "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T15:15:35.288Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T14:46:25.242Z",
+        "requestEventId": 33963768936,
+        "requestedAt": "2026-10-22T15:10:51Z",
+        "reviewedAt": "2026-10-22T15:15:35.288Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/mattwolfgang/omarchy-ambient-weather",
