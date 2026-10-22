@@ -152620,8 +152620,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T02:00:36.830Z",
-      "listingValidatedCommit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
-      "listingValidatedAt": "2026-10-02T19:14:53.940Z",
+      "listingValidatedCommit": "d1db65e938d6cdea5bfcd8d3bcfd4c130d7abae5",
+      "listingValidatedAt": "2026-10-22T16:22:43.941Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -152630,8 +152630,8 @@
         "pluginIds": [
           "mechurisr.media-search"
         ],
-        "commit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
-        "checkedAt": "2026-10-02T19:14:53.940Z",
+        "commit": "d1db65e938d6cdea5bfcd8d3bcfd4c130d7abae5",
+        "checkedAt": "2026-10-22T16:22:43.940Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -152651,29 +152651,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "mechurisr/omarchy-media-search",
-        "pluginIds": [
-          "mechurisr.media-search"
-        ],
-        "commit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T19:14:53.940Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-01T11:10:58.336Z",
-        "requestEventId": 32357293421,
-        "requestedAt": "2026-10-02T18:41:45Z",
-        "reviewedAt": "2026-10-02T19:14:53.940Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -152695,8 +152672,78 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
+          "validatedAt": "2026-10-02T19:14:53.940Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T16:22:43.941Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mechurisr/omarchy-media-search",
+            "pluginIds": [
+              "mechurisr.media-search"
+            ],
+            "commit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
+            "checkedAt": "2026-10-02T19:14:53.940Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "mechurisr/omarchy-media-search",
+            "pluginIds": [
+              "mechurisr.media-search"
+            ],
+            "commit": "37b220c2881d142ade04955f3a6f5d2496cb8a07",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T19:14:53.940Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T11:10:58.336Z",
+            "requestEventId": 32357293421,
+            "requestedAt": "2026-10-02T18:41:45Z",
+            "reviewedAt": "2026-10-02T19:14:53.940Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "mechurisr/omarchy-media-search",
+        "pluginIds": [
+          "mechurisr.media-search"
+        ],
+        "commit": "d1db65e938d6cdea5bfcd8d3bcfd4c130d7abae5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T16:22:43.940Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T15:57:16.370Z",
+        "requestEventId": 33970616497,
+        "requestedAt": "2026-10-22T16:22:11Z",
+        "reviewedAt": "2026-10-22T16:22:43.941Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/cytracon/omarchy-syscare",
