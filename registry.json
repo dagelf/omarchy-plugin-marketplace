@@ -368839,6 +368839,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/1vecera/omarchy-claude-accounts",
+      "type": "plugin-source",
+      "addedAt": "2026-10-22",
+      "listedAt": "2026-10-22T11:17:42.020Z",
+      "listingValidatedCommit": "1def99020ca043917f60d8f28ae1e1527a0bc39a",
+      "listingValidatedAt": "2026-10-22T11:17:42.020Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "1vecera/omarchy-claude-accounts",
+        "pluginIds": [
+          "io.github.1vecera.claude-accounts"
+        ],
+        "commit": "1def99020ca043917f60d8f28ae1e1527a0bc39a",
+        "checkedAt": "2026-10-22T11:17:41.904Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.1vecera.claude-accounts": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
