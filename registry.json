@@ -360148,8 +360148,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-19",
       "listedAt": "2026-10-19T05:21:45.563Z",
-      "listingValidatedCommit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
-      "listingValidatedAt": "2026-10-19T05:21:45.563Z",
+      "listingValidatedCommit": "67b2f0c4df25a01cc620d60b312dc9fa80ffc300",
+      "listingValidatedAt": "2026-10-22T06:02:26.398Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -360158,8 +360158,8 @@
         "pluginIds": [
           "stewartjarod.phone-sessions"
         ],
-        "commit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
-        "checkedAt": "2026-10-19T05:21:45.412Z",
+        "commit": "67b2f0c4df25a01cc620d60b312dc9fa80ffc300",
+        "checkedAt": "2026-10-22T06:02:26.398Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -360174,7 +360174,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
+          "validatedAt": "2026-10-19T05:21:45.563Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T06:02:26.398Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "stewartjarod/omarchy-phone-sessions",
+            "pluginIds": [
+              "stewartjarod.phone-sessions"
+            ],
+            "commit": "13c8b368869ce2fab9723c5fb59c43b1053aaf99",
+            "checkedAt": "2026-10-19T05:21:45.412Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AkinleyeMicheal/omarchy-command-center",
