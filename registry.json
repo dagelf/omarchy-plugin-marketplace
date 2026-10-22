@@ -240844,8 +240844,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T17:30:02.175Z",
-      "listingValidatedCommit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
-      "listingValidatedAt": "2026-10-14T02:28:44.545Z",
+      "listingValidatedCommit": "1dd19a779c55b8c86b187a558ce9addeaa287897",
+      "listingValidatedAt": "2026-10-22T15:19:56.728Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -240854,8 +240854,8 @@
         "pluginIds": [
           "io.github.07dcolem.target-boot"
         ],
-        "commit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
-        "checkedAt": "2026-10-14T02:28:44.545Z",
+        "commit": "1dd19a779c55b8c86b187a558ce9addeaa287897",
+        "checkedAt": "2026-10-22T15:19:56.728Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -240965,6 +240965,51 @@
             "reviewedAt": "2026-09-30T18:41:51.002Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
+          "validatedAt": "2026-10-14T02:28:44.545Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T15:19:56.728Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "07dcolem/omarchy-target-boot",
+            "pluginIds": [
+              "io.github.07dcolem.target-boot"
+            ],
+            "commit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
+            "checkedAt": "2026-10-14T02:28:44.545Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "07dcolem/omarchy-target-boot",
+            "pluginIds": [
+              "io.github.07dcolem.target-boot"
+            ],
+            "commit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T02:28:44.545Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T01:17:57.806Z",
+            "requestEventId": 33188793395,
+            "requestedAt": "2026-10-14T02:28:15Z",
+            "reviewedAt": "2026-10-14T02:28:44.545Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -240973,20 +241018,20 @@
         "pluginIds": [
           "io.github.07dcolem.target-boot"
         ],
-        "commit": "53c897f29ca6de9bfe2842feb88a59621d25f139",
+        "commit": "1dd19a779c55b8c86b187a558ce9addeaa287897",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T02:28:44.545Z",
+        "baselineCheckedAt": "2026-10-22T15:19:56.728Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "privilege",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-14T01:17:57.806Z",
-        "requestEventId": 33188793395,
-        "requestedAt": "2026-10-14T02:28:15Z",
-        "reviewedAt": "2026-10-14T02:28:44.545Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T14:55:51.452Z",
+        "requestEventId": 33964286708,
+        "requestedAt": "2026-10-22T15:16:05Z",
+        "reviewedAt": "2026-10-22T15:19:56.728Z",
         "reviewer": "HANCORE-linux"
       }
     },
