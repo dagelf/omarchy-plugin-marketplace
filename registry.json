@@ -260366,8 +260366,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T00:33:23.990Z",
-      "listingValidatedCommit": "003deb38938ab6aa0ecc644b1803d879221c676d",
-      "listingValidatedAt": "2026-09-27T00:33:23.990Z",
+      "listingValidatedCommit": "41afe1c19586bf0ad7f4559baaed9dae0e037d52",
+      "listingValidatedAt": "2026-10-22T14:28:14.258Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260376,8 +260376,8 @@
         "pluginIds": [
           "ttt.olook-calendar"
         ],
-        "commit": "003deb38938ab6aa0ecc644b1803d879221c676d",
-        "checkedAt": "2026-09-27T00:33:23.885Z",
+        "commit": "41afe1c19586bf0ad7f4559baaed9dae0e037d52",
+        "checkedAt": "2026-10-22T14:28:14.258Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -260395,7 +260395,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "003deb38938ab6aa0ecc644b1803d879221c676d",
+          "validatedAt": "2026-09-27T00:33:23.990Z",
+          "branch": "master",
+          "supersededAt": "2026-10-22T14:28:14.258Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tinitinyterminator/olook-calendar",
+            "pluginIds": [
+              "ttt.olook-calendar"
+            ],
+            "commit": "003deb38938ab6aa0ecc644b1803d879221c676d",
+            "checkedAt": "2026-09-27T00:33:23.885Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/diogocezar/omarchy-prisma",
