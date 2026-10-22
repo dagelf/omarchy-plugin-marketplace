@@ -308611,8 +308611,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T12:35:11.808Z",
-      "listingValidatedCommit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
-      "listingValidatedAt": "2026-10-17T22:56:06.471Z",
+      "listingValidatedCommit": "6c946b52c53c866808ed300e220f4c87b0829e1e",
+      "listingValidatedAt": "2026-10-22T10:37:54.135Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -308621,8 +308621,8 @@
         "pluginIds": [
           "ubruckhaus.llm-usage"
         ],
-        "commit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
-        "checkedAt": "2026-10-17T22:56:06.471Z",
+        "commit": "6c946b52c53c866808ed300e220f4c87b0829e1e",
+        "checkedAt": "2026-10-22T10:37:54.135Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -308813,6 +308813,49 @@
             "reviewedAt": "2026-10-16T15:54:08.215Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
+          "validatedAt": "2026-10-17T22:56:06.471Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T10:37:54.135Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-llm-usage",
+            "pluginIds": [
+              "ubruckhaus.llm-usage"
+            ],
+            "commit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
+            "checkedAt": "2026-10-17T22:56:06.471Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-llm-usage",
+            "pluginIds": [
+              "ubruckhaus.llm-usage"
+            ],
+            "commit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-17T22:56:06.471Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-17T14:41:55.842Z",
+            "requestEventId": 33544562082,
+            "requestedAt": "2026-10-17T22:46:13Z",
+            "reviewedAt": "2026-10-17T22:56:06.471Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -308821,19 +308864,19 @@
         "pluginIds": [
           "ubruckhaus.llm-usage"
         ],
-        "commit": "f3527fdda6c69a03b0f3ad95a6a6188dd18c62d7",
+        "commit": "6c946b52c53c866808ed300e220f4c87b0829e1e",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-17T22:56:06.471Z",
+        "baselineCheckedAt": "2026-10-22T10:37:54.135Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-17T14:41:55.842Z",
-        "requestEventId": 33544562082,
-        "requestedAt": "2026-10-17T22:46:13Z",
-        "reviewedAt": "2026-10-17T22:56:06.471Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T09:03:27.939Z",
+        "requestEventId": 33939899179,
+        "requestedAt": "2026-10-22T10:37:25Z",
+        "reviewedAt": "2026-10-22T10:37:54.135Z",
         "reviewer": "HANCORE-linux"
       }
     },
