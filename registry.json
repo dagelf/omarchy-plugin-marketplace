@@ -362016,8 +362016,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-20",
       "listedAt": "2026-10-20T15:33:55.422Z",
-      "listingValidatedCommit": "5ead970da734966bb5345f025194200274919e71",
-      "listingValidatedAt": "2026-10-20T15:33:55.422Z",
+      "listingValidatedCommit": "d631c1d033b189644234415b29583830cda7e8d4",
+      "listingValidatedAt": "2026-10-22T02:20:58.250Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -362026,8 +362026,8 @@
         "pluginIds": [
           "io.github.guruthechosen.translateonthego"
         ],
-        "commit": "5ead970da734966bb5345f025194200274919e71",
-        "checkedAt": "2026-10-20T15:33:55.249Z",
+        "commit": "d631c1d033b189644234415b29583830cda7e8d4",
+        "checkedAt": "2026-10-22T02:20:58.250Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -362039,31 +362039,6 @@
           "service-management"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "guruthechosen/omarchywritingtool",
-        "pluginIds": [
-          "io.github.guruthechosen.translateonthego"
-        ],
-        "commit": "5ead970da734966bb5345f025194200274919e71",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-20T15:33:55.249Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-20T03:59:52.964Z",
-        "requestEventId": 33757210358,
-        "requestedAt": "2026-10-20T15:31:44Z",
-        "reviewedAt": "2026-10-20T15:33:55.249Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "io.github.guruthechosen.translateonthego": {
           "category": "Productivity",
@@ -362074,7 +362049,85 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "guruthechosen/omarchywritingtool",
+        "pluginIds": [
+          "io.github.guruthechosen.translateonthego"
+        ],
+        "commit": "d631c1d033b189644234415b29583830cda7e8d4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T02:20:58.250Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T01:59:06.227Z",
+        "requestEventId": 33907594496,
+        "requestedAt": "2026-10-22T02:19:23Z",
+        "reviewedAt": "2026-10-22T02:20:58.250Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5ead970da734966bb5345f025194200274919e71",
+          "validatedAt": "2026-10-20T15:33:55.422Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T02:20:58.250Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "guruthechosen/omarchywritingtool",
+            "pluginIds": [
+              "io.github.guruthechosen.translateonthego"
+            ],
+            "commit": "5ead970da734966bb5345f025194200274919e71",
+            "checkedAt": "2026-10-20T15:33:55.249Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "guruthechosen/omarchywritingtool",
+            "pluginIds": [
+              "io.github.guruthechosen.translateonthego"
+            ],
+            "commit": "5ead970da734966bb5345f025194200274919e71",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-20T15:33:55.249Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-20T03:59:52.964Z",
+            "requestEventId": 33757210358,
+            "requestedAt": "2026-10-20T15:31:44Z",
+            "reviewedAt": "2026-10-20T15:33:55.249Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/alessandrobelli/omarchy-pomodoro",
