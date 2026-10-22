@@ -321220,8 +321220,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T12:48:37.943Z",
-      "listingValidatedCommit": "285264e9399c68bb43579df85301f4470fd5d21b",
-      "listingValidatedAt": "2026-10-06T12:48:37.943Z",
+      "listingValidatedCommit": "382ae0d273b78e67cb429ba1d76696e69343a94d",
+      "listingValidatedAt": "2026-10-22T03:50:10.305Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -321230,8 +321230,8 @@
         "pluginIds": [
           "io.github.lunanoir21.scribe"
         ],
-        "commit": "285264e9399c68bb43579df85301f4470fd5d21b",
-        "checkedAt": "2026-10-06T12:48:37.863Z",
+        "commit": "382ae0d273b78e67cb429ba1d76696e69343a94d",
+        "checkedAt": "2026-10-22T03:50:10.305Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -321239,28 +321239,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lunanoir21/scribe-omarchy",
-        "pluginIds": [
-          "io.github.lunanoir21.scribe"
-        ],
-        "commit": "285264e9399c68bb43579df85301f4470fd5d21b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T12:48:37.863Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T11:59:00.402Z",
-        "requestEventId": 32598914762,
-        "requestedAt": "2026-10-06T12:45:58Z",
-        "reviewedAt": "2026-10-06T12:48:37.863Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.lunanoir21.scribe": {
@@ -321271,7 +321249,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lunanoir21/scribe-omarchy",
+        "pluginIds": [
+          "io.github.lunanoir21.scribe"
+        ],
+        "commit": "382ae0d273b78e67cb429ba1d76696e69343a94d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T03:50:10.305Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-13T16:19:58.058Z",
+        "requestEventId": 33912050945,
+        "requestedAt": "2026-10-22T03:47:30Z",
+        "reviewedAt": "2026-10-22T03:50:10.305Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "285264e9399c68bb43579df85301f4470fd5d21b",
+          "validatedAt": "2026-10-06T12:48:37.943Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T03:50:10.305Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lunanoir21/scribe-omarchy",
+            "pluginIds": [
+              "io.github.lunanoir21.scribe"
+            ],
+            "commit": "285264e9399c68bb43579df85301f4470fd5d21b",
+            "checkedAt": "2026-10-06T12:48:37.863Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lunanoir21/scribe-omarchy",
+            "pluginIds": [
+              "io.github.lunanoir21.scribe"
+            ],
+            "commit": "285264e9399c68bb43579df85301f4470fd5d21b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T12:48:37.863Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T11:59:00.402Z",
+            "requestEventId": 32598914762,
+            "requestedAt": "2026-10-06T12:45:58Z",
+            "reviewedAt": "2026-10-06T12:48:37.863Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Wartafak/omarchy-sysmon",
