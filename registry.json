@@ -352784,8 +352784,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T17:26:48.807Z",
-      "listingValidatedCommit": "076cb00885381db69bdd65a7484ebef45b1609fd",
-      "listingValidatedAt": "2026-10-16T17:26:48.807Z",
+      "listingValidatedCommit": "3d02736710ed40010392d036ad406b088014200b",
+      "listingValidatedAt": "2026-10-22T13:44:41.245Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -352794,35 +352794,14 @@
         "pluginIds": [
           "io.github.shika34.fresque"
         ],
-        "commit": "076cb00885381db69bdd65a7484ebef45b1609fd",
-        "checkedAt": "2026-10-16T17:26:48.669Z",
+        "commit": "3d02736710ed40010392d036ad406b088014200b",
+        "checkedAt": "2026-10-22T13:44:41.245Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "remote-build"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "shika34/fresque",
-        "pluginIds": [
-          "io.github.shika34.fresque"
-        ],
-        "commit": "076cb00885381db69bdd65a7484ebef45b1609fd",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T17:26:48.669Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T17:18:37.581Z",
-        "requestEventId": 33467455342,
-        "requestedAt": "2026-10-16T17:21:14Z",
-        "reviewedAt": "2026-10-16T17:26:48.669Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.shika34.fresque": {
@@ -352833,7 +352812,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "shika34/fresque",
+        "pluginIds": [
+          "io.github.shika34.fresque"
+        ],
+        "commit": "3d02736710ed40010392d036ad406b088014200b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T13:44:41.245Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T13:19:27.321Z",
+        "requestEventId": 33955623549,
+        "requestedAt": "2026-10-22T13:44:11Z",
+        "reviewedAt": "2026-10-22T13:44:41.245Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "076cb00885381db69bdd65a7484ebef45b1609fd",
+          "validatedAt": "2026-10-16T17:26:48.807Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T13:44:41.245Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "shika34/fresque",
+            "pluginIds": [
+              "io.github.shika34.fresque"
+            ],
+            "commit": "076cb00885381db69bdd65a7484ebef45b1609fd",
+            "checkedAt": "2026-10-16T17:26:48.669Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "shika34/fresque",
+            "pluginIds": [
+              "io.github.shika34.fresque"
+            ],
+            "commit": "076cb00885381db69bdd65a7484ebef45b1609fd",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T17:26:48.669Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T17:18:37.581Z",
+            "requestEventId": 33467455342,
+            "requestedAt": "2026-10-16T17:21:14Z",
+            "reviewedAt": "2026-10-16T17:26:48.669Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/remulef/omarchy-magi-evangelion",
