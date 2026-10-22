@@ -357943,8 +357943,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-18",
       "listedAt": "2026-10-18T03:30:14.645Z",
-      "listingValidatedCommit": "3b439497adac42c09751c09b2248acdf1a04fad9",
-      "listingValidatedAt": "2026-10-18T03:30:14.645Z",
+      "listingValidatedCommit": "6972989f3adaec75936e17ff0a9dbde299d38dea",
+      "listingValidatedAt": "2026-10-22T10:47:48.797Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -357953,39 +357953,17 @@
         "pluginIds": [
           "com.mostafa.omarchy-app-manager"
         ],
-        "commit": "3b439497adac42c09751c09b2248acdf1a04fad9",
-        "checkedAt": "2026-10-18T03:30:14.496Z",
+        "commit": "6972989f3adaec75936e17ff0a9dbde299d38dea",
+        "checkedAt": "2026-10-22T10:47:48.797Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
           "package-manager",
+          "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nobynoooob/omarchy-app-manager",
-        "pluginIds": [
-          "com.mostafa.omarchy-app-manager"
-        ],
-        "commit": "3b439497adac42c09751c09b2248acdf1a04fad9",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-18T03:30:14.496Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-18T03:28:12.954Z",
-        "requestEventId": 33553488363,
-        "requestedAt": "2026-10-18T03:29:46Z",
-        "reviewedAt": "2026-10-18T03:30:14.496Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "com.mostafa.omarchy-app-manager": {
@@ -358000,7 +357978,80 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nobynoooob/omarchy-app-manager",
+        "pluginIds": [
+          "com.mostafa.omarchy-app-manager"
+        ],
+        "commit": "6972989f3adaec75936e17ff0a9dbde299d38dea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T10:47:48.797Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T08:06:57.601Z",
+        "requestEventId": 33940635452,
+        "requestedAt": "2026-10-22T10:47:14Z",
+        "reviewedAt": "2026-10-22T10:47:48.797Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "3b439497adac42c09751c09b2248acdf1a04fad9",
+          "validatedAt": "2026-10-18T03:30:14.645Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T10:47:48.797Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nobynoooob/omarchy-app-manager",
+            "pluginIds": [
+              "com.mostafa.omarchy-app-manager"
+            ],
+            "commit": "3b439497adac42c09751c09b2248acdf1a04fad9",
+            "checkedAt": "2026-10-18T03:30:14.496Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nobynoooob/omarchy-app-manager",
+            "pluginIds": [
+              "com.mostafa.omarchy-app-manager"
+            ],
+            "commit": "3b439497adac42c09751c09b2248acdf1a04fad9",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-18T03:30:14.496Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-18T03:28:12.954Z",
+            "requestEventId": 33553488363,
+            "requestedAt": "2026-10-18T03:29:46Z",
+            "reviewedAt": "2026-10-18T03:30:14.496Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/manateelazycat/omarchy-file-previewer",
