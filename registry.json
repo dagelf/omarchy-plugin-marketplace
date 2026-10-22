@@ -294656,8 +294656,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T03:18:46.579Z",
-      "listingValidatedCommit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
-      "listingValidatedAt": "2026-10-02T03:18:46.579Z",
+      "listingValidatedCommit": "29b3ce2dc7a625820ea76fbb0a7b797579bbc2f2",
+      "listingValidatedAt": "2026-10-22T10:56:23.050Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -294666,8 +294666,8 @@
         "pluginIds": [
           "brightwalker25.battery-limit"
         ],
-        "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
-        "checkedAt": "2026-10-02T03:18:46.460Z",
+        "commit": "29b3ce2dc7a625820ea76fbb0a7b797579bbc2f2",
+        "checkedAt": "2026-10-22T10:56:23.050Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -294677,30 +294677,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "brightwalker25/omarchy-battery-limit",
-        "pluginIds": [
-          "brightwalker25.battery-limit"
-        ],
-        "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T03:18:46.460Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "remote-build",
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T02:49:33.686Z",
-        "requestEventId": 32305243414,
-        "requestedAt": "2026-10-02T02:50:41Z",
-        "reviewedAt": "2026-10-02T03:18:46.460Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "brightwalker25.battery-limit": {
@@ -294715,7 +294691,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brightwalker25/omarchy-battery-limit",
+        "pluginIds": [
+          "brightwalker25.battery-limit"
+        ],
+        "commit": "29b3ce2dc7a625820ea76fbb0a7b797579bbc2f2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T10:56:23.050Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer",
+          "remote-build",
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T08:23:27.667Z",
+        "requestEventId": 33941279953,
+        "requestedAt": "2026-10-22T10:55:45Z",
+        "reviewedAt": "2026-10-22T10:56:23.050Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+          "validatedAt": "2026-10-02T03:18:46.579Z",
+          "branch": "master",
+          "supersededAt": "2026-10-22T10:56:23.050Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brightwalker25/omarchy-battery-limit",
+            "pluginIds": [
+              "brightwalker25.battery-limit"
+            ],
+            "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+            "checkedAt": "2026-10-02T03:18:46.460Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "remote-build",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "brightwalker25/omarchy-battery-limit",
+            "pluginIds": [
+              "brightwalker25.battery-limit"
+            ],
+            "commit": "74cf2c73dca7a072028a7408f31e55c14a39cb36",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T03:18:46.460Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "remote-build",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T02:49:33.686Z",
+            "requestEventId": 32305243414,
+            "requestedAt": "2026-10-02T02:50:41Z",
+            "reviewedAt": "2026-10-02T03:18:46.460Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RobbieUK1/omarchy-power-menu",
