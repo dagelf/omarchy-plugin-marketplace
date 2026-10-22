@@ -350273,8 +350273,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T06:50:23.293Z",
-      "listingValidatedCommit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
-      "listingValidatedAt": "2026-10-17T16:14:20.896Z",
+      "listingValidatedCommit": "ef185fe99f047745b001c6918ff855c7630e9514",
+      "listingValidatedAt": "2026-10-22T11:59:02.837Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -350283,8 +350283,8 @@
         "pluginIds": [
           "jaj.tidal"
         ],
-        "commit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
-        "checkedAt": "2026-10-17T16:14:20.895Z",
+        "commit": "ef185fe99f047745b001c6918ff855c7630e9514",
+        "checkedAt": "2026-10-22T11:59:02.837Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -350405,6 +350405,57 @@
             "reviewedAt": "2026-10-16T20:59:19.801Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
+          "validatedAt": "2026-10-17T16:14:20.896Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T11:59:02.837Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jeffe747/omarchy-tidal-music-player",
+            "pluginIds": [
+              "jaj.tidal"
+            ],
+            "commit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
+            "checkedAt": "2026-10-17T16:14:20.895Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "service-management",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "jeffe747/omarchy-tidal-music-player",
+            "pluginIds": [
+              "jaj.tidal"
+            ],
+            "commit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-17T16:14:20.895Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "service-management",
+              "remote-build",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-17T15:48:01.104Z",
+            "requestEventId": 33528632314,
+            "requestedAt": "2026-10-17T16:13:54Z",
+            "reviewedAt": "2026-10-17T16:14:20.896Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -350413,10 +350464,10 @@
         "pluginIds": [
           "jaj.tidal"
         ],
-        "commit": "f41127e718e2fbd3b53b9975c12017d2737bafa4",
+        "commit": "ef185fe99f047745b001c6918ff855c7630e9514",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-17T16:14:20.895Z",
+        "baselineCheckedAt": "2026-10-22T11:59:02.837Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -350426,10 +350477,10 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-17T15:48:01.104Z",
-        "requestEventId": 33528632314,
-        "requestedAt": "2026-10-17T16:13:54Z",
-        "reviewedAt": "2026-10-17T16:14:20.896Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T11:26:00.095Z",
+        "requestEventId": 33946211677,
+        "requestedAt": "2026-10-22T11:58:33Z",
+        "reviewedAt": "2026-10-22T11:59:02.837Z",
         "reviewer": "HANCORE-linux"
       }
     },
