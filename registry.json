@@ -225467,8 +225467,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-21",
       "listedAt": "2026-09-21T05:19:59.383Z",
-      "listingValidatedCommit": "1734cb848bfbb0289c9da72ece816c398e335532",
-      "listingValidatedAt": "2026-10-01T07:26:07.005Z",
+      "listingValidatedCommit": "50b5c70f3dc382c907450acbf6f586faf2eb2901",
+      "listingValidatedAt": "2026-10-22T06:23:21.183Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -225477,13 +225477,12 @@
         "pluginIds": [
           "simonez.vkeyboard"
         ],
-        "commit": "1734cb848bfbb0289c9da72ece816c398e335532",
-        "checkedAt": "2026-10-01T07:26:07.005Z",
+        "commit": "50b5c70f3dc382c907450acbf6f586faf2eb2901",
+        "checkedAt": "2026-10-22T06:23:21.183Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "remote-build",
           "installer"
         ]
       },
@@ -225497,28 +225496,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "simonezpx3/omarchy-vkeyboard",
-        "pluginIds": [
-          "simonez.vkeyboard"
-        ],
-        "commit": "1734cb848bfbb0289c9da72ece816c398e335532",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-01T07:26:07.005Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-30T18:13:22.769Z",
-        "requestEventId": 32230470898,
-        "requestedAt": "2026-10-01T07:22:15Z",
-        "reviewedAt": "2026-10-01T07:26:07.005Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -225563,8 +225540,74 @@
             "reviewedAt": "2026-09-21T05:19:59.285Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "1734cb848bfbb0289c9da72ece816c398e335532",
+          "validatedAt": "2026-10-01T07:26:07.005Z",
+          "branch": "master",
+          "supersededAt": "2026-10-22T06:23:21.183Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "simonezpx3/omarchy-vkeyboard",
+            "pluginIds": [
+              "simonez.vkeyboard"
+            ],
+            "commit": "1734cb848bfbb0289c9da72ece816c398e335532",
+            "checkedAt": "2026-10-01T07:26:07.005Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "simonezpx3/omarchy-vkeyboard",
+            "pluginIds": [
+              "simonez.vkeyboard"
+            ],
+            "commit": "1734cb848bfbb0289c9da72ece816c398e335532",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-01T07:26:07.005Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-30T18:13:22.769Z",
+            "requestEventId": 32230470898,
+            "requestedAt": "2026-10-01T07:22:15Z",
+            "reviewedAt": "2026-10-01T07:26:07.005Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "simonezpx3/omarchy-vkeyboard",
+        "pluginIds": [
+          "simonez.vkeyboard"
+        ],
+        "commit": "50b5c70f3dc382c907450acbf6f586faf2eb2901",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T06:23:21.183Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T05:53:49.334Z",
+        "requestEventId": 33920441136,
+        "requestedAt": "2026-10-22T06:22:36Z",
+        "reviewedAt": "2026-10-22T06:23:21.183Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/OmAjitJadhav/omarchy-touchpad-edge",
