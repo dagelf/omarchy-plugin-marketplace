@@ -368873,6 +368873,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Daferia/omarchy-lid-sleep",
+      "type": "plugin-source",
+      "addedAt": "2026-10-22",
+      "listedAt": "2026-10-22T11:25:07.011Z",
+      "listingValidatedCommit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+      "listingValidatedAt": "2026-10-22T11:25:07.011Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "daferia/omarchy-lid-sleep",
+        "pluginIds": [
+          "daferia.lid-sleep"
+        ],
+        "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+        "checkedAt": "2026-10-22T11:25:06.895Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "daferia/omarchy-lid-sleep",
+        "pluginIds": [
+          "daferia.lid-sleep"
+        ],
+        "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T11:25:06.895Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T11:11:58.506Z",
+        "requestEventId": 33943582731,
+        "requestedAt": "2026-10-22T11:24:39Z",
+        "reviewedAt": "2026-10-22T11:25:06.895Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "daferia.lid-sleep": {
+          "category": "Widgets",
+          "tags": [
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
