@@ -354418,8 +354418,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T23:43:17.746Z",
-      "listingValidatedCommit": "a00865e82d1d2ee77365aae24cfb5c0dc5848033",
-      "listingValidatedAt": "2026-10-17T22:00:35.985Z",
+      "listingValidatedCommit": "6497e73018b0a7c05209b3bf2fc4a586566b4ca4",
+      "listingValidatedAt": "2026-10-22T04:37:55.315Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -354428,8 +354428,8 @@
         "pluginIds": [
           "emrgim.cycle"
         ],
-        "commit": "a00865e82d1d2ee77365aae24cfb5c0dc5848033",
-        "checkedAt": "2026-10-17T22:00:35.985Z",
+        "commit": "6497e73018b0a7c05209b3bf2fc4a586566b4ca4",
+        "checkedAt": "2026-10-22T04:37:55.315Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -354499,6 +354499,26 @@
             "requestedAt": "2026-10-16T23:40:54Z",
             "reviewedAt": "2026-10-16T23:43:17.606Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "a00865e82d1d2ee77365aae24cfb5c0dc5848033",
+          "validatedAt": "2026-10-17T22:00:35.985Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T04:37:55.315Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "emrgim/cycle",
+            "pluginIds": [
+              "emrgim.cycle"
+            ],
+            "commit": "a00865e82d1d2ee77365aae24cfb5c0dc5848033",
+            "checkedAt": "2026-10-17T22:00:35.985Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
