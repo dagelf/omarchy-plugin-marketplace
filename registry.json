@@ -340221,8 +340221,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T20:22:53.044Z",
-      "listingValidatedCommit": "63985ccbed36329b17d2d53a720fbd449e5ac79d",
-      "listingValidatedAt": "2026-10-22T05:44:06.563Z",
+      "listingValidatedCommit": "176ba87dd1867451331a77ef21fe3e899d030a08",
+      "listingValidatedAt": "2026-10-22T05:58:19.171Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340231,8 +340231,8 @@
         "pluginIds": [
           "com.gaugedb.search"
         ],
-        "commit": "63985ccbed36329b17d2d53a720fbd449e5ac79d",
-        "checkedAt": "2026-10-22T05:44:06.563Z",
+        "commit": "176ba87dd1867451331a77ef21fe3e899d030a08",
+        "checkedAt": "2026-10-22T05:58:19.171Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -340304,6 +340304,26 @@
             ],
             "commit": "00eadbc20bc474ae473ff19730047f585cbb1bf1",
             "checkedAt": "2026-10-14T05:20:32.568Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "63985ccbed36329b17d2d53a720fbd449e5ac79d",
+          "validatedAt": "2026-10-22T05:44:06.563Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T05:58:19.171Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "dyd4dsh7/gaugedb-omarchy",
+            "pluginIds": [
+              "com.gaugedb.search"
+            ],
+            "commit": "63985ccbed36329b17d2d53a720fbd449e5ac79d",
+            "checkedAt": "2026-10-22T05:44:06.563Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
