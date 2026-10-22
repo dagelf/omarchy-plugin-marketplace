@@ -349862,8 +349862,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-14",
       "listedAt": "2026-10-14T23:18:48.870Z",
-      "listingValidatedCommit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
-      "listingValidatedAt": "2026-10-14T23:18:48.870Z",
+      "listingValidatedCommit": "1fb3a94ab69812bb8f35fd2a65b2f5467c89a317",
+      "listingValidatedAt": "2026-10-22T16:31:39.445Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -349872,8 +349872,8 @@
         "pluginIds": [
           "rinzler.g102"
         ],
-        "commit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
-        "checkedAt": "2026-10-14T23:18:48.720Z",
+        "commit": "1fb3a94ab69812bb8f35fd2a65b2f5467c89a317",
+        "checkedAt": "2026-10-22T16:31:39.444Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -349881,28 +349881,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "0atxl/g102-logitech-omarchy-plugin",
-        "pluginIds": [
-          "rinzler.g102"
-        ],
-        "commit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-14T23:18:48.720Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-14T23:00:41.949Z",
-        "requestEventId": 33278402485,
-        "requestedAt": "2026-10-14T23:11:28Z",
-        "reviewedAt": "2026-10-14T23:18:48.720Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "rinzler.g102": {
@@ -349917,7 +349895,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "0atxl/g102-logitech-omarchy-plugin",
+        "pluginIds": [
+          "rinzler.g102"
+        ],
+        "commit": "1fb3a94ab69812bb8f35fd2a65b2f5467c89a317",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T16:31:39.444Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T16:27:09.492Z",
+        "requestEventId": 33971382474,
+        "requestedAt": "2026-10-22T16:31:09Z",
+        "reviewedAt": "2026-10-22T16:31:39.445Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
+          "validatedAt": "2026-10-14T23:18:48.870Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T16:31:39.445Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "0atxl/g102-logitech-omarchy-plugin",
+            "pluginIds": [
+              "rinzler.g102"
+            ],
+            "commit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
+            "checkedAt": "2026-10-14T23:18:48.720Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "0atxl/g102-logitech-omarchy-plugin",
+            "pluginIds": [
+              "rinzler.g102"
+            ],
+            "commit": "5f5083ed5e970c1367d3d696e14aa3a6fb5bea43",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-14T23:18:48.720Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-14T23:00:41.949Z",
+            "requestEventId": 33278402485,
+            "requestedAt": "2026-10-14T23:11:28Z",
+            "reviewedAt": "2026-10-14T23:18:48.720Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/meperdev/omarchy-looknfeel",
