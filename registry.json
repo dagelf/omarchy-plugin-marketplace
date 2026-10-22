@@ -369033,8 +369033,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-22",
       "listedAt": "2026-10-22T11:25:07.011Z",
-      "listingValidatedCommit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
-      "listingValidatedAt": "2026-10-22T11:25:07.011Z",
+      "listingValidatedCommit": "64eadcd07a534534efb041f33a49f6388f9af44c",
+      "listingValidatedAt": "2026-10-22T12:36:28.384Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -369043,8 +369043,8 @@
         "pluginIds": [
           "daferia.lid-sleep"
         ],
-        "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
-        "checkedAt": "2026-10-22T11:25:06.895Z",
+        "commit": "64eadcd07a534534efb041f33a49f6388f9af44c",
+        "checkedAt": "2026-10-22T12:36:28.383Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -369052,28 +369052,6 @@
           "privilege",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "daferia/omarchy-lid-sleep",
-        "pluginIds": [
-          "daferia.lid-sleep"
-        ],
-        "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-22T11:25:06.895Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-22T11:11:58.506Z",
-        "requestEventId": 33943582731,
-        "requestedAt": "2026-10-22T11:24:39Z",
-        "reviewedAt": "2026-10-22T11:25:06.895Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "daferia.lid-sleep": {
@@ -369083,7 +369061,76 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "daferia/omarchy-lid-sleep",
+        "pluginIds": [
+          "daferia.lid-sleep"
+        ],
+        "commit": "64eadcd07a534534efb041f33a49f6388f9af44c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T12:36:28.383Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T12:28:31.009Z",
+        "requestEventId": 33949378724,
+        "requestedAt": "2026-10-22T12:35:52Z",
+        "reviewedAt": "2026-10-22T12:36:28.384Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+          "validatedAt": "2026-10-22T11:25:07.011Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T12:36:28.384Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "daferia/omarchy-lid-sleep",
+            "pluginIds": [
+              "daferia.lid-sleep"
+            ],
+            "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+            "checkedAt": "2026-10-22T11:25:06.895Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "daferia/omarchy-lid-sleep",
+            "pluginIds": [
+              "daferia.lid-sleep"
+            ],
+            "commit": "e62559db5409e3948a7d4ba2292b953c1fde18c4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-22T11:25:06.895Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-22T11:11:58.506Z",
+            "requestEventId": 33943582731,
+            "requestedAt": "2026-10-22T11:24:39Z",
+            "reviewedAt": "2026-10-22T11:25:06.895Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     }
   ],
   "builtInSources": [
