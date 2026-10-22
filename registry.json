@@ -118932,8 +118932,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-31",
       "listedAt": "2026-08-31T08:06:58.648Z",
-      "listingValidatedCommit": "0caf5263531d434bb8315ff3887dcd5474c87374",
-      "listingValidatedAt": "2026-09-11T14:30:27.579Z",
+      "listingValidatedCommit": "e633b4a9c34db6a197255b8d14a6348b60807c59",
+      "listingValidatedAt": "2026-10-22T10:21:58.636Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -118942,12 +118942,14 @@
         "pluginIds": [
           "promaa.clock"
         ],
-        "commit": "0caf5263531d434bb8315ff3887dcd5474c87374",
-        "checkedAt": "2026-09-11T14:30:27.579Z",
-        "outcome": "passed",
+        "commit": "e633b4a9c34db6a197255b8d14a6348b60807c59",
+        "checkedAt": "2026-10-22T10:21:58.636Z",
+        "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": []
+        "capabilities": [
+          "installer"
+        ]
       },
       "plugins": {
         "promaa.clock": {
@@ -118978,8 +118980,49 @@
             "findings": [],
             "capabilities": []
           }
+        },
+        {
+          "commit": "0caf5263531d434bb8315ff3887dcd5474c87374",
+          "validatedAt": "2026-09-11T14:30:27.579Z",
+          "branch": "main",
+          "supersededAt": "2026-10-22T10:21:58.636Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "promaaa/sync-calendar-omarchy",
+            "pluginIds": [
+              "promaa.clock"
+            ],
+            "commit": "0caf5263531d434bb8315ff3887dcd5474c87374",
+            "checkedAt": "2026-09-11T14:30:27.579Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "promaaa/sync-calendar-omarchy",
+        "pluginIds": [
+          "promaa.clock"
+        ],
+        "commit": "e633b4a9c34db6a197255b8d14a6348b60807c59",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-22T10:21:58.636Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T09:12:09.292Z",
+        "requestEventId": 33938684781,
+        "requestedAt": "2026-10-22T10:21:23Z",
+        "reviewedAt": "2026-10-22T10:21:58.636Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Bottelet/omarchy-invaders",
