@@ -369864,6 +369864,65 @@
           }
         }
       ]
+    },
+    {
+      "repo": "https://github.com/gdeyoung/omarchy-timemachine",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T19:28:51.302Z",
+      "listingValidatedCommit": "a0004c11214154dd282443654f88c0d1b461249f",
+      "listingValidatedAt": "2026-10-25T19:28:51.302Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gdeyoung/omarchy-timemachine",
+        "pluginIds": [
+          "gdeyoung.timemachine"
+        ],
+        "commit": "a0004c11214154dd282443654f88c0d1b461249f",
+        "checkedAt": "2026-10-25T19:28:51.160Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gdeyoung/omarchy-timemachine",
+        "pluginIds": [
+          "gdeyoung.timemachine"
+        ],
+        "commit": "a0004c11214154dd282443654f88c0d1b461249f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T19:28:51.160Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T19:19:37.617Z",
+        "requestEventId": 34199612638,
+        "requestedAt": "2026-10-25T19:28:21Z",
+        "reviewedAt": "2026-10-25T19:28:51.160Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "gdeyoung.timemachine": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
