@@ -370209,6 +370209,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ZanzyTHEbar/workspace-indicator",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T19:59:45.340Z",
+      "listingValidatedCommit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+      "listingValidatedAt": "2026-10-25T19:59:45.340Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zanzythebar/workspace-indicator",
+        "pluginIds": [
+          "zanzythebar.workspace-indicator"
+        ],
+        "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+        "checkedAt": "2026-10-25T19:59:45.189Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zanzythebar/workspace-indicator",
+        "pluginIds": [
+          "zanzythebar.workspace-indicator"
+        ],
+        "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T19:59:45.189Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T19:44:47.608Z",
+        "requestEventId": 34200536443,
+        "requestedAt": "2026-10-25T19:50:32Z",
+        "reviewedAt": "2026-10-25T19:59:45.190Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "zanzythebar.workspace-indicator": {
+          "category": "Desktop",
+          "tags": [
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
