@@ -370553,6 +370553,75 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/AkinleyeMicheal/omarchy-brownout",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:42:41.217Z",
+      "listingValidatedCommit": "7aa11dd9c014e903baf359ac7fcf34c32a2af551",
+      "listingValidatedAt": "2026-10-25T21:42:41.217Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "akinleyemicheal/omarchy-brownout",
+        "pluginIds": [
+          "fonsgaudii.brownout"
+        ],
+        "commit": "7aa11dd9c014e903baf359ac7fcf34c32a2af551",
+        "checkedAt": "2026-10-25T21:42:41.069Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "sudoers-modification",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "akinleyemicheal/omarchy-brownout",
+        "pluginIds": [
+          "fonsgaudii.brownout"
+        ],
+        "commit": "7aa11dd9c014e903baf359ac7fcf34c32a2af551",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T21:42:41.069Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "remote-build",
+          "sudoers-modification",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:10:28.029Z",
+        "requestEventId": 34204503339,
+        "requestedAt": "2026-10-25T21:16:03Z",
+        "reviewedAt": "2026-10-25T21:42:41.069Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "fonsgaudii.brownout": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
