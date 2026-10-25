@@ -370681,6 +370681,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/juancasanueva/omarchy-peribattery",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:49:46.494Z",
+      "listingValidatedCommit": "7b4865d41899536dc8036da74f5e9e6da6c6127d",
+      "listingValidatedAt": "2026-10-25T21:49:46.494Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "juancasanueva/omarchy-peribattery",
+        "pluginIds": [
+          "juancasanueva.peribattery"
+        ],
+        "commit": "7b4865d41899536dc8036da74f5e9e6da6c6127d",
+        "checkedAt": "2026-10-25T21:49:46.348Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "juancasanueva.peribattery": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "power-management"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
