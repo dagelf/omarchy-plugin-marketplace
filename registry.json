@@ -371734,6 +371734,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/superb-striker/youtube-feed",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T23:23:00.832Z",
+      "listingValidatedCommit": "1b2958a834d8f8367eb06adf49d549d100b2f6f0",
+      "listingValidatedAt": "2026-10-25T23:23:00.832Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "superb-striker/youtube-feed",
+        "pluginIds": [
+          "io.github.superb-striker.youtube-feed"
+        ],
+        "commit": "1b2958a834d8f8367eb06adf49d549d100b2f6f0",
+        "checkedAt": "2026-10-25T23:23:00.712Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.superb-striker.youtube-feed": {
+          "category": "Other",
+          "tags": [
+            "media",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
