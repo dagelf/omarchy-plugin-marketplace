@@ -371285,6 +371285,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Reflectionist/omarchy-keycue",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T22:40:17.645Z",
+      "listingValidatedCommit": "515c0d0530dca00422f3651d669244171fd71bf3",
+      "listingValidatedAt": "2026-10-25T22:40:17.645Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "reflectionist/omarchy-keycue",
+        "pluginIds": [
+          "io.github.reflectionist.keycue"
+        ],
+        "commit": "515c0d0530dca00422f3651d669244171fd71bf3",
+        "checkedAt": "2026-10-25T22:40:17.520Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.reflectionist.keycue": {
+          "category": "Productivity",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
