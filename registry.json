@@ -370714,6 +370714,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/micahelj/deskset",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:53:36.546Z",
+      "listingValidatedCommit": "d8991f645f704efd4bab05f35caf4ff50f5cd58d",
+      "listingValidatedAt": "2026-10-25T21:53:36.546Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "micahelj/deskset",
+        "pluginIds": [
+          "io.github.micahelj.deskset"
+        ],
+        "commit": "d8991f645f704efd4bab05f35caf4ff50f5cd58d",
+        "checkedAt": "2026-10-25T21:53:36.396Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "micahelj/deskset",
+        "pluginIds": [
+          "io.github.micahelj.deskset"
+        ],
+        "commit": "d8991f645f704efd4bab05f35caf4ff50f5cd58d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T21:53:36.396Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:18:50.023Z",
+        "requestEventId": 34205159605,
+        "requestedAt": "2026-10-25T21:29:40Z",
+        "reviewedAt": "2026-10-25T21:53:36.396Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.micahelj.deskset": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "ai"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
