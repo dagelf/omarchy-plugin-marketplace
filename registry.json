@@ -369934,6 +369934,44 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/dobrician/omarchy-ai-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T20:29:17.763Z",
+      "listingValidatedCommit": "50d9faa21fcce3e2c294b388c407dfcb40a2c2f5",
+      "listingValidatedAt": "2026-10-25T20:29:17.763Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dobrician/omarchy-ai-usage",
+        "pluginIds": [
+          "dc.ai-usage"
+        ],
+        "commit": "50d9faa21fcce3e2c294b388c407dfcb40a2c2f5",
+        "checkedAt": "2026-10-25T20:29:17.620Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "dc.ai-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
