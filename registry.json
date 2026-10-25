@@ -371802,6 +371802,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Chromelynx/omarchy-uniform",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T23:30:27.691Z",
+      "listingValidatedCommit": "a22f31b2008c0e8204d53b46f11e8b948cc126c2",
+      "listingValidatedAt": "2026-10-25T23:30:27.691Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "chromelynx/omarchy-uniform",
+        "pluginIds": [
+          "clynx.uniform"
+        ],
+        "commit": "a22f31b2008c0e8204d53b46f11e8b948cc126c2",
+        "checkedAt": "2026-10-25T23:30:27.528Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "clynx.uniform": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
