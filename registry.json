@@ -371542,6 +371542,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Loocist23/omarchy-iot-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T23:03:22.974Z",
+      "listingValidatedCommit": "8b4006f654bb635eeac3a4535a6e9b1cf4d954ee",
+      "listingValidatedAt": "2026-10-25T23:03:22.974Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "loocist23/omarchy-iot-plugin",
+        "pluginIds": [
+          "loocist.iot"
+        ],
+        "commit": "8b4006f654bb635eeac3a4535a6e9b1cf4d954ee",
+        "checkedAt": "2026-10-25T23:03:22.809Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "loocist.iot": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
