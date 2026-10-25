@@ -370781,6 +370781,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Wenston-dev/omarchy-memento",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:57:39.846Z",
+      "listingValidatedCommit": "ec57fd07f533acf0cca96d0d7a1b5d6ca4f32a3b",
+      "listingValidatedAt": "2026-10-25T21:57:39.846Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "wenston-dev/omarchy-memento",
+        "pluginIds": [
+          "io.github.wenston-dev.memento"
+        ],
+        "commit": "ec57fd07f533acf0cca96d0d7a1b5d6ca4f32a3b",
+        "checkedAt": "2026-10-25T21:57:39.760Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.wenston-dev.memento": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
