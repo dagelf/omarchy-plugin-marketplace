@@ -370847,6 +370847,69 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GingerRouxt/ironclad",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T22:05:39.774Z",
+      "listingValidatedCommit": "73e2275b3bb8b83c3c7c72c570cd6adff1402779",
+      "listingValidatedAt": "2026-10-25T22:05:39.774Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gingerrouxt/ironclad",
+        "pluginIds": [
+          "com.zerodaysecurity.ironclad"
+        ],
+        "commit": "73e2275b3bb8b83c3c7c72c570cd6adff1402779",
+        "checkedAt": "2026-10-25T22:05:39.627Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "sudoers-modification",
+          "service-management",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gingerrouxt/ironclad",
+        "pluginIds": [
+          "com.zerodaysecurity.ironclad"
+        ],
+        "commit": "73e2275b3bb8b83c3c7c72c570cd6adff1402779",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T22:05:39.627Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "sudoers-modification",
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:47:02.613Z",
+        "requestEventId": 34206835143,
+        "requestedAt": "2026-10-25T22:05:12Z",
+        "reviewedAt": "2026-10-25T22:05:39.627Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "com.zerodaysecurity.ironclad": {
+          "category": "System",
+          "tags": [
+            "security",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
