@@ -369923,6 +369923,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kanpianer/Omagate",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T19:32:54.414Z",
+      "listingValidatedCommit": "076f2d0213066b41edebf7fe6e09592b9a134fd7",
+      "listingValidatedAt": "2026-10-25T19:32:54.414Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kanpianer/omagate",
+        "pluginIds": [
+          "io.github.kanpianer.omagate"
+        ],
+        "commit": "076f2d0213066b41edebf7fe6e09592b9a134fd7",
+        "checkedAt": "2026-10-25T19:32:54.241Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "kanpianer/omagate",
+        "pluginIds": [
+          "io.github.kanpianer.omagate"
+        ],
+        "commit": "076f2d0213066b41edebf7fe6e09592b9a134fd7",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T19:32:54.241Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T19:19:42.211Z",
+        "requestEventId": 34199613968,
+        "requestedAt": "2026-10-25T19:28:23Z",
+        "reviewedAt": "2026-10-25T19:32:54.241Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.kanpianer.omagate": {
+          "category": "Widgets",
+          "tags": [
+            "vpn"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
