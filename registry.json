@@ -371869,6 +371869,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/maybepritz/omarchy-dota-stats",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T23:38:22.063Z",
+      "listingValidatedCommit": "46fd963080b46c0b4c25a235df01141cc85767db",
+      "listingValidatedAt": "2026-10-25T23:38:22.063Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "maybepritz/omarchy-dota-stats",
+        "pluginIds": [
+          "maybepritz.dota-stats"
+        ],
+        "commit": "46fd963080b46c0b4c25a235df01141cc85767db",
+        "checkedAt": "2026-10-25T23:38:21.917Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "maybepritz.dota-stats": {
+          "category": "Widgets",
+          "tags": [
+            "games"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
