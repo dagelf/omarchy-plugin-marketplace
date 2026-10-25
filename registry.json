@@ -370486,6 +370486,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/bmaltais/OmaDisplayLink",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:38:35.694Z",
+      "listingValidatedCommit": "6174ea2a4ddeb4453955c71c7ab8f16ca3393dab",
+      "listingValidatedAt": "2026-10-25T21:38:35.694Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "bmaltais/omadisplaylink",
+        "pluginIds": [
+          "io.github.bmaltais.omadisplaylink"
+        ],
+        "commit": "6174ea2a4ddeb4453955c71c7ab8f16ca3393dab",
+        "checkedAt": "2026-10-25T21:38:35.551Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "bmaltais/omadisplaylink",
+        "pluginIds": [
+          "io.github.bmaltais.omadisplaylink"
+        ],
+        "commit": "6174ea2a4ddeb4453955c71c7ab8f16ca3393dab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T21:38:35.551Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:10:29.577Z",
+        "requestEventId": 34204501297,
+        "requestedAt": "2026-10-25T21:16:01Z",
+        "reviewedAt": "2026-10-25T21:38:35.551Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.bmaltais.omadisplaylink": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
