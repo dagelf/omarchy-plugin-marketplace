@@ -370022,6 +370022,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/chivopic/omarchy-github-heatmap",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T19:42:52.884Z",
+      "listingValidatedCommit": "e362da1fbce7c32547f66186d7c6f6717f8e73f2",
+      "listingValidatedAt": "2026-10-25T19:42:52.884Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "chivopic/omarchy-github-heatmap",
+        "pluginIds": [
+          "io.github.chivopic.github-heatmap"
+        ],
+        "commit": "e362da1fbce7c32547f66186d7c6f6717f8e73f2",
+        "checkedAt": "2026-10-25T19:42:52.736Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.chivopic.github-heatmap": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
