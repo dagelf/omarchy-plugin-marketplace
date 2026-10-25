@@ -371385,6 +371385,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CornillieJ/omarchy-alpha-black",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T22:51:36.582Z",
+      "listingValidatedCommit": "515c219d18a0d3f7393c936e73b6a74e4862676f",
+      "listingValidatedAt": "2026-10-25T22:51:36.582Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cornilliej/omarchy-alpha-black",
+        "pluginIds": [
+          "jeffrey.alpha-black"
+        ],
+        "commit": "515c219d18a0d3f7393c936e73b6a74e4862676f",
+        "checkedAt": "2026-10-25T22:51:36.421Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cornilliej/omarchy-alpha-black",
+        "pluginIds": [
+          "jeffrey.alpha-black"
+        ],
+        "commit": "515c219d18a0d3f7393c936e73b6a74e4862676f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T22:51:36.421Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:56:02.239Z",
+        "requestEventId": 34207586906,
+        "requestedAt": "2026-10-25T22:20:51Z",
+        "reviewedAt": "2026-10-25T22:51:36.422Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "jeffrey.alpha-black": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
