@@ -370296,6 +370296,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ChromaticRanger/monzo-omarchy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T21:27:16.703Z",
+      "listingValidatedCommit": "680655c66f9cbd73f2391be1ce333a4a85c8028a",
+      "listingValidatedAt": "2026-10-25T21:27:16.703Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "chromaticranger/monzo-omarchy",
+        "pluginIds": [
+          "chromaticranger.monzo"
+        ],
+        "commit": "680655c66f9cbd73f2391be1ce333a4a85c8028a",
+        "checkedAt": "2026-10-25T21:27:16.544Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "chromaticranger/monzo-omarchy",
+        "pluginIds": [
+          "chromaticranger.monzo"
+        ],
+        "commit": "680655c66f9cbd73f2391be1ce333a4a85c8028a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T21:27:16.544Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:06:24.874Z",
+        "requestEventId": 34204496977,
+        "requestedAt": "2026-10-25T21:15:56Z",
+        "reviewedAt": "2026-10-25T21:27:16.544Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "chromaticranger.monzo": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
