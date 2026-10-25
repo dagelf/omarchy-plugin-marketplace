@@ -370154,6 +370154,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ridgegate/omarchy-agents",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T19:56:01.707Z",
+      "listingValidatedCommit": "40f59a12b920a271c2810c8037f8ca3f2bf67509",
+      "listingValidatedAt": "2026-10-25T19:56:01.707Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ridgegate/omarchy-agents",
+        "pluginIds": [
+          "agentselector.agents"
+        ],
+        "commit": "40f59a12b920a271c2810c8037f8ca3f2bf67509",
+        "checkedAt": "2026-10-25T19:56:01.546Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ridgegate/omarchy-agents",
+        "pluginIds": [
+          "agentselector.agents"
+        ],
+        "commit": "40f59a12b920a271c2810c8037f8ca3f2bf67509",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-25T19:56:01.546Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T19:43:57.599Z",
+        "requestEventId": 34200373113,
+        "requestedAt": "2026-10-25T19:46:39Z",
+        "reviewedAt": "2026-10-25T19:56:01.546Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "agentselector.agents": {
+          "category": "Widgets",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
