@@ -347772,8 +347772,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T19:09:03.508Z",
-      "listingValidatedCommit": "9118e437908551c75afa1e75b8033a377b009291",
-      "listingValidatedAt": "2026-10-13T19:09:03.508Z",
+      "listingValidatedCommit": "a234cadc3deab19be1cde4f25ef16860c154955c",
+      "listingValidatedAt": "2026-10-26T14:56:56.074Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -347782,8 +347782,8 @@
         "pluginIds": [
           "io.github.pierrecagne.spotifyd"
         ],
-        "commit": "9118e437908551c75afa1e75b8033a377b009291",
-        "checkedAt": "2026-10-13T19:09:03.423Z",
+        "commit": "a234cadc3deab19be1cde4f25ef16860c154955c",
+        "checkedAt": "2026-10-26T14:56:56.074Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -347791,28 +347791,6 @@
           "package-manager",
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "pierrecagne/omarchy-spotifyd",
-        "pluginIds": [
-          "io.github.pierrecagne.spotifyd"
-        ],
-        "commit": "9118e437908551c75afa1e75b8033a377b009291",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T19:09:03.423Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T15:20:31.278Z",
-        "requestEventId": 33163858762,
-        "requestedAt": "2026-10-13T19:08:18Z",
-        "reviewedAt": "2026-10-13T19:09:03.423Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.pierrecagne.spotifyd": {
@@ -347828,7 +347806,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pierrecagne/omarchy-spotifyd",
+        "pluginIds": [
+          "io.github.pierrecagne.spotifyd"
+        ],
+        "commit": "a234cadc3deab19be1cde4f25ef16860c154955c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T14:56:56.074Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T20:08:25.943Z",
+        "requestEventId": 34271842851,
+        "requestedAt": "2026-10-26T14:56:24Z",
+        "reviewedAt": "2026-10-26T14:56:56.074Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "9118e437908551c75afa1e75b8033a377b009291",
+          "validatedAt": "2026-10-13T19:09:03.508Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T14:56:56.074Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "pierrecagne/omarchy-spotifyd",
+            "pluginIds": [
+              "io.github.pierrecagne.spotifyd"
+            ],
+            "commit": "9118e437908551c75afa1e75b8033a377b009291",
+            "checkedAt": "2026-10-13T19:09:03.423Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "pierrecagne/omarchy-spotifyd",
+            "pluginIds": [
+              "io.github.pierrecagne.spotifyd"
+            ],
+            "commit": "9118e437908551c75afa1e75b8033a377b009291",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T19:09:03.423Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T15:20:31.278Z",
+            "requestEventId": 33163858762,
+            "requestedAt": "2026-10-13T19:08:18Z",
+            "reviewedAt": "2026-10-13T19:09:03.423Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Maxrio9/omarchy-focus-music",
