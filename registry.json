@@ -375302,6 +375302,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/avb7/omarchy-controller",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T08:23:10.701Z",
+      "listingValidatedCommit": "b5e292c6e8b7711fc8206481ba8ff631b48b9793",
+      "listingValidatedAt": "2026-10-26T08:23:10.701Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "avb7/omarchy-controller",
+        "pluginIds": [
+          "avb7.omarchy-controller"
+        ],
+        "commit": "b5e292c6e8b7711fc8206481ba8ff631b48b9793",
+        "checkedAt": "2026-10-26T08:23:10.559Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "avb7/omarchy-controller",
+        "pluginIds": [
+          "avb7.omarchy-controller"
+        ],
+        "commit": "b5e292c6e8b7711fc8206481ba8ff631b48b9793",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T08:23:10.559Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T07:28:57.806Z",
+        "requestEventId": 34236963598,
+        "requestedAt": "2026-10-26T08:10:11Z",
+        "reviewedAt": "2026-10-26T08:23:10.559Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "avb7.omarchy-controller": {
+          "category": "Hardware",
+          "tags": [
+            "games",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
