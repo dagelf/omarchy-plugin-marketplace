@@ -270611,8 +270611,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T23:38:49.371Z",
-      "listingValidatedCommit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
-      "listingValidatedAt": "2026-10-26T14:22:57.685Z",
+      "listingValidatedCommit": "638977857563729be25682a4bf1144d466d8f8e7",
+      "listingValidatedAt": "2026-10-26T22:17:06.738Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -270621,8 +270621,8 @@
         "pluginIds": [
           "ubruckhaus.simple-launcher-for-fools"
         ],
-        "commit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
-        "checkedAt": "2026-10-26T14:22:57.685Z",
+        "commit": "638977857563729be25682a4bf1144d466d8f8e7",
+        "checkedAt": "2026-10-26T22:17:06.738Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -271222,6 +271222,49 @@
             "reviewedAt": "2026-10-20T16:52:32.635Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
+          "validatedAt": "2026-10-26T14:22:57.685Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T22:17:06.738Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-simple-launcher-for-fools",
+            "pluginIds": [
+              "ubruckhaus.simple-launcher-for-fools"
+            ],
+            "commit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
+            "checkedAt": "2026-10-26T14:22:57.685Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-simple-launcher-for-fools",
+            "pluginIds": [
+              "ubruckhaus.simple-launcher-for-fools"
+            ],
+            "commit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-26T14:22:57.685Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-23T22:10:35.325Z",
+            "requestEventId": 34268258307,
+            "requestedAt": "2026-10-26T14:22:25Z",
+            "reviewedAt": "2026-10-26T14:22:57.685Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -271230,19 +271273,19 @@
         "pluginIds": [
           "ubruckhaus.simple-launcher-for-fools"
         ],
-        "commit": "9af4da827c1ea7f0af8fae130813d6c71fd8cc07",
+        "commit": "638977857563729be25682a4bf1144d466d8f8e7",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-26T14:22:57.685Z",
+        "baselineCheckedAt": "2026-10-26T22:17:06.738Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "privilege"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-23T22:10:35.325Z",
-        "requestEventId": 34268258307,
-        "requestedAt": "2026-10-26T14:22:25Z",
-        "reviewedAt": "2026-10-26T14:22:57.685Z",
+        "reviewedBaselineCheckedAt": "2026-10-26T19:02:18.300Z",
+        "requestEventId": 34310391904,
+        "requestedAt": "2026-10-26T22:16:37Z",
+        "reviewedAt": "2026-10-26T22:17:06.738Z",
         "reviewer": "HANCORE-linux"
       }
     },
