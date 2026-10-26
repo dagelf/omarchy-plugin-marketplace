@@ -372431,6 +372431,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/iammhador/omarchy-mic-pulse",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T00:30:51.138Z",
+      "listingValidatedCommit": "829ea59f57cd51ea668e4b3c309096bbb7bffa0c",
+      "listingValidatedAt": "2026-10-26T00:30:51.138Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "iammhador/omarchy-mic-pulse",
+        "pluginIds": [
+          "io.github.iammhador.mic-pulse"
+        ],
+        "commit": "829ea59f57cd51ea668e4b3c309096bbb7bffa0c",
+        "checkedAt": "2026-10-26T00:30:50.970Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.iammhador.mic-pulse": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
