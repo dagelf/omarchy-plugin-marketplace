@@ -376849,6 +376849,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/elliotalien/tide",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:52:06.354Z",
+      "listingValidatedCommit": "f906034c4d382523735c498ac912597e1880ae6a",
+      "listingValidatedAt": "2026-10-26T11:52:06.354Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "elliotalien/tide",
+        "pluginIds": [
+          "io.github.elliotalien.tide"
+        ],
+        "commit": "f906034c4d382523735c498ac912597e1880ae6a",
+        "checkedAt": "2026-10-26T11:52:06.226Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "elliotalien/tide",
+        "pluginIds": [
+          "io.github.elliotalien.tide"
+        ],
+        "commit": "f906034c4d382523735c498ac912597e1880ae6a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T11:52:06.226Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T11:18:22.484Z",
+        "requestEventId": 34254554212,
+        "requestedAt": "2026-10-26T11:50:07Z",
+        "reviewedAt": "2026-10-26T11:52:06.226Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.elliotalien.tide": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "quickshell",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
