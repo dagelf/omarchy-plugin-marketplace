@@ -215264,8 +215264,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-18",
       "listedAt": "2026-09-18T20:00:25.624Z",
-      "listingValidatedCommit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
-      "listingValidatedAt": "2026-10-03T07:02:37.886Z",
+      "listingValidatedCommit": "8b6b15ac7fafb4064f8e0bcc1212291a16e222a3",
+      "listingValidatedAt": "2026-10-26T08:50:18.863Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -215274,8 +215274,8 @@
         "pluginIds": [
           "brenoperucchi.omabackup"
         ],
-        "commit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
-        "checkedAt": "2026-10-03T07:02:37.885Z",
+        "commit": "8b6b15ac7fafb4064f8e0bcc1212291a16e222a3",
+        "checkedAt": "2026-10-26T08:50:18.862Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -215298,28 +215298,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "brenoperucchi/omabackup",
-        "pluginIds": [
-          "brenoperucchi.omabackup"
-        ],
-        "commit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T07:02:37.885Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T06:37:50.770Z",
-        "requestEventId": 32385294417,
-        "requestedAt": "2026-10-03T06:44:09Z",
-        "reviewedAt": "2026-10-03T07:02:37.886Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -215366,8 +215344,75 @@
             "reviewedAt": "2026-09-18T20:00:25.524Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
+          "validatedAt": "2026-10-03T07:02:37.886Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T08:50:18.863Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brenoperucchi/omabackup",
+            "pluginIds": [
+              "brenoperucchi.omabackup"
+            ],
+            "commit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
+            "checkedAt": "2026-10-03T07:02:37.885Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "brenoperucchi/omabackup",
+            "pluginIds": [
+              "brenoperucchi.omabackup"
+            ],
+            "commit": "d2f22b3ba4413eb40418bac7cf9c1a54d0ae5b09",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T07:02:37.885Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T06:37:50.770Z",
+            "requestEventId": 32385294417,
+            "requestedAt": "2026-10-03T06:44:09Z",
+            "reviewedAt": "2026-10-03T07:02:37.886Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brenoperucchi/omabackup",
+        "pluginIds": [
+          "brenoperucchi.omabackup"
+        ],
+        "commit": "8b6b15ac7fafb4064f8e0bcc1212291a16e222a3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T08:50:18.862Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T19:16:42.079Z",
+        "requestEventId": 34240048499,
+        "requestedAt": "2026-10-26T08:49:44Z",
+        "reviewedAt": "2026-10-26T08:50:18.863Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/FAZuH/omarchy-screenlogs",
