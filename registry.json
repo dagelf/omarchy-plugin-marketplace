@@ -322955,8 +322955,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T02:52:26.125Z",
-      "listingValidatedCommit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
-      "listingValidatedAt": "2026-10-13T03:23:49.422Z",
+      "listingValidatedCommit": "b8476e4d8c6d5cf94db36d507966dc709e5df8fe",
+      "listingValidatedAt": "2026-10-26T02:47:02.499Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -322965,8 +322965,8 @@
         "pluginIds": [
           "andy.git-sync"
         ],
-        "commit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
-        "checkedAt": "2026-10-13T03:23:49.422Z",
+        "commit": "b8476e4d8c6d5cf94db36d507966dc709e5df8fe",
+        "checkedAt": "2026-10-26T02:47:02.499Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -322985,28 +322985,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "manateelazycat/omarchy-git-sync",
-        "pluginIds": [
-          "andy.git-sync"
-        ],
-        "commit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T03:23:49.422Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T18:36:20.644Z",
-        "requestEventId": 33098402055,
-        "requestedAt": "2026-10-13T03:23:19Z",
-        "reviewedAt": "2026-10-13T03:23:49.422Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -323053,8 +323031,75 @@
             "reviewedAt": "2026-10-07T02:52:26.033Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
+          "validatedAt": "2026-10-13T03:23:49.422Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T02:47:02.499Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "manateelazycat/omarchy-git-sync",
+            "pluginIds": [
+              "andy.git-sync"
+            ],
+            "commit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
+            "checkedAt": "2026-10-13T03:23:49.422Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "manateelazycat/omarchy-git-sync",
+            "pluginIds": [
+              "andy.git-sync"
+            ],
+            "commit": "5e5a36b3d0116f0f77cefc4949f74750d13609d5",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T03:23:49.422Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-12T18:36:20.644Z",
+            "requestEventId": 33098402055,
+            "requestedAt": "2026-10-13T03:23:19Z",
+            "reviewedAt": "2026-10-13T03:23:49.422Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "manateelazycat/omarchy-git-sync",
+        "pluginIds": [
+          "andy.git-sync"
+        ],
+        "commit": "b8476e4d8c6d5cf94db36d507966dc709e5df8fe",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T02:47:02.499Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T17:56:43.516Z",
+        "requestEventId": 34218759723,
+        "requestedAt": "2026-10-26T02:32:32Z",
+        "reviewedAt": "2026-10-26T02:47:02.499Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/tkreek/omarchy-unsplash",
