@@ -127867,8 +127867,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T12:53:11.392Z",
-      "listingValidatedCommit": "7ead06f8a2109d58ad7144bab223ecc9bde1cd19",
-      "listingValidatedAt": "2026-10-02T17:39:54.758Z",
+      "listingValidatedCommit": "59ede1d7f1f0ee6053e644b26717324ee90d3e2d",
+      "listingValidatedAt": "2026-10-26T19:36:11.474Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -127877,8 +127877,8 @@
         "pluginIds": [
           "dailen.omarcharium"
         ],
-        "commit": "7ead06f8a2109d58ad7144bab223ecc9bde1cd19",
-        "checkedAt": "2026-10-02T17:39:54.758Z",
+        "commit": "59ede1d7f1f0ee6053e644b26717324ee90d3e2d",
+        "checkedAt": "2026-10-26T19:36:11.474Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -127910,6 +127910,26 @@
             ],
             "commit": "751c3521086873c5b70c4de67aba068b22528f41",
             "checkedAt": "2026-09-01T12:53:11.337Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "7ead06f8a2109d58ad7144bab223ecc9bde1cd19",
+          "validatedAt": "2026-10-02T17:39:54.758Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T19:36:11.474Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "daileng/omarcharium",
+            "pluginIds": [
+              "dailen.omarcharium"
+            ],
+            "commit": "7ead06f8a2109d58ad7144bab223ecc9bde1cd19",
+            "checkedAt": "2026-10-02T17:39:54.758Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
