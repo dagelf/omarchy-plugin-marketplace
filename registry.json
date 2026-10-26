@@ -373038,6 +373038,70 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gsus67/omarchy-trcc",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:23:49.007Z",
+      "listingValidatedCommit": "5c3e8d533d6b0c53591ec8fb87328d3d0ef1392f",
+      "listingValidatedAt": "2026-10-26T01:23:49.007Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gsus67/omarchy-trcc",
+        "pluginIds": [
+          "io.github.gsus67.omarchy-trcc"
+        ],
+        "commit": "5c3e8d533d6b0c53591ec8fb87328d3d0ef1392f",
+        "checkedAt": "2026-10-26T01:23:48.853Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "gsus67/omarchy-trcc",
+        "pluginIds": [
+          "io.github.gsus67.omarchy-trcc"
+        ],
+        "commit": "5c3e8d533d6b0c53591ec8fb87328d3d0ef1392f",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:23:48.853Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T00:49:25.581Z",
+        "requestEventId": 34214129984,
+        "requestedAt": "2026-10-26T00:53:04Z",
+        "reviewedAt": "2026-10-26T01:23:48.853Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.gsus67.omarchy-trcc": {
+          "category": "Hardware",
+          "tags": [
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
