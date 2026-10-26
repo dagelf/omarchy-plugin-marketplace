@@ -367379,8 +367379,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-20",
       "listedAt": "2026-10-20T22:49:59.745Z",
-      "listingValidatedCommit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
-      "listingValidatedAt": "2026-10-22T03:31:10.965Z",
+      "listingValidatedCommit": "883a33963c3d43e0bb84d17cdf846c8524c949d1",
+      "listingValidatedAt": "2026-10-26T21:13:19.434Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -367389,8 +367389,8 @@
         "pluginIds": [
           "keasbeexd.mousectrl"
         ],
-        "commit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
-        "checkedAt": "2026-10-22T03:31:10.965Z",
+        "commit": "883a33963c3d43e0bb84d17cdf846c8524c949d1",
+        "checkedAt": "2026-10-26T21:13:19.434Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -367413,28 +367413,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "keasbeexd/omarchy-mouse-ctrl",
-        "pluginIds": [
-          "keasbeexd.mousectrl"
-        ],
-        "commit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-22T03:31:10.965Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-22T03:08:01.153Z",
-        "requestEventId": 33911197426,
-        "requestedAt": "2026-10-22T03:30:39Z",
-        "reviewedAt": "2026-10-22T03:31:10.965Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -367481,8 +367459,75 @@
             "reviewedAt": "2026-10-20T22:49:59.601Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
+          "validatedAt": "2026-10-22T03:31:10.965Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T21:13:19.434Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "keasbeexd/omarchy-mouse-ctrl",
+            "pluginIds": [
+              "keasbeexd.mousectrl"
+            ],
+            "commit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
+            "checkedAt": "2026-10-22T03:31:10.965Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "keasbeexd/omarchy-mouse-ctrl",
+            "pluginIds": [
+              "keasbeexd.mousectrl"
+            ],
+            "commit": "f8ea1efa9a9ba8f5ed1a696da036c42e20e24022",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-22T03:31:10.965Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-22T03:08:01.153Z",
+            "requestEventId": 33911197426,
+            "requestedAt": "2026-10-22T03:30:39Z",
+            "reviewedAt": "2026-10-22T03:31:10.965Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "keasbeexd/omarchy-mouse-ctrl",
+        "pluginIds": [
+          "keasbeexd.mousectrl"
+        ],
+        "commit": "883a33963c3d43e0bb84d17cdf846c8524c949d1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T21:13:19.434Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T12:41:27.663Z",
+        "requestEventId": 34305564888,
+        "requestedAt": "2026-10-26T21:12:49Z",
+        "reviewedAt": "2026-10-26T21:13:19.434Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/ainfarhanah/omarchy-clevo-rgb",
