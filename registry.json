@@ -165066,8 +165066,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T12:48:36.034Z",
-      "listingValidatedCommit": "805b3efc8e5fae9c76499dfe311652f1af18ea92",
-      "listingValidatedAt": "2026-10-20T00:22:36.607Z",
+      "listingValidatedCommit": "9729e709a04ef91001fe770ff672f25da5deb64b",
+      "listingValidatedAt": "2026-10-26T12:19:04.099Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -165076,8 +165076,8 @@
         "pluginIds": [
           "io.github.rdoupe.tvremote"
         ],
-        "commit": "805b3efc8e5fae9c76499dfe311652f1af18ea92",
-        "checkedAt": "2026-10-20T00:22:36.607Z",
+        "commit": "9729e709a04ef91001fe770ff672f25da5deb64b",
+        "checkedAt": "2026-10-26T12:19:04.098Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -165168,6 +165168,26 @@
             ],
             "commit": "611ec82e1027d66dfdcc12da36bb068c578666f4",
             "checkedAt": "2026-10-10T20:39:54.364Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "805b3efc8e5fae9c76499dfe311652f1af18ea92",
+          "validatedAt": "2026-10-20T00:22:36.607Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T12:19:04.099Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rdoupe/omarchy-tvremote",
+            "pluginIds": [
+              "io.github.rdoupe.tvremote"
+            ],
+            "commit": "805b3efc8e5fae9c76499dfe311652f1af18ea92",
+            "checkedAt": "2026-10-20T00:22:36.607Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
