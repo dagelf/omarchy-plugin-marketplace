@@ -340048,8 +340048,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T00:48:20.415Z",
-      "listingValidatedCommit": "33f832380a68f5fd0513eda323deb07b3f32876f",
-      "listingValidatedAt": "2026-10-22T06:47:42.062Z",
+      "listingValidatedCommit": "f0367d56e13a2c2cc2787b877383e9cc71fd860a",
+      "listingValidatedAt": "2026-10-26T16:39:15.871Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340058,8 +340058,8 @@
         "pluginIds": [
           "io.github.itsgg.nodi"
         ],
-        "commit": "33f832380a68f5fd0513eda323deb07b3f32876f",
-        "checkedAt": "2026-10-22T06:47:42.062Z",
+        "commit": "f0367d56e13a2c2cc2787b877383e9cc71fd860a",
+        "checkedAt": "2026-10-26T16:39:15.871Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -340080,30 +340080,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "itsgg/omarchy-nodi",
-        "pluginIds": [
-          "io.github.itsgg.nodi"
-        ],
-        "commit": "33f832380a68f5fd0513eda323deb07b3f32876f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-22T06:47:42.062Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "service-management",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-22T05:24:50.567Z",
-        "requestEventId": 33921999382,
-        "requestedAt": "2026-10-22T06:47:09Z",
-        "reviewedAt": "2026-10-22T06:47:42.062Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -340154,8 +340130,81 @@
             "reviewedAt": "2026-10-11T00:48:20.326Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "33f832380a68f5fd0513eda323deb07b3f32876f",
+          "validatedAt": "2026-10-22T06:47:42.062Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T16:39:15.871Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "itsgg/omarchy-nodi",
+            "pluginIds": [
+              "io.github.itsgg.nodi"
+            ],
+            "commit": "33f832380a68f5fd0513eda323deb07b3f32876f",
+            "checkedAt": "2026-10-22T06:47:42.062Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "itsgg/omarchy-nodi",
+            "pluginIds": [
+              "io.github.itsgg.nodi"
+            ],
+            "commit": "33f832380a68f5fd0513eda323deb07b3f32876f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-22T06:47:42.062Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "service-management",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-22T05:24:50.567Z",
+            "requestEventId": 33921999382,
+            "requestedAt": "2026-10-22T06:47:09Z",
+            "reviewedAt": "2026-10-22T06:47:42.062Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "itsgg/omarchy-nodi",
+        "pluginIds": [
+          "io.github.itsgg.nodi"
+        ],
+        "commit": "f0367d56e13a2c2cc2787b877383e9cc71fd860a",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T16:39:15.871Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T08:34:06.637Z",
+        "requestEventId": 34282034081,
+        "requestedAt": "2026-10-26T16:38:37Z",
+        "reviewedAt": "2026-10-26T16:39:15.871Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/p-clements/omaseiton",
