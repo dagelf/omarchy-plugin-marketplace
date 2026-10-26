@@ -372393,6 +372393,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/t-zero-dev/camy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T00:26:26.691Z",
+      "listingValidatedCommit": "ee328878ed99872a24fc1e4b37e76b271cd2e029",
+      "listingValidatedAt": "2026-10-26T00:26:26.691Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "t-zero-dev/camy",
+        "pluginIds": [
+          "io.github.t-zero-dev.camy"
+        ],
+        "commit": "ee328878ed99872a24fc1e4b37e76b271cd2e029",
+        "checkedAt": "2026-10-26T00:26:26.551Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.t-zero-dev.camy": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
