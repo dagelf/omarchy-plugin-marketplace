@@ -372298,6 +372298,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/iammhador/omarchy-spotify-pulse",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T00:18:11.860Z",
+      "listingValidatedCommit": "1b8d088c05928203effd285f57de99d60d4335fb",
+      "listingValidatedAt": "2026-10-26T00:18:11.860Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "iammhador/omarchy-spotify-pulse",
+        "pluginIds": [
+          "io.github.iammhador.spotify-pulse"
+        ],
+        "commit": "1b8d088c05928203effd285f57de99d60d4335fb",
+        "checkedAt": "2026-10-26T00:18:11.716Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.iammhador.spotify-pulse": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
