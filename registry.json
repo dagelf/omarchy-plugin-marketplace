@@ -377519,6 +377519,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/cylon58/omarchy-boot-wake",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T14:04:03.789Z",
+      "listingValidatedCommit": "8d1d43cf363844b18b9564b71bd96cf33cecfdab",
+      "listingValidatedAt": "2026-10-26T14:04:03.789Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cylon58/omarchy-boot-wake",
+        "pluginIds": [
+          "io.github.cylon58.boot-wake"
+        ],
+        "commit": "8d1d43cf363844b18b9564b71bd96cf33cecfdab",
+        "checkedAt": "2026-10-26T14:04:03.635Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cylon58/omarchy-boot-wake",
+        "pluginIds": [
+          "io.github.cylon58.boot-wake"
+        ],
+        "commit": "8d1d43cf363844b18b9564b71bd96cf33cecfdab",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T14:04:03.635Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T13:24:02.565Z",
+        "requestEventId": 34265858394,
+        "requestedAt": "2026-10-26T13:58:38Z",
+        "reviewedAt": "2026-10-26T14:04:03.635Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.cylon58.boot-wake": {
+          "category": "System",
+          "tags": [
+            "power-management",
+            "security",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
