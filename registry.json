@@ -370459,8 +370459,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T13:53:47.629Z",
-      "listingValidatedCommit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
-      "listingValidatedAt": "2026-10-21T20:29:54.694Z",
+      "listingValidatedCommit": "d643fb76ecd63a2d8a4b26f2d1ddf32412ccb743",
+      "listingValidatedAt": "2026-10-26T20:48:06.413Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -370469,8 +370469,8 @@
         "pluginIds": [
           "nickmdrummer.timer"
         ],
-        "commit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
-        "checkedAt": "2026-10-21T20:29:54.694Z",
+        "commit": "d643fb76ecd63a2d8a4b26f2d1ddf32412ccb743",
+        "checkedAt": "2026-10-26T20:48:06.413Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -370488,27 +370488,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nickmdrummer/omarchy-timer",
-        "pluginIds": [
-          "nickmdrummer.timer"
-        ],
-        "commit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T20:29:54.694Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-21T19:43:47.323Z",
-        "requestEventId": 33883828341,
-        "requestedAt": "2026-10-21T19:59:27Z",
-        "reviewedAt": "2026-10-21T20:29:54.694Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -370553,8 +370532,72 @@
             "reviewedAt": "2026-10-21T13:53:47.492Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
+          "validatedAt": "2026-10-21T20:29:54.694Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T20:48:06.413Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nickmdrummer/omarchy-timer",
+            "pluginIds": [
+              "nickmdrummer.timer"
+            ],
+            "commit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
+            "checkedAt": "2026-10-21T20:29:54.694Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nickmdrummer/omarchy-timer",
+            "pluginIds": [
+              "nickmdrummer.timer"
+            ],
+            "commit": "7835fcfb2ce4c62f11c858ad928f13191a2f5b30",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T20:29:54.694Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-21T19:43:47.323Z",
+            "requestEventId": 33883828341,
+            "requestedAt": "2026-10-21T19:59:27Z",
+            "reviewedAt": "2026-10-21T20:29:54.694Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nickmdrummer/omarchy-timer",
+        "pluginIds": [
+          "nickmdrummer.timer"
+        ],
+        "commit": "d643fb76ecd63a2d8a4b26f2d1ddf32412ccb743",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T20:48:06.413Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T08:55:23.217Z",
+        "requestEventId": 34303552229,
+        "requestedAt": "2026-10-26T20:47:37Z",
+        "reviewedAt": "2026-10-26T20:48:06.413Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/ThePsyberSleuth/omarchy-battery-guard",
