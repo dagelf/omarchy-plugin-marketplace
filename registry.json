@@ -326322,8 +326322,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-07",
       "listedAt": "2026-10-07T13:29:56.298Z",
-      "listingValidatedCommit": "3f89210d5d20d5dc69fbc45e8b4e6241aabf1b89",
-      "listingValidatedAt": "2026-10-09T06:31:19.771Z",
+      "listingValidatedCommit": "7d750bd0a838a866b211c192f0d309a0c64abb26",
+      "listingValidatedAt": "2026-10-26T04:22:30.708Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -326332,8 +326332,8 @@
         "pluginIds": [
           "io.github.zakkoo.teams-for-linux-notifications"
         ],
-        "commit": "3f89210d5d20d5dc69fbc45e8b4e6241aabf1b89",
-        "checkedAt": "2026-10-09T06:31:19.771Z",
+        "commit": "7d750bd0a838a866b211c192f0d309a0c64abb26",
+        "checkedAt": "2026-10-26T04:22:30.708Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -326367,6 +326367,26 @@
             ],
             "commit": "5ade3d55e62e3925ee822a8250d45affac23f334",
             "checkedAt": "2026-10-07T13:29:56.159Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "3f89210d5d20d5dc69fbc45e8b4e6241aabf1b89",
+          "validatedAt": "2026-10-09T06:31:19.771Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T04:22:30.708Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zakkoo/teams-for-linux-notifications",
+            "pluginIds": [
+              "io.github.zakkoo.teams-for-linux-notifications"
+            ],
+            "commit": "3f89210d5d20d5dc69fbc45e8b4e6241aabf1b89",
+            "checkedAt": "2026-10-09T06:31:19.771Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
