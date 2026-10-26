@@ -353819,8 +353819,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T06:57:32.693Z",
-      "listingValidatedCommit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
-      "listingValidatedAt": "2026-10-15T06:57:32.693Z",
+      "listingValidatedCommit": "0d056e81d3c06fd3c5293d42567f23ec00ba1bcf",
+      "listingValidatedAt": "2026-10-26T23:07:59.736Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -353829,35 +353829,14 @@
         "pluginIds": [
           "cosmergon.shikigon"
         ],
-        "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
-        "checkedAt": "2026-10-15T06:57:32.581Z",
+        "commit": "0d056e81d3c06fd3c5293d42567f23ec00ba1bcf",
+        "checkedAt": "2026-10-26T23:07:59.736Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "rkocosmergon/shikigon",
-        "pluginIds": [
-          "cosmergon.shikigon"
-        ],
-        "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-15T06:57:32.581Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-15T06:43:42.051Z",
-        "requestEventId": 33305970915,
-        "requestedAt": "2026-10-15T06:56:52Z",
-        "reviewedAt": "2026-10-15T06:57:32.581Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "cosmergon.shikigon": {
@@ -353869,7 +353848,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rkocosmergon/shikigon",
+        "pluginIds": [
+          "cosmergon.shikigon"
+        ],
+        "commit": "0d056e81d3c06fd3c5293d42567f23ec00ba1bcf",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T23:07:59.736Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T18:01:58.550Z",
+        "requestEventId": 34313692014,
+        "requestedAt": "2026-10-26T23:07:25Z",
+        "reviewedAt": "2026-10-26T23:07:59.736Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+          "validatedAt": "2026-10-15T06:57:32.693Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T23:07:59.736Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rkocosmergon/shikigon",
+            "pluginIds": [
+              "cosmergon.shikigon"
+            ],
+            "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+            "checkedAt": "2026-10-15T06:57:32.581Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "rkocosmergon/shikigon",
+            "pluginIds": [
+              "cosmergon.shikigon"
+            ],
+            "commit": "99499a823a739e7a052f9fb00decbb05e26c76cb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-15T06:57:32.581Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T06:43:42.051Z",
+            "requestEventId": 33305970915,
+            "requestedAt": "2026-10-15T06:56:52Z",
+            "reviewedAt": "2026-10-15T06:57:32.581Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/siygle/omarchy-stock-hq",
