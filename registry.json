@@ -24677,8 +24677,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-18",
       "listedAt": "2026-08-18T20:33:37.135Z",
-      "listingValidatedCommit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
-      "listingValidatedAt": "2026-10-02T14:16:16.164Z",
+      "listingValidatedCommit": "c23e2f981ba368ac2b18a64bf9e699d5da941323",
+      "listingValidatedAt": "2026-10-26T11:39:31.935Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -24687,8 +24687,8 @@
         "pluginIds": [
           "io.github.orienw.restic"
         ],
-        "commit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
-        "checkedAt": "2026-10-02T14:16:16.164Z",
+        "commit": "c23e2f981ba368ac2b18a64bf9e699d5da941323",
+        "checkedAt": "2026-10-26T11:39:31.935Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -24776,6 +24776,49 @@
             "reviewedAt": "2026-09-10T18:23:24.925Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
+          "validatedAt": "2026-10-02T14:16:16.164Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T11:39:31.935Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "orienw/omarchy-restic",
+            "pluginIds": [
+              "io.github.orienw.restic"
+            ],
+            "commit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
+            "checkedAt": "2026-10-02T14:16:16.164Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "orienw/omarchy-restic",
+            "pluginIds": [
+              "io.github.orienw.restic"
+            ],
+            "commit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T14:16:16.164Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-01T23:20:21.409Z",
+            "requestEventId": 32338498862,
+            "requestedAt": "2026-10-02T13:48:38Z",
+            "reviewedAt": "2026-10-02T14:16:16.164Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -24784,19 +24827,19 @@
         "pluginIds": [
           "io.github.orienw.restic"
         ],
-        "commit": "5e31c055c3f4a88c89b2678564e9ba9b1d89d57d",
+        "commit": "c23e2f981ba368ac2b18a64bf9e699d5da941323",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T14:16:16.164Z",
+        "baselineCheckedAt": "2026-10-26T11:39:31.935Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-01T23:20:21.409Z",
-        "requestEventId": 32338498862,
-        "requestedAt": "2026-10-02T13:48:38Z",
-        "reviewedAt": "2026-10-02T14:16:16.164Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T21:32:06.677Z",
+        "requestEventId": 34253647899,
+        "requestedAt": "2026-10-26T11:38:21Z",
+        "reviewedAt": "2026-10-26T11:39:31.935Z",
         "reviewer": "HANCORE-linux"
       }
     },
