@@ -368824,8 +368824,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T13:48:34.641Z",
-      "listingValidatedCommit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
-      "listingValidatedAt": "2026-10-21T13:48:34.641Z",
+      "listingValidatedCommit": "3267c594253f46c68ce588f3803fe2d11c42e05e",
+      "listingValidatedAt": "2026-10-26T11:06:57.991Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -368834,8 +368834,8 @@
         "pluginIds": [
           "io.github.grappabh.pill-overlay"
         ],
-        "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
-        "checkedAt": "2026-10-21T13:48:34.457Z",
+        "commit": "3267c594253f46c68ce588f3803fe2d11c42e05e",
+        "checkedAt": "2026-10-26T11:06:57.991Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -368843,28 +368843,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "grappabh/omarchy-pill-overlay",
-        "pluginIds": [
-          "io.github.grappabh.pill-overlay"
-        ],
-        "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T13:48:34.457Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-21T13:36:18.602Z",
-        "requestEventId": 33850815345,
-        "requestedAt": "2026-10-21T13:38:38Z",
-        "reviewedAt": "2026-10-21T13:48:34.458Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.grappabh.pill-overlay": {
@@ -368880,7 +368858,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "grappabh/omarchy-pill-overlay",
+        "pluginIds": [
+          "io.github.grappabh.pill-overlay"
+        ],
+        "commit": "3267c594253f46c68ce588f3803fe2d11c42e05e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T11:06:57.991Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-22T18:09:03.982Z",
+        "requestEventId": 34250365149,
+        "requestedAt": "2026-10-26T10:56:21Z",
+        "reviewedAt": "2026-10-26T11:06:57.991Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+          "validatedAt": "2026-10-21T13:48:34.641Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T11:06:57.991Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "grappabh/omarchy-pill-overlay",
+            "pluginIds": [
+              "io.github.grappabh.pill-overlay"
+            ],
+            "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+            "checkedAt": "2026-10-21T13:48:34.457Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "grappabh/omarchy-pill-overlay",
+            "pluginIds": [
+              "io.github.grappabh.pill-overlay"
+            ],
+            "commit": "912ecc03060fbcf33c065216b2cc02deb1b87dc7",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T13:48:34.457Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-21T13:36:18.602Z",
+            "requestEventId": 33850815345,
+            "requestedAt": "2026-10-21T13:38:38Z",
+            "reviewedAt": "2026-10-21T13:48:34.458Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/NickmDrummer/omarchy-timer",
