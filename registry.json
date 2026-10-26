@@ -303152,8 +303152,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-03",
       "listedAt": "2026-10-03T02:49:22.599Z",
-      "listingValidatedCommit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
-      "listingValidatedAt": "2026-10-03T02:49:22.599Z",
+      "listingValidatedCommit": "c38a82bc1638c8e06b9d23e0d5250aa4aa1dd7d5",
+      "listingValidatedAt": "2026-10-26T06:11:32.419Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -303162,35 +303162,12 @@
         "pluginIds": [
           "io.github.adampog.literal-web-crawler"
         ],
-        "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
-        "checkedAt": "2026-10-03T02:49:22.481Z",
-        "outcome": "review-required",
+        "commit": "c38a82bc1638c8e06b9d23e0d5250aa4aa1dd7d5",
+        "checkedAt": "2026-10-26T06:11:32.419Z",
+        "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
-        "capabilities": [
-          "package-manager"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "adampog/literal-web-crawler",
-        "pluginIds": [
-          "io.github.adampog.literal-web-crawler"
-        ],
-        "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T02:49:22.481Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T02:29:14.179Z",
-        "requestEventId": 32378830827,
-        "requestedAt": "2026-10-03T02:48:38Z",
-        "reviewedAt": "2026-10-03T02:49:22.481Z",
-        "reviewer": "HANCORE-linux"
+        "capabilities": []
       },
       "plugins": {
         "io.github.adampog.literal-web-crawler": {
@@ -303202,7 +303179,52 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+          "validatedAt": "2026-10-03T02:49:22.599Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T06:11:32.419Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "adampog/literal-web-crawler",
+            "pluginIds": [
+              "io.github.adampog.literal-web-crawler"
+            ],
+            "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+            "checkedAt": "2026-10-03T02:49:22.481Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "adampog/literal-web-crawler",
+            "pluginIds": [
+              "io.github.adampog.literal-web-crawler"
+            ],
+            "commit": "1e6b081d649c77d4854ff9d0fd6fee2cd0b1bf13",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T02:49:22.481Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T02:29:14.179Z",
+            "requestEventId": 32378830827,
+            "requestedAt": "2026-10-03T02:48:38Z",
+            "reviewedAt": "2026-10-03T02:49:22.481Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/tymurbogach/replicant",
