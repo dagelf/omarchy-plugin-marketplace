@@ -378199,6 +378199,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Slylem0/omarchy-screenshot-clip",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T17:32:50.233Z",
+      "listingValidatedCommit": "16520eac50f3826fdab3ac45576cd6b7984fab46",
+      "listingValidatedAt": "2026-10-26T17:32:50.233Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "slylem0/omarchy-screenshot-clip",
+        "pluginIds": [
+          "slylem0.screenshot-clip"
+        ],
+        "commit": "16520eac50f3826fdab3ac45576cd6b7984fab46",
+        "checkedAt": "2026-10-26T17:32:50.084Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "slylem0.screenshot-clip": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
