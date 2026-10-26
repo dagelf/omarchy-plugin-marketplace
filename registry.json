@@ -375043,6 +375043,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/zaheen4/opencode-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T07:58:47.672Z",
+      "listingValidatedCommit": "71d9f0693e7f40523c46938b84db58c9a979abe4",
+      "listingValidatedAt": "2026-10-26T07:58:47.672Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "zaheen4/opencode-usage",
+        "pluginIds": [
+          "zaheen4.opencode-usage"
+        ],
+        "commit": "71d9f0693e7f40523c46938b84db58c9a979abe4",
+        "checkedAt": "2026-10-26T07:58:47.534Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zaheen4.opencode-usage": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
