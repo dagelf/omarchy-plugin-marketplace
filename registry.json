@@ -333026,8 +333026,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T21:05:56.896Z",
-      "listingValidatedCommit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
-      "listingValidatedAt": "2026-10-10T00:08:21.307Z",
+      "listingValidatedCommit": "17d336ec3a8991e5deb93defd40e1892a93ad6c7",
+      "listingValidatedAt": "2026-10-26T22:52:39.891Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -333036,8 +333036,8 @@
         "pluginIds": [
           "io.github.cesarfilho.omakeylog"
         ],
-        "commit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
-        "checkedAt": "2026-10-10T00:08:21.307Z",
+        "commit": "17d336ec3a8991e5deb93defd40e1892a93ad6c7",
+        "checkedAt": "2026-10-26T22:52:39.891Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -333195,6 +333195,51 @@
             "reviewedAt": "2026-10-09T23:11:14.008Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
+          "validatedAt": "2026-10-10T00:08:21.307Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T22:52:39.891Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "cesarfilho/omakeylog",
+            "pluginIds": [
+              "io.github.cesarfilho.omakeylog"
+            ],
+            "commit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
+            "checkedAt": "2026-10-10T00:08:21.307Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "cesarfilho/omakeylog",
+            "pluginIds": [
+              "io.github.cesarfilho.omakeylog"
+            ],
+            "commit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-10T00:08:21.307Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T23:15:11.145Z",
+            "requestEventId": 32917405397,
+            "requestedAt": "2026-10-10T00:07:51Z",
+            "reviewedAt": "2026-10-10T00:08:21.307Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -333203,20 +333248,20 @@
         "pluginIds": [
           "io.github.cesarfilho.omakeylog"
         ],
-        "commit": "5f6cf95dba1fd23e901d243efe68dba17be831a3",
+        "commit": "17d336ec3a8991e5deb93defd40e1892a93ad6c7",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-10T00:08:21.307Z",
+        "baselineCheckedAt": "2026-10-26T22:52:39.891Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "privilege",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-09T23:15:11.145Z",
-        "requestEventId": 32917405397,
-        "requestedAt": "2026-10-10T00:07:51Z",
-        "reviewedAt": "2026-10-10T00:08:21.307Z",
+        "reviewedBaselineCheckedAt": "2026-10-26T22:27:53.397Z",
+        "requestEventId": 34312757024,
+        "requestedAt": "2026-10-26T22:52:10Z",
+        "reviewedAt": "2026-10-26T22:52:39.891Z",
         "reviewer": "HANCORE-linux"
       }
     },
