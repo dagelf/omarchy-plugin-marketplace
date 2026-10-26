@@ -373360,6 +373360,64 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Button99/omarchy-github-feed",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:52:52.316Z",
+      "listingValidatedCommit": "043c6dcde9df2c863c6131f20c672420cd2b46f8",
+      "listingValidatedAt": "2026-10-26T01:52:52.316Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "button99/omarchy-github-feed",
+        "pluginIds": [
+          "github.feed"
+        ],
+        "commit": "043c6dcde9df2c863c6131f20c672420cd2b46f8",
+        "checkedAt": "2026-10-26T01:52:52.227Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "button99/omarchy-github-feed",
+        "pluginIds": [
+          "github.feed"
+        ],
+        "commit": "043c6dcde9df2c863c6131f20c672420cd2b46f8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:52:52.227Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T12:14:57.283Z",
+        "requestEventId": 34215292655,
+        "requestedAt": "2026-10-26T01:17:57Z",
+        "reviewedAt": "2026-10-26T01:52:52.227Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "github.feed": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
