@@ -376555,6 +376555,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/clear-built-dev/omarchy-london-motion",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:11:11.750Z",
+      "listingValidatedCommit": "e355f9402d6e16cfadcf935e27473a19a4216d76",
+      "listingValidatedAt": "2026-10-26T11:11:11.750Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "clear-built-dev/omarchy-london-motion",
+        "pluginIds": [
+          "io.github.clear-built-dev.london-motion"
+        ],
+        "commit": "e355f9402d6e16cfadcf935e27473a19a4216d76",
+        "checkedAt": "2026-10-26T11:11:11.603Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.clear-built-dev.london-motion": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
