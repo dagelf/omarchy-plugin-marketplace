@@ -271665,8 +271665,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-28",
       "listedAt": "2026-09-28T01:08:47.937Z",
-      "listingValidatedCommit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
-      "listingValidatedAt": "2026-09-28T01:08:47.937Z",
+      "listingValidatedCommit": "11dc861bb6c09b82ac86175f1cfe9d47200406ae",
+      "listingValidatedAt": "2026-10-26T20:29:55.352Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -271675,35 +271675,14 @@
         "pluginIds": [
           "blackcode.power-menu"
         ],
-        "commit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
-        "checkedAt": "2026-09-28T01:08:47.841Z",
+        "commit": "11dc861bb6c09b82ac86175f1cfe9d47200406ae",
+        "checkedAt": "2026-10-26T20:29:55.352Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "service-management"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "alshareedah22/omarchy-power-menu",
-        "pluginIds": [
-          "blackcode.power-menu"
-        ],
-        "commit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-28T01:08:47.841Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-28T01:03:30.048Z",
-        "requestEventId": 31955397598,
-        "requestedAt": "2026-09-28T01:06:51Z",
-        "reviewedAt": "2026-09-28T01:08:47.841Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "blackcode.power-menu": {
@@ -271715,7 +271694,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "alshareedah22/omarchy-power-menu",
+        "pluginIds": [
+          "blackcode.power-menu"
+        ],
+        "commit": "11dc861bb6c09b82ac86175f1cfe9d47200406ae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T20:29:55.352Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T16:13:25.593Z",
+        "requestEventId": 34301710867,
+        "requestedAt": "2026-10-26T20:25:33Z",
+        "reviewedAt": "2026-10-26T20:29:55.352Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
+          "validatedAt": "2026-09-28T01:08:47.937Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T20:29:55.352Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alshareedah22/omarchy-power-menu",
+            "pluginIds": [
+              "blackcode.power-menu"
+            ],
+            "commit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
+            "checkedAt": "2026-09-28T01:08:47.841Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alshareedah22/omarchy-power-menu",
+            "pluginIds": [
+              "blackcode.power-menu"
+            ],
+            "commit": "2a66cf67746a77d5d14e31d2f359de484dea68bb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-28T01:08:47.841Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-28T01:03:30.048Z",
+            "requestEventId": 31955397598,
+            "requestedAt": "2026-09-28T01:06:51Z",
+            "reviewedAt": "2026-09-28T01:08:47.841Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/betizzel/omarchy-ascii-wallpaper",
