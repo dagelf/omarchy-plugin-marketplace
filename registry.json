@@ -376777,6 +376777,44 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ShinobiX9X/omarchy-linksy",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:43:31.903Z",
+      "listingValidatedCommit": "032dc1a9bf295bb0bcfc53f62a6468a1ca68192a",
+      "listingValidatedAt": "2026-10-26T11:43:31.903Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "shinobix9x/omarchy-linksy",
+        "pluginIds": [
+          "io.github.shinobix9x.linksy"
+        ],
+        "commit": "032dc1a9bf295bb0bcfc53f62a6468a1ca68192a",
+        "checkedAt": "2026-10-26T11:43:31.750Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.shinobix9x.linksy": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
