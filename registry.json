@@ -371009,8 +371009,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T18:06:09.265Z",
-      "listingValidatedCommit": "c791828f5fa82ac86876340410b2cc9432b756e4",
-      "listingValidatedAt": "2026-10-22T14:18:46.655Z",
+      "listingValidatedCommit": "4161eb197afb19711c6be642e663a053765666bd",
+      "listingValidatedAt": "2026-10-26T13:54:21.925Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -371019,8 +371019,8 @@
         "pluginIds": [
           "quokecola.omardeck"
         ],
-        "commit": "c791828f5fa82ac86876340410b2cc9432b756e4",
-        "checkedAt": "2026-10-22T14:18:46.655Z",
+        "commit": "4161eb197afb19711c6be642e663a053765666bd",
+        "checkedAt": "2026-10-26T13:54:21.925Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -371168,6 +371168,49 @@
             "reviewedAt": "2026-10-22T06:39:42.153Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "c791828f5fa82ac86876340410b2cc9432b756e4",
+          "validatedAt": "2026-10-22T14:18:46.655Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T13:54:21.925Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "quokecola/omardeck",
+            "pluginIds": [
+              "quokecola.omardeck"
+            ],
+            "commit": "c791828f5fa82ac86876340410b2cc9432b756e4",
+            "checkedAt": "2026-10-22T14:18:46.655Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "quokecola/omardeck",
+            "pluginIds": [
+              "quokecola.omardeck"
+            ],
+            "commit": "c791828f5fa82ac86876340410b2cc9432b756e4",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-22T14:18:46.655Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-22T13:59:08.187Z",
+            "requestEventId": 33958796714,
+            "requestedAt": "2026-10-22T14:17:27Z",
+            "reviewedAt": "2026-10-22T14:18:46.655Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -371176,19 +371219,19 @@
         "pluginIds": [
           "quokecola.omardeck"
         ],
-        "commit": "c791828f5fa82ac86876340410b2cc9432b756e4",
+        "commit": "4161eb197afb19711c6be642e663a053765666bd",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-22T14:18:46.655Z",
+        "baselineCheckedAt": "2026-10-26T13:54:21.925Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "privilege"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-22T13:59:08.187Z",
-        "requestEventId": 33958796714,
-        "requestedAt": "2026-10-22T14:17:27Z",
-        "reviewedAt": "2026-10-22T14:18:46.655Z",
+        "reviewedBaselineCheckedAt": "2026-10-23T15:18:03.165Z",
+        "requestEventId": 34265342771,
+        "requestedAt": "2026-10-26T13:53:26Z",
+        "reviewedAt": "2026-10-26T13:54:21.925Z",
         "reviewer": "HANCORE-linux"
       }
     },
