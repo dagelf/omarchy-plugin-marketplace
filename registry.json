@@ -174109,8 +174109,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-09",
       "listedAt": "2026-09-09T00:11:08.887Z",
-      "listingValidatedCommit": "46c765fe0ee43563ed06032af2e9af5efbe715c7",
-      "listingValidatedAt": "2026-09-27T12:46:06.224Z",
+      "listingValidatedCommit": "392a1734285696caf3d48a7ba68fd96fdaf189fe",
+      "listingValidatedAt": "2026-10-26T19:48:13.891Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -174119,8 +174119,8 @@
         "pluginIds": [
           "simulnetdevice"
         ],
-        "commit": "46c765fe0ee43563ed06032af2e9af5efbe715c7",
-        "checkedAt": "2026-09-27T12:46:06.224Z",
+        "commit": "392a1734285696caf3d48a7ba68fd96fdaf189fe",
+        "checkedAt": "2026-10-26T19:48:13.891Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -174179,6 +174179,26 @@
             "requestedAt": "2026-09-09T00:10:08Z",
             "reviewedAt": "2026-09-09T00:11:08.811Z",
             "reviewer": "HANCORE-linux"
+          }
+        },
+        {
+          "commit": "46c765fe0ee43563ed06032af2e9af5efbe715c7",
+          "validatedAt": "2026-09-27T12:46:06.224Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T19:48:13.891Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "mattyd-ip/simulnetdevice",
+            "pluginIds": [
+              "simulnetdevice"
+            ],
+            "commit": "46c765fe0ee43563ed06032af2e9af5efbe715c7",
+            "checkedAt": "2026-09-27T12:46:06.224Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
           }
         }
       ]
