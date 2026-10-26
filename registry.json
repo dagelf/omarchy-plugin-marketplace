@@ -376282,6 +376282,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RohiRIK/omarchy-plugin-lab",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T10:45:12.841Z",
+      "listingValidatedCommit": "6afb757db197e9eb297ebecc3dfa4283634adec0",
+      "listingValidatedAt": "2026-10-26T10:45:12.841Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rohirik/omarchy-plugin-lab",
+        "pluginIds": [
+          "rohirik.plugin-lab"
+        ],
+        "commit": "6afb757db197e9eb297ebecc3dfa4283634adec0",
+        "checkedAt": "2026-10-26T10:45:12.722Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "rohirik.plugin-lab": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
