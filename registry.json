@@ -246445,8 +246445,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-23",
       "listedAt": "2026-09-23T08:21:06.996Z",
-      "listingValidatedCommit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
-      "listingValidatedAt": "2026-10-15T21:26:03.175Z",
+      "listingValidatedCommit": "a94e18e3962783525c80e632ec590d32529a7555",
+      "listingValidatedAt": "2026-10-26T02:51:04.453Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -246455,8 +246455,8 @@
         "pluginIds": [
           "io.github.zakkoo.proton-drive"
         ],
-        "commit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
-        "checkedAt": "2026-10-15T21:26:03.175Z",
+        "commit": "a94e18e3962783525c80e632ec590d32529a7555",
+        "checkedAt": "2026-10-26T02:51:04.453Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -246568,6 +246568,51 @@
             "reviewedAt": "2026-09-29T17:31:10.723Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
+          "validatedAt": "2026-10-15T21:26:03.175Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T02:51:04.453Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zakkoo/proton-drive-sync",
+            "pluginIds": [
+              "io.github.zakkoo.proton-drive"
+            ],
+            "commit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
+            "checkedAt": "2026-10-15T21:26:03.175Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "zakkoo/proton-drive-sync",
+            "pluginIds": [
+              "io.github.zakkoo.proton-drive"
+            ],
+            "commit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-15T21:26:03.175Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-15T06:22:03.181Z",
+            "requestEventId": 33380626967,
+            "requestedAt": "2026-10-15T21:25:34Z",
+            "reviewedAt": "2026-10-15T21:26:03.175Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -246576,20 +246621,20 @@
         "pluginIds": [
           "io.github.zakkoo.proton-drive"
         ],
-        "commit": "81c372f47b742ab91302907df3a0ed5cf02a75ac",
+        "commit": "a94e18e3962783525c80e632ec590d32529a7555",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-15T21:26:03.175Z",
+        "baselineCheckedAt": "2026-10-26T02:51:04.453Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "service-management",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-15T06:22:03.181Z",
-        "requestEventId": 33380626967,
-        "requestedAt": "2026-10-15T21:25:34Z",
-        "reviewedAt": "2026-10-15T21:26:03.175Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T14:26:51.045Z",
+        "requestEventId": 34219580211,
+        "requestedAt": "2026-10-26T02:50:36Z",
+        "reviewedAt": "2026-10-26T02:51:04.453Z",
         "reviewer": "HANCORE-linux"
       }
     },
