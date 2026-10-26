@@ -373635,6 +373635,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PavelLizunov/omarchy-mx-ergo",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T02:11:08.691Z",
+      "listingValidatedCommit": "d3138ce604554d78d47b75e960b5fe6493ef1e17",
+      "listingValidatedAt": "2026-10-26T02:11:08.691Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pavellizunov/omarchy-mx-ergo",
+        "pluginIds": [
+          "io.github.pavellizunov.mx-ergo"
+        ],
+        "commit": "d3138ce604554d78d47b75e960b5fe6493ef1e17",
+        "checkedAt": "2026-10-26T02:11:08.548Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pavellizunov/omarchy-mx-ergo",
+        "pluginIds": [
+          "io.github.pavellizunov.mx-ergo"
+        ],
+        "commit": "d3138ce604554d78d47b75e960b5fe6493ef1e17",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T02:11:08.548Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:21:05.875Z",
+        "requestEventId": 34216189797,
+        "requestedAt": "2026-10-26T01:37:48Z",
+        "reviewedAt": "2026-10-26T02:11:08.548Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.pavellizunov.mx-ergo": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
