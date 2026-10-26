@@ -363078,8 +363078,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-19",
       "listedAt": "2026-10-19T10:46:36.254Z",
-      "listingValidatedCommit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
-      "listingValidatedAt": "2026-10-19T10:46:36.254Z",
+      "listingValidatedCommit": "718f24d00dd632951ad792f8c2159da184ce50ac",
+      "listingValidatedAt": "2026-10-26T12:28:30.692Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -363088,35 +363088,14 @@
         "pluginIds": [
           "konochi.konostat"
         ],
-        "commit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
-        "checkedAt": "2026-10-19T10:46:36.108Z",
+        "commit": "718f24d00dd632951ad792f8c2159da184ce50ac",
+        "checkedAt": "2026-10-26T12:28:30.692Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "xvvhang/omarchy-konostat-plugin",
-        "pluginIds": [
-          "konochi.konostat"
-        ],
-        "commit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-19T10:46:36.108Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-19T09:16:24.716Z",
-        "requestEventId": 33634915420,
-        "requestedAt": "2026-10-19T10:40:15Z",
-        "reviewedAt": "2026-10-19T10:46:36.108Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "konochi.konostat": {
@@ -363128,7 +363107,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "xvvhang/omarchy-konostat-plugin",
+        "pluginIds": [
+          "konochi.konostat"
+        ],
+        "commit": "718f24d00dd632951ad792f8c2159da184ce50ac",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T12:28:30.692Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T04:03:50.054Z",
+        "requestEventId": 34257636238,
+        "requestedAt": "2026-10-26T12:28:03Z",
+        "reviewedAt": "2026-10-26T12:28:30.692Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
+          "validatedAt": "2026-10-19T10:46:36.254Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T12:28:30.692Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "xvvhang/omarchy-konostat-plugin",
+            "pluginIds": [
+              "konochi.konostat"
+            ],
+            "commit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
+            "checkedAt": "2026-10-19T10:46:36.108Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "xvvhang/omarchy-konostat-plugin",
+            "pluginIds": [
+              "konochi.konostat"
+            ],
+            "commit": "688a4d200e525d4de5b8231874e7820bb4322a0e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-19T10:46:36.108Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-19T09:16:24.716Z",
+            "requestEventId": 33634915420,
+            "requestedAt": "2026-10-19T10:40:15Z",
+            "reviewedAt": "2026-10-19T10:46:36.108Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/xvvhang/omarchy-konousage-plugin",
