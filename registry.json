@@ -373893,6 +373893,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Gnosis80s/OmaTide",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T02:31:48.236Z",
+      "listingValidatedCommit": "8ff86f5ff5d678a947fbc7fd79aff3b346dea47a",
+      "listingValidatedAt": "2026-10-26T02:31:48.236Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gnosis80s/omatide",
+        "pluginIds": [
+          "gnosis.tide"
+        ],
+        "commit": "8ff86f5ff5d678a947fbc7fd79aff3b346dea47a",
+        "checkedAt": "2026-10-26T02:31:48.082Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gnosis.tide": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
