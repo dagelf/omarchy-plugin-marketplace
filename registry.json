@@ -370361,8 +370361,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T17:01:20.910Z",
-      "listingValidatedCommit": "03d176612ab640ce9c7957d94f1464b207124ca6",
-      "listingValidatedAt": "2026-10-21T17:01:20.910Z",
+      "listingValidatedCommit": "14b6c3483b8110b8f0f186cc487ad18ad6d78b44",
+      "listingValidatedAt": "2026-10-26T12:10:21.762Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -370371,35 +370371,14 @@
         "pluginIds": [
           "io.github.tcballard.orb"
         ],
-        "commit": "03d176612ab640ce9c7957d94f1464b207124ca6",
-        "checkedAt": "2026-10-21T17:01:20.727Z",
+        "commit": "14b6c3483b8110b8f0f186cc487ad18ad6d78b44",
+        "checkedAt": "2026-10-26T12:10:21.762Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "tcballard/omarchy-plugin-orb",
-        "pluginIds": [
-          "io.github.tcballard.orb"
-        ],
-        "commit": "03d176612ab640ce9c7957d94f1464b207124ca6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T17:01:20.727Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-20T01:54:07.173Z",
-        "requestEventId": 33868065276,
-        "requestedAt": "2026-10-21T16:49:28Z",
-        "reviewedAt": "2026-10-21T17:01:20.727Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.tcballard.orb": {
@@ -370411,7 +370390,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "tcballard/omarchy-plugin-orb",
+        "pluginIds": [
+          "io.github.tcballard.orb"
+        ],
+        "commit": "14b6c3483b8110b8f0f186cc487ad18ad6d78b44",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T12:10:21.762Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T02:50:14.172Z",
+        "requestEventId": 34256118023,
+        "requestedAt": "2026-10-26T12:09:49Z",
+        "reviewedAt": "2026-10-26T12:10:21.762Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "03d176612ab640ce9c7957d94f1464b207124ca6",
+          "validatedAt": "2026-10-21T17:01:20.910Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T12:10:21.762Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tcballard/omarchy-plugin-orb",
+            "pluginIds": [
+              "io.github.tcballard.orb"
+            ],
+            "commit": "03d176612ab640ce9c7957d94f1464b207124ca6",
+            "checkedAt": "2026-10-21T17:01:20.727Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "tcballard/omarchy-plugin-orb",
+            "pluginIds": [
+              "io.github.tcballard.orb"
+            ],
+            "commit": "03d176612ab640ce9c7957d94f1464b207124ca6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T17:01:20.727Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-20T01:54:07.173Z",
+            "requestEventId": 33868065276,
+            "requestedAt": "2026-10-21T16:49:28Z",
+            "reviewedAt": "2026-10-21T17:01:20.727Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/n1s/omarchy-sleep-fast",
