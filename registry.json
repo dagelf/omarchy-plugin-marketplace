@@ -27675,8 +27675,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-19",
       "listedAt": "2026-08-19T15:51:09.915Z",
-      "listingValidatedCommit": "a1de4921036eb1562f84e7f1fb031deaaf352c45",
-      "listingValidatedAt": "2026-08-25T16:45:58.765Z",
+      "listingValidatedCommit": "876a0d146f4cf2f2b927e20b8f1354fb2c984f0e",
+      "listingValidatedAt": "2026-10-26T04:35:39.831Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -27685,8 +27685,8 @@
         "pluginIds": [
           "io.github.filipechagas.choosium"
         ],
-        "commit": "a1de4921036eb1562f84e7f1fb031deaaf352c45",
-        "checkedAt": "2026-08-25T16:45:58.765Z",
+        "commit": "876a0d146f4cf2f2b927e20b8f1354fb2c984f0e",
+        "checkedAt": "2026-10-26T04:35:39.831Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -27716,6 +27716,26 @@
             ],
             "commit": "1629fc4742dc4c0715a9a25952023c91583bd0b8",
             "checkedAt": "2026-08-19T13:08:08.417Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "a1de4921036eb1562f84e7f1fb031deaaf352c45",
+          "validatedAt": "2026-08-25T16:45:58.765Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T04:35:39.831Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "filipechagas/omarchy-choosium",
+            "pluginIds": [
+              "io.github.filipechagas.choosium"
+            ],
+            "commit": "a1de4921036eb1562f84e7f1fb031deaaf352c45",
+            "checkedAt": "2026-08-25T16:45:58.765Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
