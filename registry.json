@@ -375269,6 +375269,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/meviusisback/omarchy-live-scores",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T08:19:07.944Z",
+      "listingValidatedCommit": "30c988d59612cde0f7be2b1855d13979ba874fe9",
+      "listingValidatedAt": "2026-10-26T08:19:07.944Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "meviusisback/omarchy-live-scores",
+        "pluginIds": [
+          "meviusisback.live-scores"
+        ],
+        "commit": "30c988d59612cde0f7be2b1855d13979ba874fe9",
+        "checkedAt": "2026-10-26T08:19:07.816Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "meviusisback.live-scores": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
