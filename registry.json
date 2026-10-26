@@ -327826,8 +327826,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T03:50:55.405Z",
-      "listingValidatedCommit": "cc8970dc08f7d92fd7fb5dc8dd3a8da37ca46c5e",
-      "listingValidatedAt": "2026-10-08T03:50:55.405Z",
+      "listingValidatedCommit": "ab2a2c63d883484e7870867e9fa97e374bf33c97",
+      "listingValidatedAt": "2026-10-26T00:11:08.958Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -327836,8 +327836,8 @@
         "pluginIds": [
           "io.github.akton1.scratchpad-frame"
         ],
-        "commit": "cc8970dc08f7d92fd7fb5dc8dd3a8da37ca46c5e",
-        "checkedAt": "2026-10-08T03:50:55.265Z",
+        "commit": "ab2a2c63d883484e7870867e9fa97e374bf33c97",
+        "checkedAt": "2026-10-26T00:11:08.958Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -327852,7 +327852,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "cc8970dc08f7d92fd7fb5dc8dd3a8da37ca46c5e",
+          "validatedAt": "2026-10-08T03:50:55.405Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T00:11:08.958Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "akton1/omarchy-scratchpad-frame",
+            "pluginIds": [
+              "io.github.akton1.scratchpad-frame"
+            ],
+            "commit": "cc8970dc08f7d92fd7fb5dc8dd3a8da37ca46c5e",
+            "checkedAt": "2026-10-08T03:50:55.265Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/JamesForan/whereabouts",
