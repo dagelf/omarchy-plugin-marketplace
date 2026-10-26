@@ -343924,8 +343924,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T23:12:13.302Z",
-      "listingValidatedCommit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
-      "listingValidatedAt": "2026-10-11T23:12:13.302Z",
+      "listingValidatedCommit": "431653492c134b3b6b27d4f3da15ca1f8d00e132",
+      "listingValidatedAt": "2026-10-26T22:02:17.651Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -343934,8 +343934,8 @@
         "pluginIds": [
           "kristjaningi.touchline"
         ],
-        "commit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
-        "checkedAt": "2026-10-11T23:12:13.189Z",
+        "commit": "431653492c134b3b6b27d4f3da15ca1f8d00e132",
+        "checkedAt": "2026-10-26T22:02:17.651Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -343950,7 +343950,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
+          "validatedAt": "2026-10-11T23:12:13.302Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T22:02:17.651Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "kristjaningi/omarchy-touchline",
+            "pluginIds": [
+              "kristjaningi.touchline"
+            ],
+            "commit": "414295617ed37d00ccc0b6c3cf33c59f20dd9e00",
+            "checkedAt": "2026-10-11T23:12:13.189Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/LLMFAO/omarchy-jellyfin-cinema",
