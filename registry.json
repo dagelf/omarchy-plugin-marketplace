@@ -264519,8 +264519,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-27",
       "listedAt": "2026-09-27T14:47:53.324Z",
-      "listingValidatedCommit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
-      "listingValidatedAt": "2026-10-07T22:04:18.310Z",
+      "listingValidatedCommit": "7ea3b111ef423225c27a344ea31bc585fd64b1db",
+      "listingValidatedAt": "2026-10-26T09:57:31.524Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -264529,8 +264529,8 @@
         "pluginIds": [
           "io.github.szlukabence.omarchy-dock"
         ],
-        "commit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
-        "checkedAt": "2026-10-07T22:04:18.310Z",
+        "commit": "7ea3b111ef423225c27a344ea31bc585fd64b1db",
+        "checkedAt": "2026-10-26T09:57:31.524Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -264696,6 +264696,53 @@
             "reviewedAt": "2026-10-02T13:10:50.304Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
+          "validatedAt": "2026-10-07T22:04:18.310Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T09:57:31.524Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "szlukabence/omarchy-dock",
+            "pluginIds": [
+              "io.github.szlukabence.omarchy-dock"
+            ],
+            "commit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
+            "checkedAt": "2026-10-07T22:04:18.310Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "szlukabence/omarchy-dock",
+            "pluginIds": [
+              "io.github.szlukabence.omarchy-dock"
+            ],
+            "commit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-07T22:04:18.310Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-07T18:02:04.091Z",
+            "requestEventId": 32729989601,
+            "requestedAt": "2026-10-07T22:03:51Z",
+            "reviewedAt": "2026-10-07T22:04:18.310Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -264704,10 +264751,10 @@
         "pluginIds": [
           "io.github.szlukabence.omarchy-dock"
         ],
-        "commit": "7f9be613a18a4b28a4f57487b1b9ed9ddee2fb95",
+        "commit": "7ea3b111ef423225c27a344ea31bc585fd64b1db",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-07T22:04:18.310Z",
+        "baselineCheckedAt": "2026-10-26T09:57:31.524Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -264715,10 +264762,10 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-07T18:02:04.091Z",
-        "requestEventId": 32729989601,
-        "requestedAt": "2026-10-07T22:03:51Z",
-        "reviewedAt": "2026-10-07T22:04:18.310Z",
+        "reviewedBaselineCheckedAt": "2026-10-22T17:02:06.585Z",
+        "requestEventId": 34245277300,
+        "requestedAt": "2026-10-26T09:54:47Z",
+        "reviewedAt": "2026-10-26T09:57:31.524Z",
         "reviewer": "HANCORE-linux"
       }
     },
