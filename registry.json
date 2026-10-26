@@ -375631,6 +375631,63 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/thealejandro/omarchy-island",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T09:24:22.107Z",
+      "listingValidatedCommit": "764286ddea23a0aa68105de00868bc058106adfa",
+      "listingValidatedAt": "2026-10-26T09:24:22.107Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "thealejandro/omarchy-island",
+        "pluginIds": [
+          "thealejandro.island"
+        ],
+        "commit": "764286ddea23a0aa68105de00868bc058106adfa",
+        "checkedAt": "2026-10-26T09:24:22.003Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "thealejandro/omarchy-island",
+        "pluginIds": [
+          "thealejandro.island"
+        ],
+        "commit": "764286ddea23a0aa68105de00868bc058106adfa",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T09:24:22.003Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T09:06:21.663Z",
+        "requestEventId": 34242794196,
+        "requestedAt": "2026-10-26T09:23:50Z",
+        "reviewedAt": "2026-10-26T09:24:22.003Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "thealejandro.island": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
