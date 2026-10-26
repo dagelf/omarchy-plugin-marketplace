@@ -150242,8 +150242,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-05",
       "listedAt": "2026-09-05T22:50:01.724Z",
-      "listingValidatedCommit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
-      "listingValidatedAt": "2026-10-12T02:27:27.247Z",
+      "listingValidatedCommit": "a7e1b5e62156e0474fbb29f3faad89d2c30a3294",
+      "listingValidatedAt": "2026-10-26T10:37:34.544Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -150252,8 +150252,8 @@
         "pluginIds": [
           "io.github.selfcrypto.wireguard"
         ],
-        "commit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
-        "checkedAt": "2026-10-12T02:27:27.247Z",
+        "commit": "a7e1b5e62156e0474fbb29f3faad89d2c30a3294",
+        "checkedAt": "2026-10-26T10:37:34.544Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -150285,6 +150285,26 @@
             ],
             "commit": "a07e8d257f6caa828bea4e5bc055d5567486e23f",
             "checkedAt": "2026-09-05T22:50:01.653Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
+          "validatedAt": "2026-10-12T02:27:27.247Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T10:37:34.544Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "selfcrypto/omarchy-wireguard",
+            "pluginIds": [
+              "io.github.selfcrypto.wireguard"
+            ],
+            "commit": "421e4fdfcfef74b43681642d7e53e0a014a9b53c",
+            "checkedAt": "2026-10-12T02:27:27.247Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
