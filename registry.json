@@ -378132,6 +378132,73 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/yangkang5303/omarchy-cast",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T17:23:48.084Z",
+      "listingValidatedCommit": "01ea5625510cb665e01da368fbcda53ac7794bfd",
+      "listingValidatedAt": "2026-10-26T17:23:48.084Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yangkang5303/omarchy-cast",
+        "pluginIds": [
+          "yangkang5303.audio-cast"
+        ],
+        "commit": "01ea5625510cb665e01da368fbcda53ac7794bfd",
+        "checkedAt": "2026-10-26T17:23:47.932Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yangkang5303/omarchy-cast",
+        "pluginIds": [
+          "yangkang5303.audio-cast"
+        ],
+        "commit": "01ea5625510cb665e01da368fbcda53ac7794bfd",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T17:23:47.932Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T17:14:16.085Z",
+        "requestEventId": 34286037631,
+        "requestedAt": "2026-10-26T17:20:53Z",
+        "reviewedAt": "2026-10-26T17:23:47.932Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "yangkang5303.audio-cast": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
