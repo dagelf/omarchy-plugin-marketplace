@@ -200617,8 +200617,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T08:09:41.277Z",
-      "listingValidatedCommit": "7752a13208c6562946622dcf8edb4fbc1882a101",
-      "listingValidatedAt": "2026-09-16T08:09:41.277Z",
+      "listingValidatedCommit": "1f0be347f941a1e9b9f7ff8606f58115bda1d5b1",
+      "listingValidatedAt": "2026-10-26T00:58:18.133Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -200627,35 +200627,14 @@
         "pluginIds": [
           "reidenxerx.barber"
         ],
-        "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
-        "checkedAt": "2026-09-16T08:09:41.199Z",
+        "commit": "1f0be347f941a1e9b9f7ff8606f58115bda1d5b1",
+        "checkedAt": "2026-10-26T00:58:18.133Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "reidenxerx/omarchy-barber",
-        "pluginIds": [
-          "reidenxerx.barber"
-        ],
-        "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T08:09:41.199Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-13T21:00:20.664Z",
-        "requestEventId": 31229600370,
-        "requestedAt": "2026-09-16T08:05:43Z",
-        "reviewedAt": "2026-09-16T08:09:41.199Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "reidenxerx.barber": {
@@ -200667,7 +200646,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "reidenxerx/omarchy-barber",
+        "pluginIds": [
+          "reidenxerx.barber"
+        ],
+        "commit": "1f0be347f941a1e9b9f7ff8606f58115bda1d5b1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T00:58:18.133Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T17:56:09.242Z",
+        "requestEventId": 34212946565,
+        "requestedAt": "2026-10-26T00:26:49Z",
+        "reviewedAt": "2026-10-26T00:58:18.133Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+          "validatedAt": "2026-09-16T08:09:41.277Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T00:58:18.133Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "reidenxerx/omarchy-barber",
+            "pluginIds": [
+              "reidenxerx.barber"
+            ],
+            "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+            "checkedAt": "2026-09-16T08:09:41.199Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "reidenxerx/omarchy-barber",
+            "pluginIds": [
+              "reidenxerx.barber"
+            ],
+            "commit": "7752a13208c6562946622dcf8edb4fbc1882a101",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T08:09:41.199Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-13T21:00:20.664Z",
+            "requestEventId": 31229600370,
+            "requestedAt": "2026-09-16T08:05:43Z",
+            "reviewedAt": "2026-09-16T08:09:41.199Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/marcho78/omarchy-taskbar",
