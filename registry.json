@@ -235546,8 +235546,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T07:45:32.277Z",
-      "listingValidatedCommit": "3c96a991ac4e77ac88eb3f499fca84dd99815c2e",
-      "listingValidatedAt": "2026-10-10T12:04:10.977Z",
+      "listingValidatedCommit": "2e9dda2fafb33dbce11b5796c3e4776f1e689ce3",
+      "listingValidatedAt": "2026-10-26T13:14:59.557Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -235556,8 +235556,8 @@
         "pluginIds": [
           "dev.nur.omasum"
         ],
-        "commit": "3c96a991ac4e77ac88eb3f499fca84dd99815c2e",
-        "checkedAt": "2026-10-10T12:04:10.977Z",
+        "commit": "2e9dda2fafb33dbce11b5796c3e4776f1e689ce3",
+        "checkedAt": "2026-10-26T13:14:59.557Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -235627,6 +235627,26 @@
             ],
             "commit": "b90cbf8fd538677e9fcd3b1f42d48039eb97dddb",
             "checkedAt": "2026-10-06T07:00:48.913Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "3c96a991ac4e77ac88eb3f499fca84dd99815c2e",
+          "validatedAt": "2026-10-10T12:04:10.977Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T13:14:59.557Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nursahketene/omasum",
+            "pluginIds": [
+              "dev.nur.omasum"
+            ],
+            "commit": "3c96a991ac4e77ac88eb3f499fca84dd99815c2e",
+            "checkedAt": "2026-10-10T12:04:10.977Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
