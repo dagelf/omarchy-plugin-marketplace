@@ -378371,6 +378371,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/RohiRIK/oma-caffe",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T17:57:49.272Z",
+      "listingValidatedCommit": "78be2736be8b3f91f4b32e6b2aa7022400e128b5",
+      "listingValidatedAt": "2026-10-26T17:57:49.272Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rohirik/oma-caffe",
+        "pluginIds": [
+          "rohirik.oma-caffe"
+        ],
+        "commit": "78be2736be8b3f91f4b32e6b2aa7022400e128b5",
+        "checkedAt": "2026-10-26T17:57:49.119Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rohirik/oma-caffe",
+        "pluginIds": [
+          "rohirik.oma-caffe"
+        ],
+        "commit": "78be2736be8b3f91f4b32e6b2aa7022400e128b5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T17:57:49.119Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T14:39:20.382Z",
+        "requestEventId": 34288835510,
+        "requestedAt": "2026-10-26T17:52:49Z",
+        "reviewedAt": "2026-10-26T17:57:49.119Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "rohirik.oma-caffe": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
