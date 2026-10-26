@@ -373714,6 +373714,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/anishvarsha/omarchy-app-theme",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T02:20:12.428Z",
+      "listingValidatedCommit": "bcf856cc0c626468e35235a6317791fc79d13c27",
+      "listingValidatedAt": "2026-10-26T02:20:12.428Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "anishvarsha/omarchy-app-theme",
+        "pluginIds": [
+          "io.github.anishvarsha.app-theme"
+        ],
+        "commit": "bcf856cc0c626468e35235a6317791fc79d13c27",
+        "checkedAt": "2026-10-26T02:20:12.272Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "anishvarsha/omarchy-app-theme",
+        "pluginIds": [
+          "io.github.anishvarsha.app-theme"
+        ],
+        "commit": "bcf856cc0c626468e35235a6317791fc79d13c27",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T02:20:12.272Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T21:38:47.006Z",
+        "requestEventId": 34217206681,
+        "requestedAt": "2026-10-26T01:59:59Z",
+        "reviewedAt": "2026-10-26T02:20:12.272Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.anishvarsha.app-theme": {
+          "category": "Appearance",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
