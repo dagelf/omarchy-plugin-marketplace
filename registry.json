@@ -377025,6 +377025,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/mattbudde/kata",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T12:23:10.799Z",
+      "listingValidatedCommit": "58df3aa422c9beea1de8ceeb585b96ad396e0591",
+      "listingValidatedAt": "2026-10-26T12:23:10.799Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mattbudde/kata",
+        "pluginIds": [
+          "io.github.mattbudde.kata"
+        ],
+        "commit": "58df3aa422c9beea1de8ceeb585b96ad396e0591",
+        "checkedAt": "2026-10-26T12:23:10.641Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.mattbudde.kata": {
+          "category": "Desktop",
+          "tags": [
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
