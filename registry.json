@@ -373418,6 +373418,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/leewynne/omarchy-next-ufc",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:56:05.211Z",
+      "listingValidatedCommit": "880a0a9616d8fac62a99c766724ae1080a785c2e",
+      "listingValidatedAt": "2026-10-26T01:56:05.211Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "leewynne/omarchy-next-ufc",
+        "pluginIds": [
+          "leewynne.next-ufc"
+        ],
+        "commit": "880a0a9616d8fac62a99c766724ae1080a785c2e",
+        "checkedAt": "2026-10-26T01:56:05.084Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "leewynne.next-ufc": {
+          "category": "Other",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
