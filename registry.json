@@ -379115,6 +379115,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/alshareedah22/omatableplus",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T19:23:08.667Z",
+      "listingValidatedCommit": "55558fb2648ac8bb7079c3a64099864c4ef778c3",
+      "listingValidatedAt": "2026-10-26T19:23:08.667Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "alshareedah22/omatableplus",
+        "pluginIds": [
+          "blackcode.omatableplus"
+        ],
+        "commit": "55558fb2648ac8bb7079c3a64099864c4ef778c3",
+        "checkedAt": "2026-10-26T19:23:08.529Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "blackcode.omatableplus": {
+          "category": "Developer Tools",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
