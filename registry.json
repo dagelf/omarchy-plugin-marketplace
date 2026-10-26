@@ -126706,8 +126706,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-01",
       "listedAt": "2026-09-01T02:12:35.878Z",
-      "listingValidatedCommit": "be25c0f680a93907fd8ffecd10c61f7a8796d7d7",
-      "listingValidatedAt": "2026-10-14T05:34:27.219Z",
+      "listingValidatedCommit": "8be2ffe20cebe1062ed2c98824bf58952762fd21",
+      "listingValidatedAt": "2026-10-26T10:33:50.593Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -126716,8 +126716,8 @@
         "pluginIds": [
           "io.github.selfcrypto.power-saving"
         ],
-        "commit": "be25c0f680a93907fd8ffecd10c61f7a8796d7d7",
-        "checkedAt": "2026-10-14T05:34:27.219Z",
+        "commit": "8be2ffe20cebe1062ed2c98824bf58952762fd21",
+        "checkedAt": "2026-10-26T10:33:50.593Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -126832,6 +126832,26 @@
             ],
             "commit": "f7cd5f176366c83f21e11722b7bc571706d10c7a",
             "checkedAt": "2026-10-02T14:19:15.630Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "be25c0f680a93907fd8ffecd10c61f7a8796d7d7",
+          "validatedAt": "2026-10-14T05:34:27.219Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T10:33:50.593Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "selfcrypto/omarchy-power-saving",
+            "pluginIds": [
+              "io.github.selfcrypto.power-saving"
+            ],
+            "commit": "be25c0f680a93907fd8ffecd10c61f7a8796d7d7",
+            "checkedAt": "2026-10-14T05:34:27.219Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
