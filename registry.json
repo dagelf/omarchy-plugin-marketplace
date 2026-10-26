@@ -376680,6 +376680,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/ruuts/omarchy-studio-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:31:09.220Z",
+      "listingValidatedCommit": "8b70b80ee29b002dbc5e38115ecc425454e0f107",
+      "listingValidatedAt": "2026-10-26T11:31:09.220Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ruuts/omarchy-studio-display",
+        "pluginIds": [
+          "io.github.ruuts.studio-display"
+        ],
+        "commit": "8b70b80ee29b002dbc5e38115ecc425454e0f107",
+        "checkedAt": "2026-10-26T11:31:09.070Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.ruuts.studio-display": {
+          "category": "Hardware",
+          "tags": [
+            "hyprland",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
