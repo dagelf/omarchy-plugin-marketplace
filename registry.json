@@ -379778,8 +379778,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T19:01:51.267Z",
-      "listingValidatedCommit": "f3c745580cc12cb013ee0fafd9700d78c6e0484c",
-      "listingValidatedAt": "2026-10-26T19:01:51.267Z",
+      "listingValidatedCommit": "38f917ae2a69ba5e21d4d8fe7ba2d67fd738f799",
+      "listingValidatedAt": "2026-10-26T22:25:47.364Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -379788,8 +379788,8 @@
         "pluginIds": [
           "io.github.lekonidus.offline-translate"
         ],
-        "commit": "f3c745580cc12cb013ee0fafd9700d78c6e0484c",
-        "checkedAt": "2026-10-26T19:01:51.107Z",
+        "commit": "38f917ae2a69ba5e21d4d8fe7ba2d67fd738f799",
+        "checkedAt": "2026-10-26T22:25:47.364Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -379807,7 +379807,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "f3c745580cc12cb013ee0fafd9700d78c6e0484c",
+          "validatedAt": "2026-10-26T19:01:51.267Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T22:25:47.364Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lekonidus/omarchy-offline-translate",
+            "pluginIds": [
+              "io.github.lekonidus.offline-translate"
+            ],
+            "commit": "f3c745580cc12cb013ee0fafd9700d78c6e0484c",
+            "checkedAt": "2026-10-26T19:01:51.107Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/ApachaiZ/omarchy-zonectl",
