@@ -372759,6 +372759,62 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/abdxdev/omarchy-audio-glow",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:01:29.216Z",
+      "listingValidatedCommit": "efb6b3c7727f40b55364c0ee3129411e20e17f00",
+      "listingValidatedAt": "2026-10-26T01:01:29.216Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "abdxdev/omarchy-audio-glow",
+        "pluginIds": [
+          "io.github.abdxdev.audio-glow"
+        ],
+        "commit": "efb6b3c7727f40b55364c0ee3129411e20e17f00",
+        "checkedAt": "2026-10-26T01:01:29.069Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "abdxdev/omarchy-audio-glow",
+        "pluginIds": [
+          "io.github.abdxdev.audio-glow"
+        ],
+        "commit": "efb6b3c7727f40b55364c0ee3129411e20e17f00",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:01:29.069Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T08:23:05.000Z",
+        "requestEventId": 34212954039,
+        "requestedAt": "2026-10-26T00:26:59Z",
+        "reviewedAt": "2026-10-26T01:01:29.069Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.abdxdev.audio-glow": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
