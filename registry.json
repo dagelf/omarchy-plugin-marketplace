@@ -331892,8 +331892,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T17:20:53.458Z",
-      "listingValidatedCommit": "270490dbf2c27befb96df8ca9e183d1d582de600",
-      "listingValidatedAt": "2026-10-08T17:20:53.458Z",
+      "listingValidatedCommit": "69cbf63a2951a1efbf036118547ad2820264e3a8",
+      "listingValidatedAt": "2026-10-26T18:52:19.700Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -331902,35 +331902,14 @@
         "pluginIds": [
           "io.github.danitrrga.agenda"
         ],
-        "commit": "270490dbf2c27befb96df8ca9e183d1d582de600",
-        "checkedAt": "2026-10-08T17:20:53.331Z",
+        "commit": "69cbf63a2951a1efbf036118547ad2820264e3a8",
+        "checkedAt": "2026-10-26T18:52:19.700Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "danitrrga/omarchy-agenda",
-        "pluginIds": [
-          "io.github.danitrrga.agenda"
-        ],
-        "commit": "270490dbf2c27befb96df8ca9e183d1d582de600",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-08T17:20:53.331Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-08T17:03:08.628Z",
-        "requestEventId": 32810251983,
-        "requestedAt": "2026-10-08T17:20:27Z",
-        "reviewedAt": "2026-10-08T17:20:53.331Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.danitrrga.agenda": {
@@ -331941,7 +331920,73 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "danitrrga/omarchy-agenda",
+        "pluginIds": [
+          "io.github.danitrrga.agenda"
+        ],
+        "commit": "69cbf63a2951a1efbf036118547ad2820264e3a8",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T18:52:19.700Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T09:54:22.921Z",
+        "requestEventId": 34292491706,
+        "requestedAt": "2026-10-26T18:35:47Z",
+        "reviewedAt": "2026-10-26T18:52:19.700Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "270490dbf2c27befb96df8ca9e183d1d582de600",
+          "validatedAt": "2026-10-08T17:20:53.458Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T18:52:19.700Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "danitrrga/omarchy-agenda",
+            "pluginIds": [
+              "io.github.danitrrga.agenda"
+            ],
+            "commit": "270490dbf2c27befb96df8ca9e183d1d582de600",
+            "checkedAt": "2026-10-08T17:20:53.331Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "danitrrga/omarchy-agenda",
+            "pluginIds": [
+              "io.github.danitrrga.agenda"
+            ],
+            "commit": "270490dbf2c27befb96df8ca9e183d1d582de600",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-08T17:20:53.331Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-08T17:03:08.628Z",
+            "requestEventId": 32810251983,
+            "requestedAt": "2026-10-08T17:20:27Z",
+            "reviewedAt": "2026-10-08T17:20:53.331Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Henniedebruin/omarchy-news-ticker",
