@@ -170410,8 +170410,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T19:30:32.982Z",
-      "listingValidatedCommit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
-      "listingValidatedAt": "2026-10-03T07:05:47.372Z",
+      "listingValidatedCommit": "c5d6962deea38460b6ede93023f10c63a65687ea",
+      "listingValidatedAt": "2026-10-26T01:05:15.260Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -170420,15 +170420,17 @@
         "pluginIds": [
           "davedes.fossfetch"
         ],
-        "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
-        "checkedAt": "2026-10-03T07:05:47.372Z",
+        "commit": "c5d6962deea38460b6ede93023f10c63a65687ea",
+        "checkedAt": "2026-10-26T01:05:15.260Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
+          "service-management",
           "package-manager",
-          "remote-build"
+          "remote-build",
+          "installer"
         ]
       },
       "plugins": {
@@ -170440,29 +170442,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "davedes83/fossfetch",
-        "pluginIds": [
-          "davedes.fossfetch"
-        ],
-        "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-03T07:05:47.372Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-03T06:38:08.338Z",
-        "requestEventId": 32385368855,
-        "requestedAt": "2026-10-03T06:46:58Z",
-        "reviewedAt": "2026-10-03T07:05:47.372Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -170511,8 +170490,80 @@
             "reviewedAt": "2026-09-08T19:30:32.902Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+          "validatedAt": "2026-10-03T07:05:47.372Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T01:05:15.260Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "davedes83/fossfetch",
+            "pluginIds": [
+              "davedes.fossfetch"
+            ],
+            "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+            "checkedAt": "2026-10-03T07:05:47.372Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "davedes83/fossfetch",
+            "pluginIds": [
+              "davedes.fossfetch"
+            ],
+            "commit": "7cbf2c13261baa7ec7e1c83a9f7f20691a85ce3b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-03T07:05:47.372Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-03T06:38:08.338Z",
+            "requestEventId": 32385368855,
+            "requestedAt": "2026-10-03T06:46:58Z",
+            "reviewedAt": "2026-10-03T07:05:47.372Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "davedes83/fossfetch",
+        "pluginIds": [
+          "davedes.fossfetch"
+        ],
+        "commit": "c5d6962deea38460b6ede93023f10c63a65687ea",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:05:15.260Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T17:56:12.905Z",
+        "requestEventId": 34213331439,
+        "requestedAt": "2026-10-26T00:35:16Z",
+        "reviewedAt": "2026-10-26T01:05:15.260Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/FilipHarald/oma-mise",
