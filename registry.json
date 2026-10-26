@@ -378654,6 +378654,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/rmarchei/omarchy-openvpn-plugin",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T18:27:03.053Z",
+      "listingValidatedCommit": "a13c1bae2ab2312a738239a907510148041cdce6",
+      "listingValidatedAt": "2026-10-26T18:27:03.053Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rmarchei/omarchy-openvpn-plugin",
+        "pluginIds": [
+          "rmarchei.openvpn"
+        ],
+        "commit": "a13c1bae2ab2312a738239a907510148041cdce6",
+        "checkedAt": "2026-10-26T18:27:02.928Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "rmarchei/omarchy-openvpn-plugin",
+        "pluginIds": [
+          "rmarchei.openvpn"
+        ],
+        "commit": "a13c1bae2ab2312a738239a907510148041cdce6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T18:27:02.928Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T16:35:13.700Z",
+        "requestEventId": 34290586278,
+        "requestedAt": "2026-10-26T18:13:17Z",
+        "reviewedAt": "2026-10-26T18:27:02.928Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "rmarchei.openvpn": {
+          "category": "Widgets",
+          "tags": [
+            "vpn",
+            "bar",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
