@@ -370826,8 +370826,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T17:10:03.273Z",
-      "listingValidatedCommit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
-      "listingValidatedAt": "2026-10-21T17:10:03.273Z",
+      "listingValidatedCommit": "628032c338cbc56b213a01267507ca55dcc354a3",
+      "listingValidatedAt": "2026-10-26T13:59:48.596Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -370836,8 +370836,8 @@
         "pluginIds": [
           "ninepointlabs.update-arcade"
         ],
-        "commit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
-        "checkedAt": "2026-10-21T17:10:03.098Z",
+        "commit": "628032c338cbc56b213a01267507ca55dcc354a3",
+        "checkedAt": "2026-10-26T13:59:48.596Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -370847,30 +370847,6 @@
           "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "ninepointlabs/omarchy-update-arcade",
-        "pluginIds": [
-          "ninepointlabs.update-arcade"
-        ],
-        "commit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T17:10:03.098Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-21T13:32:57.653Z",
-        "requestEventId": 33869374856,
-        "requestedAt": "2026-10-21T17:04:51Z",
-        "reviewedAt": "2026-10-21T17:10:03.098Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "ninepointlabs.update-arcade": {
@@ -370882,7 +370858,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ninepointlabs/omarchy-update-arcade",
+        "pluginIds": [
+          "ninepointlabs.update-arcade"
+        ],
+        "commit": "628032c338cbc56b213a01267507ca55dcc354a3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T13:59:48.596Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T15:25:56.928Z",
+        "requestEventId": 34265727108,
+        "requestedAt": "2026-10-26T13:57:19Z",
+        "reviewedAt": "2026-10-26T13:59:48.596Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
+          "validatedAt": "2026-10-21T17:10:03.273Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T13:59:48.596Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ninepointlabs/omarchy-update-arcade",
+            "pluginIds": [
+              "ninepointlabs.update-arcade"
+            ],
+            "commit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
+            "checkedAt": "2026-10-21T17:10:03.098Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ninepointlabs/omarchy-update-arcade",
+            "pluginIds": [
+              "ninepointlabs.update-arcade"
+            ],
+            "commit": "e758b02e82168a2902f692ba0e6ac50fb2ef7d8a",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T17:10:03.098Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-21T13:32:57.653Z",
+            "requestEventId": 33869374856,
+            "requestedAt": "2026-10-21T17:04:51Z",
+            "reviewedAt": "2026-10-21T17:10:03.098Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/momostifler96/omarchy-tot",
