@@ -260218,8 +260218,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-26",
       "listedAt": "2026-09-26T15:57:05.325Z",
-      "listingValidatedCommit": "aa8a992f692c728406f7f2c966aff1e3f8bc4f39",
-      "listingValidatedAt": "2026-10-15T23:41:17.170Z",
+      "listingValidatedCommit": "751106fc4f7f13e0b406131aaa0abf191e13d40b",
+      "listingValidatedAt": "2026-10-26T13:06:28.786Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -260228,8 +260228,8 @@
         "pluginIds": [
           "tornikegomareli.spaces"
         ],
-        "commit": "aa8a992f692c728406f7f2c966aff1e3f8bc4f39",
-        "checkedAt": "2026-10-15T23:41:17.170Z",
+        "commit": "751106fc4f7f13e0b406131aaa0abf191e13d40b",
+        "checkedAt": "2026-10-26T13:06:28.786Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -260301,6 +260301,26 @@
             ],
             "commit": "9747f1f6ca5533a441bba24b7b292c2cde502a2a",
             "checkedAt": "2026-10-09T00:15:03.801Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "aa8a992f692c728406f7f2c966aff1e3f8bc4f39",
+          "validatedAt": "2026-10-15T23:41:17.170Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T13:06:28.786Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tornikegomareli/omarchy-spaces",
+            "pluginIds": [
+              "tornikegomareli.spaces"
+            ],
+            "commit": "aa8a992f692c728406f7f2c966aff1e3f8bc4f39",
+            "checkedAt": "2026-10-15T23:41:17.170Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
