@@ -172655,8 +172655,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-08",
       "listedAt": "2026-09-08T22:38:33.241Z",
-      "listingValidatedCommit": "083199ab8bde03fc9ee8980b8fd416c787d99efe",
-      "listingValidatedAt": "2026-09-08T22:38:33.241Z",
+      "listingValidatedCommit": "b2737decf817dcb6b1ba8dc51b624af32ca90eda",
+      "listingValidatedAt": "2026-10-26T20:10:28.655Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -172665,8 +172665,8 @@
         "pluginIds": [
           "io.github.jyooi.grammachy"
         ],
-        "commit": "083199ab8bde03fc9ee8980b8fd416c787d99efe",
-        "checkedAt": "2026-09-08T22:38:33.165Z",
+        "commit": "b2737decf817dcb6b1ba8dc51b624af32ca90eda",
+        "checkedAt": "2026-10-26T20:10:28.655Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -172680,7 +172680,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "083199ab8bde03fc9ee8980b8fd416c787d99efe",
+          "validatedAt": "2026-09-08T22:38:33.241Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T20:10:28.655Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jyooi/grammachy",
+            "pluginIds": [
+              "io.github.jyooi.grammachy"
+            ],
+            "commit": "083199ab8bde03fc9ee8980b8fd416c787d99efe",
+            "checkedAt": "2026-09-08T22:38:33.165Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Firstp1ck/omarchy-skill-manager",
