@@ -352557,8 +352557,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T01:13:17.222Z",
-      "listingValidatedCommit": "c1767cfd4236561908be6c1d56096b34b302bf1c",
-      "listingValidatedAt": "2026-10-15T01:13:17.222Z",
+      "listingValidatedCommit": "9d36e5a34e79082daf76ff0fe951acc08b45e639",
+      "listingValidatedAt": "2026-10-26T18:47:23.459Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -352567,8 +352567,8 @@
         "pluginIds": [
           "tylersw1ft.thock"
         ],
-        "commit": "c1767cfd4236561908be6c1d56096b34b302bf1c",
-        "checkedAt": "2026-10-15T01:13:17.082Z",
+        "commit": "9d36e5a34e79082daf76ff0fe951acc08b45e639",
+        "checkedAt": "2026-10-26T18:47:23.459Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -352588,7 +352588,29 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c1767cfd4236561908be6c1d56096b34b302bf1c",
+          "validatedAt": "2026-10-15T01:13:17.222Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T18:47:23.459Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "tylersw1ft/omarchy-thock",
+            "pluginIds": [
+              "tylersw1ft.thock"
+            ],
+            "commit": "c1767cfd4236561908be6c1d56096b34b302bf1c",
+            "checkedAt": "2026-10-15T01:13:17.082Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Sxott-93/omarchy-wgpvpn",
