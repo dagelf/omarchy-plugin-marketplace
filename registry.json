@@ -356371,8 +356371,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-17",
       "listedAt": "2026-10-17T07:36:34.554Z",
-      "listingValidatedCommit": "291d0798582f2bd474a25fa05a6be005fe04b607",
-      "listingValidatedAt": "2026-10-17T07:36:34.554Z",
+      "listingValidatedCommit": "5e5126dfdf99ce9dba92b5e9ef474a6b6831d849",
+      "listingValidatedAt": "2026-10-26T01:48:29.881Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -356381,8 +356381,8 @@
         "pluginIds": [
           "jongsma.lan-clip"
         ],
-        "commit": "291d0798582f2bd474a25fa05a6be005fe04b607",
-        "checkedAt": "2026-10-17T07:36:34.467Z",
+        "commit": "5e5126dfdf99ce9dba92b5e9ef474a6b6831d849",
+        "checkedAt": "2026-10-26T01:48:29.881Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -356392,30 +356392,6 @@
           "remote-build",
           "privilege"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "johanjongsma/lan-clip",
-        "pluginIds": [
-          "jongsma.lan-clip"
-        ],
-        "commit": "291d0798582f2bd474a25fa05a6be005fe04b607",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-17T07:36:34.467Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "package-manager",
-          "remote-build",
-          "privilege"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-17T07:30:21.837Z",
-        "requestEventId": 33509343196,
-        "requestedAt": "2026-10-17T07:36:08Z",
-        "reviewedAt": "2026-10-17T07:36:34.467Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "jongsma.lan-clip": {
@@ -356430,7 +356406,82 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "johanjongsma/lan-clip",
+        "pluginIds": [
+          "jongsma.lan-clip"
+        ],
+        "commit": "5e5126dfdf99ce9dba92b5e9ef474a6b6831d849",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:48:29.881Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "package-manager",
+          "remote-build",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T17:56:29.215Z",
+        "requestEventId": 34215171889,
+        "requestedAt": "2026-10-26T01:15:21Z",
+        "reviewedAt": "2026-10-26T01:48:29.881Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "291d0798582f2bd474a25fa05a6be005fe04b607",
+          "validatedAt": "2026-10-17T07:36:34.554Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T01:48:29.881Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "johanjongsma/lan-clip",
+            "pluginIds": [
+              "jongsma.lan-clip"
+            ],
+            "commit": "291d0798582f2bd474a25fa05a6be005fe04b607",
+            "checkedAt": "2026-10-17T07:36:34.467Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "remote-build",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "johanjongsma/lan-clip",
+            "pluginIds": [
+              "jongsma.lan-clip"
+            ],
+            "commit": "291d0798582f2bd474a25fa05a6be005fe04b607",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-17T07:36:34.467Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "package-manager",
+              "remote-build",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-17T07:30:21.837Z",
+            "requestEventId": 33509343196,
+            "requestedAt": "2026-10-17T07:36:08Z",
+            "reviewedAt": "2026-10-17T07:36:34.467Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/superb-striker/media-controller-plugin",
