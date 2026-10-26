@@ -372497,6 +372497,42 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/otlet/omarchy-wormscursor",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T00:38:42.296Z",
+      "listingValidatedCommit": "efa493a216c8782a73845b8076d75465360dd1ad",
+      "listingValidatedAt": "2026-10-26T00:38:42.296Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "otlet/omarchy-wormscursor",
+        "pluginIds": [
+          "otlet.worms-cursor"
+        ],
+        "commit": "efa493a216c8782a73845b8076d75465360dd1ad",
+        "checkedAt": "2026-10-26T00:38:42.144Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "otlet.worms-cursor": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
