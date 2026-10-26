@@ -376648,6 +376648,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/tuxmontero/dutch-tax-calculator",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:26:45.247Z",
+      "listingValidatedCommit": "3fd7cf978fd1c5be77032e2750fb3b5d8957a64b",
+      "listingValidatedAt": "2026-10-26T11:26:45.247Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "tuxmontero/dutch-tax-calculator",
+        "pluginIds": [
+          "jonathan.dutch-tax-calculator"
+        ],
+        "commit": "3fd7cf978fd1c5be77032e2750fb3b5d8957a64b",
+        "checkedAt": "2026-10-26T11:26:45.100Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "jonathan.dutch-tax-calculator": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
