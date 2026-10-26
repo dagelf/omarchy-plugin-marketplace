@@ -376013,6 +376013,73 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ipvesp/Omasnitch",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T10:23:00.331Z",
+      "listingValidatedCommit": "51f89a8f9f8797804b71352d9bc3424d3d3c9359",
+      "listingValidatedAt": "2026-10-26T10:23:00.331Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ipvesp/omasnitch",
+        "pluginIds": [
+          "vesp.omasnitch"
+        ],
+        "commit": "51f89a8f9f8797804b71352d9bc3424d3d3c9359",
+        "checkedAt": "2026-10-26T10:23:00.221Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "ipvesp/omasnitch",
+        "pluginIds": [
+          "vesp.omasnitch"
+        ],
+        "commit": "51f89a8f9f8797804b71352d9bc3424d3d3c9359",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T10:23:00.221Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T09:59:01.214Z",
+        "requestEventId": 34246286609,
+        "requestedAt": "2026-10-26T10:06:43Z",
+        "reviewedAt": "2026-10-26T10:23:00.221Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "vesp.omasnitch": {
+          "category": "System",
+          "tags": [
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
