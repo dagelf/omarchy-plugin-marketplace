@@ -377791,8 +377791,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T08:14:53.911Z",
-      "listingValidatedCommit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
-      "listingValidatedAt": "2026-10-26T08:14:53.911Z",
+      "listingValidatedCommit": "d5077ec7a24684d1e6bfc30f14bb52ad60786eed",
+      "listingValidatedAt": "2026-10-26T21:18:21.447Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -377801,8 +377801,8 @@
         "pluginIds": [
           "io.github.nathankramm.kanso-disk-space"
         ],
-        "commit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
-        "checkedAt": "2026-10-26T08:14:53.774Z",
+        "commit": "d5077ec7a24684d1e6bfc30f14bb52ad60786eed",
+        "checkedAt": "2026-10-26T21:18:21.447Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -377813,30 +377813,6 @@
           "service-management"
         ]
       },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nathankramm/omarchy-kanso-disk-space",
-        "pluginIds": [
-          "io.github.nathankramm.kanso-disk-space"
-        ],
-        "commit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-26T08:14:53.774Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "sudoers-modification",
-          "package-manager",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-26T04:45:16.592Z",
-        "requestEventId": 34236720281,
-        "requestedAt": "2026-10-26T08:06:42Z",
-        "reviewedAt": "2026-10-26T08:14:53.774Z",
-        "reviewer": "HANCORE-linux"
-      },
       "plugins": {
         "io.github.nathankramm.kanso-disk-space": {
           "category": "System",
@@ -377846,7 +377822,82 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nathankramm/omarchy-kanso-disk-space",
+        "pluginIds": [
+          "io.github.nathankramm.kanso-disk-space"
+        ],
+        "commit": "d5077ec7a24684d1e6bfc30f14bb52ad60786eed",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T21:18:21.447Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "sudoers-modification",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T14:14:27.909Z",
+        "requestEventId": 34305854637,
+        "requestedAt": "2026-10-26T21:16:29Z",
+        "reviewedAt": "2026-10-26T21:18:21.447Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
+          "validatedAt": "2026-10-26T08:14:53.911Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T21:18:21.447Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nathankramm/omarchy-kanso-disk-space",
+            "pluginIds": [
+              "io.github.nathankramm.kanso-disk-space"
+            ],
+            "commit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
+            "checkedAt": "2026-10-26T08:14:53.774Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "sudoers-modification",
+              "package-manager",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nathankramm/omarchy-kanso-disk-space",
+            "pluginIds": [
+              "io.github.nathankramm.kanso-disk-space"
+            ],
+            "commit": "c1e6db06778dcecf4b78cbcfa261ce267edc85a0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-26T08:14:53.774Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "sudoers-modification",
+              "package-manager",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-26T04:45:16.592Z",
+            "requestEventId": 34236720281,
+            "requestedAt": "2026-10-26T08:06:42Z",
+            "reviewedAt": "2026-10-26T08:14:53.774Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/meviusisback/omarchy-live-scores",
