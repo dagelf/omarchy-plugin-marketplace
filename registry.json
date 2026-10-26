@@ -373102,6 +373102,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/avb7/oma-display",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:27:27.799Z",
+      "listingValidatedCommit": "d15f22d568c4ba5a4cdb59a02285ae4f38889873",
+      "listingValidatedAt": "2026-10-26T01:27:27.799Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "avb7/oma-display",
+        "pluginIds": [
+          "avb7.oma-display"
+        ],
+        "commit": "d15f22d568c4ba5a4cdb59a02285ae4f38889873",
+        "checkedAt": "2026-10-26T01:27:27.642Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "avb7.oma-display": {
+          "category": "System",
+          "tags": [
+            "hyprland",
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
