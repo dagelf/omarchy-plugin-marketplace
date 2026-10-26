@@ -373450,6 +373450,61 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/paulsamoluk/omarchy-light-table",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:59:45.556Z",
+      "listingValidatedCommit": "4e1ddb80c7e40b4154e8c125c98346fa3d484773",
+      "listingValidatedAt": "2026-10-26T01:59:45.556Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "paulsamoluk/omarchy-light-table",
+        "pluginIds": [
+          "psamoluk.light-table"
+        ],
+        "commit": "4e1ddb80c7e40b4154e8c125c98346fa3d484773",
+        "checkedAt": "2026-10-26T01:59:45.463Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "paulsamoluk/omarchy-light-table",
+        "pluginIds": [
+          "psamoluk.light-table"
+        ],
+        "commit": "4e1ddb80c7e40b4154e8c125c98346fa3d484773",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:59:45.463Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T01:22:16.888Z",
+        "requestEventId": 34215638919,
+        "requestedAt": "2026-10-26T01:25:41Z",
+        "reviewedAt": "2026-10-26T01:59:45.464Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "psamoluk.light-table": {
+          "category": "Productivity",
+          "tags": [
+            "media"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
