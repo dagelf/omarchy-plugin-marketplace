@@ -220310,8 +220310,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-20",
       "listedAt": "2026-09-20T00:10:08.374Z",
-      "listingValidatedCommit": "6281f83de9ce65475457e7fa00c1c136e8438fb1",
-      "listingValidatedAt": "2026-10-16T03:12:13.119Z",
+      "listingValidatedCommit": "2078c24580a1e905257c993ae6bb3dd5e20cc57e",
+      "listingValidatedAt": "2026-10-26T03:53:36.986Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -220320,8 +220320,8 @@
         "pluginIds": [
           "garrett.astro-arc"
         ],
-        "commit": "6281f83de9ce65475457e7fa00c1c136e8438fb1",
-        "checkedAt": "2026-10-16T03:12:13.119Z",
+        "commit": "2078c24580a1e905257c993ae6bb3dd5e20cc57e",
+        "checkedAt": "2026-10-26T03:53:36.986Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -220353,6 +220353,26 @@
             ],
             "commit": "ccf1049984c34e6b36077a4846ac4ace14b0400b",
             "checkedAt": "2026-09-20T00:10:08.282Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "6281f83de9ce65475457e7fa00c1c136e8438fb1",
+          "validatedAt": "2026-10-16T03:12:13.119Z",
+          "branch": "master",
+          "supersededAt": "2026-10-26T03:53:36.986Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "gmacadoches/astro-arc",
+            "pluginIds": [
+              "garrett.astro-arc"
+            ],
+            "commit": "6281f83de9ce65475457e7fa00c1c136e8438fb1",
+            "checkedAt": "2026-10-16T03:12:13.119Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
