@@ -375879,6 +375879,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/C622/omarchy-camilladsp",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T09:51:50.469Z",
+      "listingValidatedCommit": "790e64d7e636669944f19df93bbc276275c51192",
+      "listingValidatedAt": "2026-10-26T09:51:50.469Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "c622/omarchy-camilladsp",
+        "pluginIds": [
+          "c622.camilladsp"
+        ],
+        "commit": "790e64d7e636669944f19df93bbc276275c51192",
+        "checkedAt": "2026-10-26T09:51:50.302Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "c622/omarchy-camilladsp",
+        "pluginIds": [
+          "c622.camilladsp"
+        ],
+        "commit": "790e64d7e636669944f19df93bbc276275c51192",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T09:51:50.302Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "remote-build",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T09:37:42.707Z",
+        "requestEventId": 34244835844,
+        "requestedAt": "2026-10-26T09:49:22Z",
+        "reviewedAt": "2026-10-26T09:51:50.303Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "c622.camilladsp": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system",
+            "media"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
