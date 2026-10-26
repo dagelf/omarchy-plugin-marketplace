@@ -345828,8 +345828,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T00:21:29.511Z",
-      "listingValidatedCommit": "88eb7e64600f7bee50e5fcd2a3b68bc68e7fcc5d",
-      "listingValidatedAt": "2026-10-16T15:27:33.946Z",
+      "listingValidatedCommit": "c9524626e9cc94ffec8f270d0eb0b8ada834fa9c",
+      "listingValidatedAt": "2026-10-26T11:15:53.904Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -345838,8 +345838,8 @@
         "pluginIds": [
           "ambitiousrealism.t3-loupe"
         ],
-        "commit": "88eb7e64600f7bee50e5fcd2a3b68bc68e7fcc5d",
-        "checkedAt": "2026-10-16T15:27:33.946Z",
+        "commit": "c9524626e9cc94ffec8f270d0eb0b8ada834fa9c",
+        "checkedAt": "2026-10-26T11:15:53.904Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -345871,6 +345871,26 @@
             ],
             "commit": "6fb1ec8e2f7c573ca1178b038dfca15700926a7e",
             "checkedAt": "2026-10-13T00:21:29.366Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "88eb7e64600f7bee50e5fcd2a3b68bc68e7fcc5d",
+          "validatedAt": "2026-10-16T15:27:33.946Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T11:15:53.904Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ambitiousrealism2025/t3-loupe",
+            "pluginIds": [
+              "ambitiousrealism.t3-loupe"
+            ],
+            "commit": "88eb7e64600f7bee50e5fcd2a3b68bc68e7fcc5d",
+            "checkedAt": "2026-10-16T15:27:33.946Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
