@@ -298176,8 +298176,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T04:58:36.404Z",
-      "listingValidatedCommit": "50f6952340e038defcf2b78f424bf25bf86e379e",
-      "listingValidatedAt": "2026-10-16T18:58:37.127Z",
+      "listingValidatedCommit": "8576a3a00bec26780cfb5ec3e09610f0f9bcfd10",
+      "listingValidatedAt": "2026-10-26T19:32:00.339Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -298186,8 +298186,8 @@
         "pluginIds": [
           "leninzapata.super-clipboard-snippet"
         ],
-        "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
-        "checkedAt": "2026-10-16T18:58:37.127Z",
+        "commit": "8576a3a00bec26780cfb5ec3e09610f0f9bcfd10",
+        "checkedAt": "2026-10-26T19:32:00.339Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -298291,6 +298291,49 @@
             "reviewedAt": "2026-10-02T16:50:21.830Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+          "validatedAt": "2026-10-16T18:58:37.127Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T19:32:00.339Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "leninzapata/omarchy-super-clipboard-snippet",
+            "pluginIds": [
+              "leninzapata.super-clipboard-snippet"
+            ],
+            "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+            "checkedAt": "2026-10-16T18:58:37.127Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "leninzapata/omarchy-super-clipboard-snippet",
+            "pluginIds": [
+              "leninzapata.super-clipboard-snippet"
+            ],
+            "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T18:58:37.127Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T18:28:21.907Z",
+            "requestEventId": 33474648737,
+            "requestedAt": "2026-10-16T18:58:09Z",
+            "reviewedAt": "2026-10-16T18:58:37.127Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -298299,19 +298342,19 @@
         "pluginIds": [
           "leninzapata.super-clipboard-snippet"
         ],
-        "commit": "50f6952340e038defcf2b78f424bf25bf86e379e",
+        "commit": "8576a3a00bec26780cfb5ec3e09610f0f9bcfd10",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T18:58:37.127Z",
+        "baselineCheckedAt": "2026-10-26T19:32:00.339Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-16T18:28:21.907Z",
-        "requestEventId": 33474648737,
-        "requestedAt": "2026-10-16T18:58:09Z",
-        "reviewedAt": "2026-10-16T18:58:37.127Z",
+        "reviewedBaselineCheckedAt": "2026-10-25T17:03:03.324Z",
+        "requestEventId": 34294498772,
+        "requestedAt": "2026-10-26T18:59:11Z",
+        "reviewedAt": "2026-10-26T19:32:00.339Z",
         "reviewer": "HANCORE-linux"
       }
     },
