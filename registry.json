@@ -376080,6 +376080,70 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/28allday/omatether",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T10:26:31.736Z",
+      "listingValidatedCommit": "de4bc61d7e56c7d6c402e9712c978070f9f85132",
+      "listingValidatedAt": "2026-10-26T10:26:31.736Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "28allday/omatether",
+        "pluginIds": [
+          "nosignal.omatether"
+        ],
+        "commit": "de4bc61d7e56c7d6c402e9712c978070f9f85132",
+        "checkedAt": "2026-10-26T10:26:31.632Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "28allday/omatether",
+        "pluginIds": [
+          "nosignal.omatether"
+        ],
+        "commit": "de4bc61d7e56c7d6c402e9712c978070f9f85132",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T10:26:31.632Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "service-management",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T09:49:06.887Z",
+        "requestEventId": 34246288946,
+        "requestedAt": "2026-10-26T10:06:45Z",
+        "reviewedAt": "2026-10-26T10:26:31.632Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "nosignal.omatether": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
