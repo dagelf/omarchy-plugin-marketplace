@@ -376815,6 +376815,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ismoil77/omarchy-memory",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T11:48:34.038Z",
+      "listingValidatedCommit": "71636d655797f6d913356aebfc6ce5ce0b280cd7",
+      "listingValidatedAt": "2026-10-26T11:48:34.038Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "ismoil77/omarchy-memory",
+        "pluginIds": [
+          "ismoil.memory"
+        ],
+        "commit": "71636d655797f6d913356aebfc6ce5ce0b280cd7",
+        "checkedAt": "2026-10-26T11:48:33.899Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ismoil.memory": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "system",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
