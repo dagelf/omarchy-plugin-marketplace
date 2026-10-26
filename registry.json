@@ -373136,6 +373136,68 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/vekhyat/omarchy-swipe-switcher",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T01:32:17.651Z",
+      "listingValidatedCommit": "41f0abc6126123df506de8c6b2f7f511fb7ca2c2",
+      "listingValidatedAt": "2026-10-26T01:32:17.651Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "vekhyat/omarchy-swipe-switcher",
+        "pluginIds": [
+          "io.github.vekhyat.swipe-switcher"
+        ],
+        "commit": "41f0abc6126123df506de8c6b2f7f511fb7ca2c2",
+        "checkedAt": "2026-10-26T01:32:17.505Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "vekhyat/omarchy-swipe-switcher",
+        "pluginIds": [
+          "io.github.vekhyat.swipe-switcher"
+        ],
+        "commit": "41f0abc6126123df506de8c6b2f7f511fb7ca2c2",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T01:32:17.505Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T11:25:49.534Z",
+        "requestEventId": 34214388484,
+        "requestedAt": "2026-10-26T00:58:46Z",
+        "reviewedAt": "2026-10-26T01:32:17.506Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.vekhyat.swipe-switcher": {
+          "category": "Desktop",
+          "tags": [
+            "hyprland",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
