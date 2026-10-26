@@ -349917,8 +349917,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-13",
       "listedAt": "2026-10-13T23:06:04.083Z",
-      "listingValidatedCommit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
-      "listingValidatedAt": "2026-10-13T23:06:04.083Z",
+      "listingValidatedCommit": "4687de2169b2f826d7f7d0d2b69690432307bca0",
+      "listingValidatedAt": "2026-10-26T22:21:31.639Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -349927,35 +349927,14 @@
         "pluginIds": [
           "lcd1232.ente-auth"
         ],
-        "commit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
-        "checkedAt": "2026-10-13T23:06:03.997Z",
+        "commit": "4687de2169b2f826d7f7d0d2b69690432307bca0",
+        "checkedAt": "2026-10-26T22:21:31.638Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lcd1232/omarchy-totp",
-        "pluginIds": [
-          "lcd1232.ente-auth"
-        ],
-        "commit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-13T23:06:03.997Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-13T22:54:04.453Z",
-        "requestEventId": 33178689605,
-        "requestedAt": "2026-10-13T22:56:24Z",
-        "reviewedAt": "2026-10-13T23:06:03.997Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "lcd1232.ente-auth": {
@@ -349971,7 +349950,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lcd1232/omarchy-totp",
+        "pluginIds": [
+          "lcd1232.ente-auth"
+        ],
+        "commit": "4687de2169b2f826d7f7d0d2b69690432307bca0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T22:21:31.638Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T19:03:47.520Z",
+        "requestEventId": 34310590321,
+        "requestedAt": "2026-10-26T22:19:28Z",
+        "reviewedAt": "2026-10-26T22:21:31.639Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
+          "validatedAt": "2026-10-13T23:06:04.083Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T22:21:31.639Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lcd1232/omarchy-totp",
+            "pluginIds": [
+              "lcd1232.ente-auth"
+            ],
+            "commit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
+            "checkedAt": "2026-10-13T23:06:03.997Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lcd1232/omarchy-totp",
+            "pluginIds": [
+              "lcd1232.ente-auth"
+            ],
+            "commit": "e9a85a6944aeff797a7339fa43ed4704e35c0494",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-13T23:06:03.997Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-13T22:54:04.453Z",
+            "requestEventId": 33178689605,
+            "requestedAt": "2026-10-13T22:56:24Z",
+            "reviewedAt": "2026-10-13T23:06:03.997Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/anomius/nerv-magi",
