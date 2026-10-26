@@ -19778,8 +19778,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-18",
       "listedAt": "2026-08-18T02:52:51.122Z",
-      "listingValidatedCommit": "4692b09b55d31ae5424e480d7331f6796f64e5ff",
-      "listingValidatedAt": "2026-09-29T14:05:05.884Z",
+      "listingValidatedCommit": "b12f2198bc1e8824ca54f0ee8b6619e0fa0c548b",
+      "listingValidatedAt": "2026-10-26T11:35:34.753Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -19788,8 +19788,8 @@
         "pluginIds": [
           "io.github.orienw.fresh-wallpaper"
         ],
-        "commit": "4692b09b55d31ae5424e480d7331f6796f64e5ff",
-        "checkedAt": "2026-09-29T14:05:05.884Z",
+        "commit": "b12f2198bc1e8824ca54f0ee8b6619e0fa0c548b",
+        "checkedAt": "2026-10-26T11:35:34.753Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -19860,6 +19860,26 @@
             ],
             "commit": "958a7c4c6bc701bf77df007f80ea4fbd33a8b868",
             "checkedAt": "2026-09-10T18:20:17.972Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "4692b09b55d31ae5424e480d7331f6796f64e5ff",
+          "validatedAt": "2026-09-29T14:05:05.884Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T11:35:34.753Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "orienw/omarchy-fresh-wallpaper",
+            "pluginIds": [
+              "io.github.orienw.fresh-wallpaper"
+            ],
+            "commit": "4692b09b55d31ae5424e480d7331f6796f64e5ff",
+            "checkedAt": "2026-09-29T14:05:05.884Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
