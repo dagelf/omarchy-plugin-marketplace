@@ -328044,8 +328044,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T03:58:01.489Z",
-      "listingValidatedCommit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
-      "listingValidatedAt": "2026-10-09T00:28:33.602Z",
+      "listingValidatedCommit": "e80470816e2f0f53d3a7755a80ca2c4a2f5ebf54",
+      "listingValidatedAt": "2026-10-26T01:39:57.195Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -328054,8 +328054,8 @@
         "pluginIds": [
           "jamesforan.whereabouts"
         ],
-        "commit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
-        "checkedAt": "2026-10-09T00:28:33.602Z",
+        "commit": "e80470816e2f0f53d3a7755a80ca2c4a2f5ebf54",
+        "checkedAt": "2026-10-26T01:39:57.195Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -328087,6 +328087,26 @@
             ],
             "commit": "4f1ec57ba9096223acc54ec92ef3ee9e92a4bbab",
             "checkedAt": "2026-10-08T03:58:01.353Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
+          "validatedAt": "2026-10-09T00:28:33.602Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T01:39:57.195Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "jamesforan/whereabouts",
+            "pluginIds": [
+              "jamesforan.whereabouts"
+            ],
+            "commit": "425b3beaea6e7b440218966d4f6e6f18e756f018",
+            "checkedAt": "2026-10-09T00:28:33.602Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
