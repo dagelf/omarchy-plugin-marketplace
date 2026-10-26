@@ -353510,8 +353510,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-15",
       "listedAt": "2026-10-15T19:21:44.459Z",
-      "listingValidatedCommit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
-      "listingValidatedAt": "2026-10-16T02:23:29.714Z",
+      "listingValidatedCommit": "70047885f11e849b60e92d405819446a7de79e33",
+      "listingValidatedAt": "2026-10-26T19:44:20.090Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -353520,8 +353520,8 @@
         "pluginIds": [
           "io.github.creolben.equalizer"
         ],
-        "commit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
-        "checkedAt": "2026-10-16T02:23:29.714Z",
+        "commit": "70047885f11e849b60e92d405819446a7de79e33",
+        "checkedAt": "2026-10-26T19:44:20.090Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -353541,29 +353541,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "creolben/omarchy-equalizer",
-        "pluginIds": [
-          "io.github.creolben.equalizer"
-        ],
-        "commit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T02:23:29.714Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T02:03:24.349Z",
-        "requestEventId": 33399623679,
-        "requestedAt": "2026-10-16T02:22:48Z",
-        "reviewedAt": "2026-10-16T02:23:29.714Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -353612,8 +353589,78 @@
             "reviewedAt": "2026-10-15T19:21:44.297Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
+          "validatedAt": "2026-10-16T02:23:29.714Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T19:44:20.090Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "creolben/omarchy-equalizer",
+            "pluginIds": [
+              "io.github.creolben.equalizer"
+            ],
+            "commit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
+            "checkedAt": "2026-10-16T02:23:29.714Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "creolben/omarchy-equalizer",
+            "pluginIds": [
+              "io.github.creolben.equalizer"
+            ],
+            "commit": "0b2368d700abed4f03ef848238cf44f4740e2e68",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T02:23:29.714Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T02:03:24.349Z",
+            "requestEventId": 33399623679,
+            "requestedAt": "2026-10-16T02:22:48Z",
+            "reviewedAt": "2026-10-16T02:23:29.714Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "creolben/omarchy-equalizer",
+        "pluginIds": [
+          "io.github.creolben.equalizer"
+        ],
+        "commit": "70047885f11e849b60e92d405819446a7de79e33",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T19:44:20.090Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-25T18:16:19.941Z",
+        "requestEventId": 34296674457,
+        "requestedAt": "2026-10-26T19:25:05Z",
+        "reviewedAt": "2026-10-26T19:44:20.090Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/guirossibrum/EasyMathBooks",
