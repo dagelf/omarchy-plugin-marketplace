@@ -378721,6 +378721,65 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/onesastr/omarchy-siriusxm",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T18:32:04.053Z",
+      "listingValidatedCommit": "89480dcd55b60ccccf08f192c5cf5f67ecf4990c",
+      "listingValidatedAt": "2026-10-26T18:32:04.053Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "onesastr/omarchy-siriusxm",
+        "pluginIds": [
+          "sastr.siriusxm"
+        ],
+        "commit": "89480dcd55b60ccccf08f192c5cf5f67ecf4990c",
+        "checkedAt": "2026-10-26T18:32:03.899Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "onesastr/omarchy-siriusxm",
+        "pluginIds": [
+          "sastr.siriusxm"
+        ],
+        "commit": "89480dcd55b60ccccf08f192c5cf5f67ecf4990c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T18:32:03.899Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T17:04:44.277Z",
+        "requestEventId": 34290590562,
+        "requestedAt": "2026-10-26T18:13:20Z",
+        "reviewedAt": "2026-10-26T18:32:03.899Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "sastr.siriusxm": {
+          "category": "Widgets",
+          "tags": [
+            "media",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
