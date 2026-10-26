@@ -353855,8 +353855,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T18:34:30.714Z",
-      "listingValidatedCommit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
-      "listingValidatedAt": "2026-10-16T23:57:51.973Z",
+      "listingValidatedCommit": "16f37d7e21a5042fbee327d8a04d926e1fae836c",
+      "listingValidatedAt": "2026-10-26T03:01:46.403Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -353865,8 +353865,8 @@
         "pluginIds": [
           "io.github.chillboy0101.omarchy-hotspot"
         ],
-        "commit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
-        "checkedAt": "2026-10-16T23:57:51.973Z",
+        "commit": "16f37d7e21a5042fbee327d8a04d926e1fae836c",
+        "checkedAt": "2026-10-26T03:01:46.403Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -353891,30 +353891,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "chillboy0101/omarchy-hotspot",
-        "pluginIds": [
-          "io.github.chillboy0101.omarchy-hotspot"
-        ],
-        "commit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T23:57:51.973Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "installer",
-          "service-management"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-16T22:37:09.493Z",
-        "requestEventId": 33492630071,
-        "requestedAt": "2026-10-16T23:56:22Z",
-        "reviewedAt": "2026-10-16T23:57:51.973Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -353967,8 +353943,81 @@
             "reviewedAt": "2026-10-16T18:34:30.604Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
+          "validatedAt": "2026-10-16T23:57:51.973Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T03:01:46.403Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "chillboy0101/omarchy-hotspot",
+            "pluginIds": [
+              "io.github.chillboy0101.omarchy-hotspot"
+            ],
+            "commit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
+            "checkedAt": "2026-10-16T23:57:51.973Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "chillboy0101/omarchy-hotspot",
+            "pluginIds": [
+              "io.github.chillboy0101.omarchy-hotspot"
+            ],
+            "commit": "20aa29da4e52c7f3e1cd9137309b24ff2a8b4281",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T23:57:51.973Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T22:37:09.493Z",
+            "requestEventId": 33492630071,
+            "requestedAt": "2026-10-16T23:56:22Z",
+            "reviewedAt": "2026-10-16T23:57:51.973Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "chillboy0101/omarchy-hotspot",
+        "pluginIds": [
+          "io.github.chillboy0101.omarchy-hotspot"
+        ],
+        "commit": "16f37d7e21a5042fbee327d8a04d926e1fae836c",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T03:01:46.403Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-23T20:55:08.384Z",
+        "requestEventId": 34220058190,
+        "requestedAt": "2026-10-26T03:01:16Z",
+        "reviewedAt": "2026-10-26T03:01:46.403Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/dobrician/hyprtitles",
