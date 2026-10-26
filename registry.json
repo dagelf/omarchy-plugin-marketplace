@@ -372122,6 +372122,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/torasko/wiim-companion",
+      "type": "plugin-source",
+      "addedAt": "2026-10-25",
+      "listedAt": "2026-10-25T23:59:23.031Z",
+      "listingValidatedCommit": "73be8dfacf329228350c963f6f564e3aa6052257",
+      "listingValidatedAt": "2026-10-25T23:59:23.031Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "torasko/wiim-companion",
+        "pluginIds": [
+          "torasko.wiim-companion"
+        ],
+        "commit": "73be8dfacf329228350c963f6f564e3aa6052257",
+        "checkedAt": "2026-10-25T23:59:22.872Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "torasko.wiim-companion": {
+          "category": "Hardware",
+          "tags": [
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
