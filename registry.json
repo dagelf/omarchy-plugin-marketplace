@@ -373893,8 +373893,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-25",
       "listedAt": "2026-10-25T19:59:45.340Z",
-      "listingValidatedCommit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
-      "listingValidatedAt": "2026-10-25T19:59:45.340Z",
+      "listingValidatedCommit": "54cddc24618712b8c21e391d5647f320bff4fcbb",
+      "listingValidatedAt": "2026-10-26T23:34:27.755Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -373903,43 +373903,18 @@
         "pluginIds": [
           "zanzythebar.workspace-indicator"
         ],
-        "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
-        "checkedAt": "2026-10-25T19:59:45.189Z",
+        "commit": "54cddc24618712b8c21e391d5647f320bff4fcbb",
+        "checkedAt": "2026-10-26T23:34:27.755Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "privilege",
           "package-manager",
-          "remote-build",
           "service-management",
+          "remote-build",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "zanzythebar/workspace-indicator",
-        "pluginIds": [
-          "zanzythebar.workspace-indicator"
-        ],
-        "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-25T19:59:45.189Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager",
-          "remote-build",
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-25T19:44:47.608Z",
-        "requestEventId": 34200536443,
-        "requestedAt": "2026-10-25T19:50:32Z",
-        "reviewedAt": "2026-10-25T19:59:45.190Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "zanzythebar.workspace-indicator": {
@@ -373953,7 +373928,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "zanzythebar/workspace-indicator",
+        "pluginIds": [
+          "zanzythebar.workspace-indicator"
+        ],
+        "commit": "54cddc24618712b8c21e391d5647f320bff4fcbb",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-26T23:34:27.755Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management",
+          "remote-build",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T19:50:40.450Z",
+        "requestEventId": 34315301885,
+        "requestedAt": "2026-10-26T23:33:53Z",
+        "reviewedAt": "2026-10-26T23:34:27.755Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+          "validatedAt": "2026-10-25T19:59:45.340Z",
+          "branch": "main",
+          "supersededAt": "2026-10-26T23:34:27.755Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "zanzythebar/workspace-indicator",
+            "pluginIds": [
+              "zanzythebar.workspace-indicator"
+            ],
+            "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+            "checkedAt": "2026-10-25T19:59:45.189Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "zanzythebar/workspace-indicator",
+            "pluginIds": [
+              "zanzythebar.workspace-indicator"
+            ],
+            "commit": "321c88013bad6ce9592e5cb0ddf5b5af399b9900",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-25T19:59:45.189Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager",
+              "remote-build",
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-25T19:44:47.608Z",
+            "requestEventId": 34200536443,
+            "requestedAt": "2026-10-25T19:50:32Z",
+            "reviewedAt": "2026-10-25T19:59:45.190Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dobrician/omarchy-ai-usage",
