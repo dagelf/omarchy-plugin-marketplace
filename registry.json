@@ -379020,6 +379020,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/ApachaiZ/omarchy-zonectl",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T19:11:28.023Z",
+      "listingValidatedCommit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
+      "listingValidatedAt": "2026-10-26T19:11:28.023Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "apachaiz/omarchy-zonectl",
+        "pluginIds": [
+          "zonectl"
+        ],
+        "commit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
+        "checkedAt": "2026-10-26T19:11:27.872Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "zonectl": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
