@@ -372155,6 +372155,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/EXxZAM/omarchy-byteflow",
+      "type": "plugin-source",
+      "addedAt": "2026-10-26",
+      "listedAt": "2026-10-26T00:03:13.233Z",
+      "listingValidatedCommit": "7154d64825d5da99107fc10ea6d9eabbb8800f7d",
+      "listingValidatedAt": "2026-10-26T00:03:13.233Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "exxzam/omarchy-byteflow",
+        "pluginIds": [
+          "io.github.exxzam.byteflow"
+        ],
+        "commit": "7154d64825d5da99107fc10ea6d9eabbb8800f7d",
+        "checkedAt": "2026-10-26T00:03:13.088Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "io.github.exxzam.byteflow": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
