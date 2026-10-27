@@ -381192,6 +381192,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/gig3m/claude-api-usage",
+      "type": "plugin-source",
+      "addedAt": "2026-10-27",
+      "listedAt": "2026-10-27T18:23:16.989Z",
+      "listingValidatedCommit": "751cbbd8b4e148efc6e958697d64ae4301ebfc58",
+      "listingValidatedAt": "2026-10-27T18:23:16.989Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gig3m/claude-api-usage",
+        "pluginIds": [
+          "gig3m.claude-api-usage"
+        ],
+        "commit": "751cbbd8b4e148efc6e958697d64ae4301ebfc58",
+        "checkedAt": "2026-10-27T18:23:16.826Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gig3m.claude-api-usage": {
+          "category": "Widgets",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
