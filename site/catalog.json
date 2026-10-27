@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T17:53:12.099Z",
+  "generatedAt": "2026-10-27T17:57:47.528Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -323592,10 +323592,10 @@
       "verificationSnapshotStatus": "verified",
       "verificationCoverage": "snapshot-verified",
       "verificationBaselineVersion": "3",
-      "verificationCommit": "8ab322e521104b38b16f0b989b2d4dba3e1a33dd",
-      "verificationCheckedAt": "2026-10-25T21:34:57.298Z",
+      "verificationCommit": "e6e09ddd68fb5ae3c47589e925d1197f079f00f5",
+      "verificationCheckedAt": "2026-10-27T17:57:47.004Z",
       "verificationMethod": "maintainer-reviewed",
-      "verificationReviewedAt": "2026-10-25T21:34:57.298Z",
+      "verificationReviewedAt": "2026-10-27T17:57:47.004Z",
       "verificationReviewedBy": "HANCORE-linux",
       "manifestPath": "manifest.json",
       "addedAt": "2026-10-25",
@@ -323611,10 +323611,10 @@
       ],
       "license": "MIT",
       "stars": 1,
-      "repositoryUpdatedAt": "2026-10-25T09:40:52Z",
+      "repositoryUpdatedAt": "2026-10-26T18:52:23Z",
       "repositoryRelease": {
-        "tag": "v0.2.0",
-        "url": "https://github.com/beyondDREADFUL/omarchy-aula-f75-max-accent/tree/v0.2.0"
+        "tag": "v2.0.0",
+        "url": "https://github.com/beyondDREADFUL/omarchy-aula-f75-max-accent/tree/v2.0.0"
       },
       "accent": "amber",
       "initials": "AF",
@@ -323627,19 +323627,18 @@
       "previewThumbnailHeight": 720,
       "previewSourceWidth": 375,
       "previewSourceHeight": 935,
-      "listingValidatedCommit": "8ab322e521104b38b16f0b989b2d4dba3e1a33dd",
-      "listingValidatedAt": "2026-10-25T21:34:57.442Z",
+      "listingValidatedCommit": "e6e09ddd68fb5ae3c47589e925d1197f079f00f5",
+      "listingValidatedAt": "2026-10-27T17:57:47.004Z",
       "listingValidatedBranch": "main",
-      "upstreamObservedCommit": "8ab322e521104b38b16f0b989b2d4dba3e1a33dd",
+      "upstreamObservedCommit": "e6e09ddd68fb5ae3c47589e925d1197f079f00f5",
       "upstreamObservedBranch": "main",
-      "upstreamCheckedAt": "2026-10-26T10:06:00.820Z",
-      "upstreamCheckStatus": "unreachable",
-      "upstreamValidatedCommit": "8ab322e521104b38b16f0b989b2d4dba3e1a33dd",
-      "upstreamValidatedAt": "2026-10-25T21:34:58.170Z",
+      "upstreamCheckedAt": "2026-10-27T17:57:47.528Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "e6e09ddd68fb5ae3c47589e925d1197f079f00f5",
+      "upstreamValidatedAt": "2026-10-27T17:57:47.528Z",
       "upstreamValidationVersion": 1,
-      "upstreamSourceFingerprint": "37be6be46edb11bf44243175860625983d511ec69f235920cb73090b68f29123",
-      "status": "Status unknown",
-      "upstreamCheckError": "repository-unreachable"
+      "upstreamSourceFingerprint": "22f0965a341761a65a0ca13dce31c7e5c7c20c441750f8bab052e40918642423",
+      "status": "Manual setup"
     },
     {
       "id": "io.github.bmaltais.omadisplaylink",
@@ -331335,7 +331334,6 @@
     "https://github.com/reav4nn/omamail: repository-unreachable",
     "https://github.com/Desert-sabaku/omarchy-browser-idle: repository-unreachable",
     "https://github.com/Desert-sabaku/omarchy-notification-countdown: repository-unreachable",
-    "https://github.com/coryblische/omarchy-paperclip: repository-unreachable",
-    "https://github.com/beyondDREADFUL/omarchy-aula-f75-max-accent: repository-unreachable"
+    "https://github.com/coryblische/omarchy-paperclip: repository-unreachable"
   ]
 }
