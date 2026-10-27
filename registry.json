@@ -297783,8 +297783,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T03:54:46.120Z",
-      "listingValidatedCommit": "8803cdbf061918af1b7370b960f8a762aaefac17",
-      "listingValidatedAt": "2026-10-09T09:06:09.992Z",
+      "listingValidatedCommit": "c76ab5e3ff6f07c457f3b5ca45285d4bb30a207d",
+      "listingValidatedAt": "2026-10-27T18:41:21.132Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -297793,8 +297793,8 @@
         "pluginIds": [
           "bramvanoploo.omarchy-t2-linux"
         ],
-        "commit": "8803cdbf061918af1b7370b960f8a762aaefac17",
-        "checkedAt": "2026-10-09T09:06:09.992Z",
+        "commit": "c76ab5e3ff6f07c457f3b5ca45285d4bb30a207d",
+        "checkedAt": "2026-10-27T18:41:21.132Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -297956,6 +297956,53 @@
             "reviewedAt": "2026-10-05T23:25:45.369Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8803cdbf061918af1b7370b960f8a762aaefac17",
+          "validatedAt": "2026-10-09T09:06:09.992Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T18:41:21.132Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "bramvanoploo/omarchy-t2-linux",
+            "pluginIds": [
+              "bramvanoploo.omarchy-t2-linux"
+            ],
+            "commit": "8803cdbf061918af1b7370b960f8a762aaefac17",
+            "checkedAt": "2026-10-09T09:06:09.992Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "bramvanoploo/omarchy-t2-linux",
+            "pluginIds": [
+              "bramvanoploo.omarchy-t2-linux"
+            ],
+            "commit": "8803cdbf061918af1b7370b960f8a762aaefac17",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-09T09:06:09.992Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-09T07:26:30.157Z",
+            "requestEventId": 32861360240,
+            "requestedAt": "2026-10-09T09:05:33Z",
+            "reviewedAt": "2026-10-09T09:06:09.992Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -297964,10 +298011,10 @@
         "pluginIds": [
           "bramvanoploo.omarchy-t2-linux"
         ],
-        "commit": "8803cdbf061918af1b7370b960f8a762aaefac17",
+        "commit": "c76ab5e3ff6f07c457f3b5ca45285d4bb30a207d",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-09T09:06:09.992Z",
+        "baselineCheckedAt": "2026-10-27T18:41:21.132Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -297975,10 +298022,10 @@
           "privilege",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-09T07:26:30.157Z",
-        "requestEventId": 32861360240,
-        "requestedAt": "2026-10-09T09:05:33Z",
-        "reviewedAt": "2026-10-09T09:06:09.992Z",
+        "reviewedBaselineCheckedAt": "2026-10-26T09:28:24.144Z",
+        "requestEventId": 34400242940,
+        "requestedAt": "2026-10-27T18:39:10Z",
+        "reviewedAt": "2026-10-27T18:41:21.132Z",
         "reviewer": "HANCORE-linux"
       }
     },
