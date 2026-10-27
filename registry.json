@@ -310556,8 +310556,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-04",
       "listedAt": "2026-10-04T02:22:53.341Z",
-      "listingValidatedCommit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
-      "listingValidatedAt": "2026-10-22T15:15:35.288Z",
+      "listingValidatedCommit": "0f94584a3aa72c4e28558f98730edaf011e2ddce",
+      "listingValidatedAt": "2026-10-27T18:46:54.501Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -310566,8 +310566,8 @@
         "pluginIds": [
           "alanroman117.amd-npu"
         ],
-        "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
-        "checkedAt": "2026-10-22T15:15:35.288Z",
+        "commit": "0f94584a3aa72c4e28558f98730edaf011e2ddce",
+        "checkedAt": "2026-10-27T18:46:54.501Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -310686,6 +310686,53 @@
             "reviewedAt": "2026-10-16T19:37:47.803Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+          "validatedAt": "2026-10-22T15:15:35.288Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T18:46:54.501Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "alanroman117/omarchy-amd-npu",
+            "pluginIds": [
+              "alanroman117.amd-npu"
+            ],
+            "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+            "checkedAt": "2026-10-22T15:15:35.288Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "alanroman117/omarchy-amd-npu",
+            "pluginIds": [
+              "alanroman117.amd-npu"
+            ],
+            "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-22T15:15:35.288Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-22T14:46:25.242Z",
+            "requestEventId": 33963768936,
+            "requestedAt": "2026-10-22T15:10:51Z",
+            "reviewedAt": "2026-10-22T15:15:35.288Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -310694,10 +310741,10 @@
         "pluginIds": [
           "alanroman117.amd-npu"
         ],
-        "commit": "8774279bfdcb86d5b5bacbbb0320aae62d2203fa",
+        "commit": "0f94584a3aa72c4e28558f98730edaf011e2ddce",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-22T15:15:35.288Z",
+        "baselineCheckedAt": "2026-10-27T18:46:54.501Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -310705,10 +310752,10 @@
           "privilege",
           "package-manager"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-22T14:46:25.242Z",
-        "requestEventId": 33963768936,
-        "requestedAt": "2026-10-22T15:10:51Z",
-        "reviewedAt": "2026-10-22T15:15:35.288Z",
+        "reviewedBaselineCheckedAt": "2026-10-27T15:17:05.297Z",
+        "requestEventId": 34400855107,
+        "requestedAt": "2026-10-27T18:46:22Z",
+        "reviewedAt": "2026-10-27T18:46:54.501Z",
         "reviewer": "HANCORE-linux"
       }
     },
