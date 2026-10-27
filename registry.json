@@ -377508,8 +377508,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T00:46:42.976Z",
-      "listingValidatedCommit": "73c896988cbe61f44b5050865af192728cc45728",
-      "listingValidatedAt": "2026-10-26T00:46:42.976Z",
+      "listingValidatedCommit": "a683213025d945d5c749bd7e3061461af3abcbba",
+      "listingValidatedAt": "2026-10-27T20:00:59.106Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -377518,8 +377518,8 @@
         "pluginIds": [
           "pixel-buds"
         ],
-        "commit": "73c896988cbe61f44b5050865af192728cc45728",
-        "checkedAt": "2026-10-26T00:46:42.813Z",
+        "commit": "a683213025d945d5c749bd7e3061461af3abcbba",
+        "checkedAt": "2026-10-27T20:00:59.106Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -377527,28 +377527,6 @@
           "service-management",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "techmandan/pixel-buds",
-        "pluginIds": [
-          "pixel-buds"
-        ],
-        "commit": "73c896988cbe61f44b5050865af192728cc45728",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-26T00:46:42.813Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-25T23:26:21.333Z",
-        "requestEventId": 34212419893,
-        "requestedAt": "2026-10-26T00:15:35Z",
-        "reviewedAt": "2026-10-26T00:46:42.813Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "pixel-buds": {
@@ -377564,7 +377542,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "techmandan/pixel-buds",
+        "pluginIds": [
+          "pixel-buds"
+        ],
+        "commit": "a683213025d945d5c749bd7e3061461af3abcbba",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T20:00:59.106Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T14:01:58.216Z",
+        "requestEventId": 34405357477,
+        "requestedAt": "2026-10-27T19:40:58Z",
+        "reviewedAt": "2026-10-27T20:00:59.106Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "73c896988cbe61f44b5050865af192728cc45728",
+          "validatedAt": "2026-10-26T00:46:42.976Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T20:00:59.106Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "techmandan/pixel-buds",
+            "pluginIds": [
+              "pixel-buds"
+            ],
+            "commit": "73c896988cbe61f44b5050865af192728cc45728",
+            "checkedAt": "2026-10-26T00:46:42.813Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "techmandan/pixel-buds",
+            "pluginIds": [
+              "pixel-buds"
+            ],
+            "commit": "73c896988cbe61f44b5050865af192728cc45728",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-26T00:46:42.813Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-25T23:26:21.333Z",
+            "requestEventId": 34212419893,
+            "requestedAt": "2026-10-26T00:15:35Z",
+            "reviewedAt": "2026-10-26T00:46:42.813Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jeremiahjohnston/omarchy-tempest",
