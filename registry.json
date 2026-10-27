@@ -339561,8 +339561,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T14:23:33.724Z",
-      "listingValidatedCommit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
-      "listingValidatedAt": "2026-10-11T04:10:45.417Z",
+      "listingValidatedCommit": "352b4e624e9354e95ba6a5ef2bb7f334fe67e4e5",
+      "listingValidatedAt": "2026-10-27T18:33:07.056Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -339571,8 +339571,8 @@
         "pluginIds": [
           "areu01or00.piphone"
         ],
-        "commit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
-        "checkedAt": "2026-10-11T04:10:45.417Z",
+        "commit": "352b4e624e9354e95ba6a5ef2bb7f334fe67e4e5",
+        "checkedAt": "2026-10-27T18:33:07.056Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -339594,28 +339594,6 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "areu01or00/piphone-plugin-for-omarchy",
-        "pluginIds": [
-          "areu01or00.piphone"
-        ],
-        "commit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-11T04:10:45.417Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-11T03:46:21.224Z",
-        "requestEventId": 32970359090,
-        "requestedAt": "2026-10-11T04:10:20Z",
-        "reviewedAt": "2026-10-11T04:10:45.417Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -339662,8 +339640,75 @@
             "reviewedAt": "2026-10-10T14:23:33.636Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
+          "validatedAt": "2026-10-11T04:10:45.417Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T18:33:07.056Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "areu01or00/piphone-plugin-for-omarchy",
+            "pluginIds": [
+              "areu01or00.piphone"
+            ],
+            "commit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
+            "checkedAt": "2026-10-11T04:10:45.417Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "areu01or00/piphone-plugin-for-omarchy",
+            "pluginIds": [
+              "areu01or00.piphone"
+            ],
+            "commit": "6b5262d8aec2f4b0ee9521200ae5682033908108",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-11T04:10:45.417Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-11T03:46:21.224Z",
+            "requestEventId": 32970359090,
+            "requestedAt": "2026-10-11T04:10:20Z",
+            "reviewedAt": "2026-10-11T04:10:45.417Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "areu01or00/piphone-plugin-for-omarchy",
+        "pluginIds": [
+          "areu01or00.piphone"
+        ],
+        "commit": "352b4e624e9354e95ba6a5ef2bb7f334fe67e4e5",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T18:33:07.056Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T14:38:19.627Z",
+        "requestEventId": 34398105533,
+        "requestedAt": "2026-10-27T18:14:36Z",
+        "reviewedAt": "2026-10-27T18:33:07.056Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/gillmania/omarchy-display-setups",
