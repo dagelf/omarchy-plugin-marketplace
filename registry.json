@@ -296082,8 +296082,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-02",
       "listedAt": "2026-10-02T02:26:13.639Z",
-      "listingValidatedCommit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
-      "listingValidatedAt": "2026-10-02T02:26:13.639Z",
+      "listingValidatedCommit": "a8971e51aed1c8a7cdc5269e6f4029c062e1b1e6",
+      "listingValidatedAt": "2026-10-27T19:56:05.705Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -296092,8 +296092,8 @@
         "pluginIds": [
           "io.github.lubabs770.optination"
         ],
-        "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
-        "checkedAt": "2026-10-02T02:26:13.516Z",
+        "commit": "a8971e51aed1c8a7cdc5269e6f4029c062e1b1e6",
+        "checkedAt": "2026-10-27T19:56:05.705Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -296101,28 +296101,6 @@
           "package-manager",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lubabs770/optination",
-        "pluginIds": [
-          "io.github.lubabs770.optination"
-        ],
-        "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-02T02:26:13.516Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "package-manager",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-02T01:56:43.069Z",
-        "requestEventId": 32303081844,
-        "requestedAt": "2026-10-02T01:57:52Z",
-        "reviewedAt": "2026-10-02T02:26:13.517Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.lubabs770.optination": {
@@ -296137,7 +296115,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lubabs770/optination",
+        "pluginIds": [
+          "io.github.lubabs770.optination"
+        ],
+        "commit": "a8971e51aed1c8a7cdc5269e6f4029c062e1b1e6",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T19:56:05.705Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-26T14:36:00.409Z",
+        "requestEventId": 34404924071,
+        "requestedAt": "2026-10-27T19:35:38Z",
+        "reviewedAt": "2026-10-27T19:56:05.705Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+          "validatedAt": "2026-10-02T02:26:13.639Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T19:56:05.705Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lubabs770/optination",
+            "pluginIds": [
+              "io.github.lubabs770.optination"
+            ],
+            "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+            "checkedAt": "2026-10-02T02:26:13.516Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lubabs770/optination",
+            "pluginIds": [
+              "io.github.lubabs770.optination"
+            ],
+            "commit": "1d04e1ff23e9d0ed77aa0095c08d07283124af2b",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-02T02:26:13.516Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-02T01:56:43.069Z",
+            "requestEventId": 32303081844,
+            "requestedAt": "2026-10-02T01:57:52Z",
+            "reviewedAt": "2026-10-02T02:26:13.517Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/AlexR1712/omarchy-corsair-void",
