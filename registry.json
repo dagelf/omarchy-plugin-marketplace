@@ -343036,8 +343036,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-11",
       "listedAt": "2026-10-11T15:26:56.147Z",
-      "listingValidatedCommit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
-      "listingValidatedAt": "2026-10-16T20:25:09.967Z",
+      "listingValidatedCommit": "3fc3fb1713a14f3b96b9795936906d5c39ddc5a4",
+      "listingValidatedAt": "2026-10-27T19:52:25.175Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -343046,8 +343046,8 @@
         "pluginIds": [
           "io.github.yangass.nova"
         ],
-        "commit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
-        "checkedAt": "2026-10-16T20:25:09.967Z",
+        "commit": "3fc3fb1713a14f3b96b9795936906d5c39ddc5a4",
+        "checkedAt": "2026-10-27T19:52:25.175Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -343171,6 +343171,55 @@
             "reviewedAt": "2026-10-16T18:04:08.846Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
+          "validatedAt": "2026-10-16T20:25:09.967Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T19:52:25.175Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "yangass/omarchy-nova",
+            "pluginIds": [
+              "io.github.yangass.nova"
+            ],
+            "commit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
+            "checkedAt": "2026-10-16T20:25:09.967Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "yangass/omarchy-nova",
+            "pluginIds": [
+              "io.github.yangass.nova"
+            ],
+            "commit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-16T20:25:09.967Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "package-manager",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-16T19:43:17.644Z",
+            "requestEventId": 33480561465,
+            "requestedAt": "2026-10-16T20:22:18Z",
+            "reviewedAt": "2026-10-16T20:25:09.967Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -343179,10 +343228,10 @@
         "pluginIds": [
           "io.github.yangass.nova"
         ],
-        "commit": "89737ad20f17c5fd4eca0af4b7494c451a64bf03",
+        "commit": "3fc3fb1713a14f3b96b9795936906d5c39ddc5a4",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-16T20:25:09.967Z",
+        "baselineCheckedAt": "2026-10-27T19:52:25.175Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -343191,10 +343240,10 @@
           "package-manager",
           "installer"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-16T19:43:17.644Z",
-        "requestEventId": 33480561465,
-        "requestedAt": "2026-10-16T20:22:18Z",
-        "reviewedAt": "2026-10-16T20:25:09.967Z",
+        "reviewedBaselineCheckedAt": "2026-10-26T19:42:13.426Z",
+        "requestEventId": 34404516062,
+        "requestedAt": "2026-10-27T19:30:43Z",
+        "reviewedAt": "2026-10-27T19:52:25.175Z",
         "reviewer": "HANCORE-linux"
       }
     },
