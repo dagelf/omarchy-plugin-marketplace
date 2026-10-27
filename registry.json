@@ -56,6 +56,7 @@
     "io.github.sykesthelord.workspaces",
     "io.github.tonybeal40.fieldknown",
     "io.github.tymurbogach.any-monitor",
+    "jfarr.drawer",
     "keasbeexd.hskmouse",
     "local.omastat",
     "loxone",
@@ -347154,62 +347155,6 @@
             "bar",
             "launcher",
             "security"
-          ],
-          "manifestPath": "manifest.json"
-        }
-      }
-    },
-    {
-      "repo": "https://github.com/nertwork/omarchy-drawer",
-      "type": "plugin-source",
-      "addedAt": "2026-10-12",
-      "listedAt": "2026-10-12T21:35:07.477Z",
-      "listingValidatedCommit": "ab489ddfd2b8b8751ad59873ff1f8f92031338e2",
-      "listingValidatedAt": "2026-10-12T21:35:07.477Z",
-      "listingValidatedBranch": "main",
-      "automatedSecurityBaseline": {
-        "schemaVersion": 1,
-        "version": "3",
-        "repository": "nertwork/omarchy-drawer",
-        "pluginIds": [
-          "jfarr.drawer"
-        ],
-        "commit": "ab489ddfd2b8b8751ad59873ff1f8f92031338e2",
-        "checkedAt": "2026-10-12T21:35:07.366Z",
-        "outcome": "review-required",
-        "enforcementMode": "selective",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nertwork/omarchy-drawer",
-        "pluginIds": [
-          "jfarr.drawer"
-        ],
-        "commit": "ab489ddfd2b8b8751ad59873ff1f8f92031338e2",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-12T21:35:07.366Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "remote-build"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-12T21:29:39.968Z",
-        "requestEventId": 33082509241,
-        "requestedAt": "2026-10-12T21:34:38Z",
-        "reviewedAt": "2026-10-12T21:35:07.366Z",
-        "reviewer": "HANCORE-linux"
-      },
-      "plugins": {
-        "jfarr.drawer": {
-          "category": "Appearance",
-          "tags": [
-            "bar",
-            "quickshell"
           ],
           "manifestPath": "manifest.json"
         }
