@@ -381548,6 +381548,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/AndiWandHerd/omarchy-opencode-go",
+      "type": "plugin-source",
+      "addedAt": "2026-10-27",
+      "listedAt": "2026-10-27T19:18:52.379Z",
+      "listingValidatedCommit": "5f9045d2b8bb84a1c7112db7985ba51dbca3e840",
+      "listingValidatedAt": "2026-10-27T19:18:52.379Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "andiwandherd/omarchy-opencode-go",
+        "pluginIds": [
+          "opencode-go"
+        ],
+        "commit": "5f9045d2b8bb84a1c7112db7985ba51dbca3e840",
+        "checkedAt": "2026-10-27T19:18:52.232Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "andiwandherd/omarchy-opencode-go",
+        "pluginIds": [
+          "opencode-go"
+        ],
+        "commit": "5f9045d2b8bb84a1c7112db7985ba51dbca3e840",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T19:18:52.232Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "remote-build",
+          "installer",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T17:10:25.905Z",
+        "requestEventId": 34402985811,
+        "requestedAt": "2026-10-27T19:11:55Z",
+        "reviewedAt": "2026-10-27T19:18:52.233Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "opencode-go": {
+          "category": "Developer Tools",
+          "tags": [
+            "ai",
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
